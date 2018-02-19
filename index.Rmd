@@ -1,17 +1,17 @@
 --- 
-title: "A Minimal Bookdown Book"
-author: "Sean Kross"
+title: "Decision Analysis and NBA Draft Pick Value"
+author: "Tony ElHabr"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: seankross/bookdown-start
-url: 'http\://seankross.com/bookdown-start/'
-description: "Everything you need (and nothing more) to start a bookdown book."
+github-repo: tonyelhabr/nba-decision_analysis
+url: 'https\://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs'
+description: "An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)"
 ---
 
 # Preface {-}
 
-This is the very first part of the book.
+This is the preface.
