@@ -1,5 +1,3 @@
-This is the absolute minimum you need to start a [bookdown](https://bookdown.org/home/about.html) book. You can find the
-preview of this book at http://seankross.com/bookdown-start/
 
-All of the content of this repository is licensed 
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+This repo hosts an Ebook (created using the R package `blogdown`)
+that I created from a series of posts on my first attempt at a website.

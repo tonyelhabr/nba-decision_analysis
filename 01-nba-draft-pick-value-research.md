@@ -1,9 +1,6 @@
 
-# What Research Says about NBA Draft Pick Value
-
-```{r include = FALSE}
 # Introduction
-```
+
 
 The value of NBA draft picks is a common talking matter in the NBA analytics
 community. In this introductory write-up I summarize conclusions made by other
