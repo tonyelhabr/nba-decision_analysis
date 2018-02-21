@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Decision Analysis and NBA Draft Pick Value</title>
+  <meta name="description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)">
+  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Decision Analysis and NBA Draft Pick Value" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs" />
+  
+  <meta property="og:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  <meta name="github-repo" content="tonyelhabr/nba-decision_analysis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Decision Analysis and NBA Draft Pick Value" />
+  
+  <meta name="twitter:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  
+
+<meta name="author" content="Tony ElHabr">
+
+
+<meta name="date" content="2018-02-20">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="more-questions.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Decision Analysis and NBA Draft Pick Value</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html"><i class="fa fa-check"></i><b>1</b> What Research Says about NBA Draft Pick Value</a><ul>
+<li class="chapter" data-level="1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-questions"><i class="fa fa-check"></i><b>1.1</b> The Question(s)</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-basic-question"><i class="fa fa-check"></i><b>1.1.1</b> The Basic Question</a></li>
+<li class="chapter" data-level="1.1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#a-related-and-better-question"><i class="fa fa-check"></i><b>1.1.2</b> A Related (and Better) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-answers"><i class="fa fa-check"></i><b>1.2</b> The Answer(s)</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#justin-kubatko1"><i class="fa fa-check"></i><b>1.2.1</b> 1. <a href="https://twitter.com/jkubatko">Justin Kubatko</a></a></li>
+<li class="chapter" data-level="1.2.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#aaron-barzilai6"><i class="fa fa-check"></i><b>1.2.2</b> 2. <a href="http://nyloncalculus.com/">Aaron Barzilai</a></a></li>
+<li class="chapter" data-level="1.2.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#arturo-galletti10"><i class="fa fa-check"></i><b>1.2.3</b> 3. <a href="http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/">Arturo Galletti</a></a></li>
+<li class="chapter" data-level="1.2.4" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#nate-silver14"><i class="fa fa-check"></i><b>1.2.4</b> 4. <a href="http://www.basketball-reference.com/about/ws.html">Nate Silver</a></a></li>
+<li class="chapter" data-level="1.2.5" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#saurabh-rane17"><i class="fa fa-check"></i><b>1.2.5</b> 5. <a href="http://www.jonahlehrer.com/blog/2016/4/25/is-tanking-an-effective-strategy-in-the-nba">Saurabh Rane</a></a></li>
+<li class="chapter" data-level="1.2.6" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#michael-lopez21"><i class="fa fa-check"></i><b>1.2.6</b> 6. <a href="https://en.wikipedia.org/wiki/Strategy_(game_theory)#Pure_and_mixed_strategies">Michael Lopez</a></a></li>
+<li class="chapter" data-level="1.2.7" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-aggregate-answers"><i class="fa fa-check"></i><b>1.2.7</b> The Aggregate Answer(s)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#final-thoughts"><i class="fa fa-check"></i><b>1.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html"><i class="fa fa-check"></i><b>2</b> What Research Says about NBA Draft Pick Value, Part 2</a></li>
+<li class="chapter" data-level="3" data-path="more-questions.html"><a href="more-questions.html"><i class="fa fa-check"></i><b>3</b> More Questions</a><ul>
+<li class="chapter" data-level="3.1" data-path="more-questions.html"><a href="more-questions.html#the-third-question"><i class="fa fa-check"></i><b>3.1</b> The Third Question</a></li>
+<li class="chapter" data-level="3.2" data-path="more-questions.html"><a href="more-questions.html#the-fourth-and-final-question"><i class="fa fa-check"></i><b>3.2</b> The Fourth (and Final) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="more-answers.html"><a href="more-answers.html"><i class="fa fa-check"></i><b>4</b> More Answers</a><ul>
+<li class="chapter" data-level="4.1" data-path="more-answers.html"><a href="more-answers.html#the-third-answer"><i class="fa fa-check"></i><b>4.1</b> The Third Answer</a></li>
+<li class="chapter" data-level="4.2" data-path="more-answers.html"><a href="more-answers.html#the-fourth-and-final-answer"><i class="fa fa-check"></i><b>4.2</b> The Fourth (and Final) Answer</a></li>
+<li class="chapter" data-level="4.3" data-path="more-answers.html"><a href="more-answers.html#final-thoughts-1"><i class="fa fa-check"></i><b>4.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Decision Analysis and NBA Draft Pick Value</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="more-answers" class="section level1">
+<h1><span class="header-section-number">4</span> More Answers</h1>
+<div id="the-third-answer" class="section level2">
+<h2><span class="header-section-number">4.1</span> The Third Answer</h2>
+<p>My third question is answered directly in <a href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/">one of the articles</a> I have already reviewed. <a href="https://twitter.com/ArturoGalletti">Arturo Galletti</a> translates his regressed “Net Actual Value” values (which he calls “Modeled Values”) to relative ones for the purpose of constructing a pick trade value chart. This chart is shown below.</p>
+<p><img src="images/nba-draft-pick-value-research-2/arturo-galletti-relative-draft-value-chart.png" /></p>
+<p>After inspecting Galletti’s regression formula and his numbers for “Modeled Value”, I found that he simply calculates the quotient of the values for any given two picks to come up with their relative trade value. However, I think it is better to use an alternative method that leverages the concept of <a href="https://en.wikipedia.org/wiki/Principle_of_indifference"><strong>indifference probability</strong></a> (IP) to calculate relative trade values (as I do in <a href="https://en.wikipedia.org/wiki/NBA_collective_bargaining_agreement">a separate post</a>) where I first scale all the monetary values to a 0-to-1 unit-less basis before taking the quotient of any two values. I believe that my method for calculating relative values using IPs is superior because it does not result in <strong>negative</strong> values for second-round picks. In particular, if Galletti were to have expanded his chart to include all 60 picks, you would begin to see negative values for picks 38 and below when their values are calculated with respect to the top pick.</p>
+<p>Anyways, the following figure depicts how Galletti’s numbers would look for the top 10 picks using my proposed alternative method using IPs.</p>
+<p><img src="images/nba-draft-pick-value-research-2/figure-arturo-galletti-top-10-draft-pick-modeled-value-ip.jpg" /></p>
+<p>Aside from Galletti, <em><a href="http://nyloncalculus.com/">Nylon Calculus</a></em> contributor <a href="https://twitter.com/nickrestifo">Nick Restifo</a> provides a trade value chart posted in <a href="https://fansided.com/2016/06/16/nba-draft-trade-value-chart/">a recent 2016 article</a> at <a href="https://fansided.com/">Fansided</a>. Similar to <a href="http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/">Saurabh Rane</a>, Restifo uses peak <strong><a href="https://en.wikipedia.org/wiki/Value_over_replacement_player">value over replacement player</a></strong> (VORP) values (although he averages over the combined best two-year VORP value rather than simply taking the best single-season value), and, like <a href="https://statsbylopez.com/2016/06/22/the-making-and-comparison-of-draft-curves/">Michael Lopez</a>, he runs a LOESS regression (although he keeps the raw value of the top pick). Although Restifo’s chart is <strong>not normalized</strong> like Galletti’s, the value of certain picks relative to one another can be interpreted by finding the absolute difference between the listed values of the picks of interest.<a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a></p>
+<p>Interestingly, after Restifo’s <strong>absolute</strong> VORP numbers are normalized to a unit-less 0-to-1 basis using the same alternative method that I used to re-calculate Galletti’s numbers, it turns out that his <strong>relative</strong> trade value numbers differ relatively dramatically from Galletti’s. The following figure mirrors the same idea shown in the previous figure for Galletti using the calculated relative values for Restifo.</p>
+<p><img src="images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg" /></p>
+<p>So whose numbers should be taken as truth? As it often seems to be in analytical discussion like this, the answer is “it depends” . We must realize that the two sets of normalized numbers are calculated in a different context—Restifo looks only at_ <strong>basketball production</strong>, while Galletti <strong>discounts</strong> on-court value by rookie wage scale <strong>cost</strong>.</p>
+<p>I can make an effort to account for this difference by using Galletti’s regressed “$ Value of Wins” formula estimating the monetary value of wins. Recognizing that this formula—although it is described in units of currency—correlates directly with Galletti’s basketball production “Avg Wins per Pick” data set, I can review how Galletti and Restifo stack up on an equal basis after normalizing these basketball production values with the regression formula that Galletti provides for his “<span class="math inline">\(alue of Wins [\)</span> million]”.</p>
+<p>In doing so, I come up with numbers that describe the same idea—basketball production. Having back-tracked Galletti’s numbers to neglect cost, the only difference in the two basketball production estimates is that Galletti’s numbers are based on <a href="http://wagesofwins.com/wins-produced/"><strong>wins produced</strong></a> (WP), which is fairly similar to <a href="http://www.basketball-reference.com/about/ws.html"><strong>win shares</strong></a> (WS), while Restifo’s are based on peak VORP. The following figure shows Galletti’s trade value estimates for the top 10 picks calculated for his basketball production metric.</p>
+<p><img src="images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg" /></p>
+<p>So, even after accounting for Galletti’s slightly different method of calculating relative values, negating the cost factor incorporated into Galletti’s original numbers, and normalizing the Restifo’s VORP numbers, it still appears that Galletti’s and Restifo’s trade value estimates vary fairly noticeably. (In fact, it appears that their estimates differ even more now!) As I implied before, this difference arises purely from each writer’s choice of basketball-production metric.</p>
+<p>Thus, despite my efforts to account for differences in methodology between two researchers, I will leave this discussion at this point. All that is to be said is that the answer to my third question regarding relative trade value depends on your evaluation of the merit of a given advanced metric.</p>
+</div>
+<div id="the-fourth-and-final-answer" class="section level2">
+<h2><span class="header-section-number">4.2</span> The Fourth (and Final) Answer</h2>
+<p>Finally, as with my third question, an answer to my fourth question can be found in one of the articles I have already summarized. Rane leverages his estimates for draft pick value contextualized by likelihood of player outcome—All-NBA First-Teamer, All-Star, rotation player, or bust—and normalizes them on a percentage basis to estimate the expected value for a team <strong>BEFORE</strong> the final lottery spots are determined. The dashed and solid lines in his figure below depict the expected values before and after the teams drafting at each draft slot are finalized. Thus, by looking at Rane’s <strong>“prior”</strong> and <strong>“posterior”</strong> estimates, we can simulate the perspective of a team that is bound to miss the playoffs and might reasonably tank in order to improve its lottery odds.</p>
+<p><img src="images/nba-draft-pick-value-research-2/saurabh-rane-draft-lottery-position-value.jpeg" /></p>
+<p>In comparing the two types of lines, Rane notes that tanking when one already has one of the bottom-three or bottom-four win-loss records is not beneficial, as is made evident by the flattening of the dashed curves for the All-NBA First-Teamer and All-Star for the very top draft slots.<a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a> While Rane does not explicitly confirm that the converse is true—that tanking can be beneficial for losing teams that are below average but not egregiously bad—he implies that tanking is not justified for mid-lottery and low-lottery teams either. He notes that the relative indifference in odds of netting an <strong>elite</strong> player (i.e. All-NBA First-Teamer or All-Star) within the mid-lottery range of picks suggests that these picks aren’t actually as valuable as some pundits have suggested, with respect to producing superstar players. Rather, the linear rise of the rotation and bust lines in the mid-lottery range suggests that higher picks in this range only generate good <strong>baseline</strong> players (i.e. rotation players or busts) with increased likelihood.<a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a></p>
+<p>Rane’s conclusions are backed up by a <a href="http://jse.sagepub.com/content/early/2016/03/30/1527002516641169.abstract"><em>Journal of Sports Economics</em> study</a> published earlier this year. (This study is concisely summarized by renown American writer <a href="https://twitter.com/jonahlehrer">Jonah Lehrer</a> on <a href="http://www.jonahlehrer.com/blog/2016/4/25/is-tanking-an-effective-strategy-in-the-nba">his blog</a>.)<a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a> Published under the lead of <a href="http://www.stonehill.edu/directory/akira-motomura/">Akira Motomura</a>, the research paper concludes that a team’s general management and other intangible infrastructural influences (i.e. “team culture”) has a stronger influence on the success of a team than do the draft slot it earns and the players that they draft. In specific, Motomura et. al. find that picks 1 through 3 tend to have a relatively <strong>neutral</strong> impact on the near-future win-loss records of their respective teams, that picks 4 through 10 actually have a <strong>negative</strong> impact over the following years<a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a></p>
+<p>A number of factors can explain the conclusion that tanking lacks merit. For one, it is understandable that even the most talented rookies cannot make a huge impact and turn franchises around immediately because they tend to make many more mistakes than their veteran peers, who can make up for any age-induced talent diminishment with their experience and knowledge of the game’s ins-and-outs at the professional level. Veterans tend to garner more respect from referees than younger players, understand the tendencies of opponents after having played them numerous times, and know how to pace themselves in a manner such that they don’t wear down by end of the regular season. Even after young players move on from their rookie seasons, they often don’t mature and reach their full potential for another couple of years.</p>
+<p>Aside from the experience advantage that discounts the effect of young players, there is also the fact that picking players in the draft is an inexact science. Teams at the top of the draft often pick players that turn out to be busts. Although tanking can increase the probability of earning a high draft slot, the <strong>expected</strong> value of a pick is just that—an expectation. There is no guarantee that teams will select the best player for them. As Motomura et. al. argue, drafting players and player development are skills that derive from the foresight and teaching capabilities of the team’s management. Thus, a draft pick’s expected value is heavily influenced by the team that is selecting at that slot, which is not reflected in any publicly available draft pick value model of which I am aware.<a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a></p>
+<p>While the research of Rane and Motomura et. al. suggest that tanking is not justified, <a href="https://twitter.com/Art_Gutierrez">Arturo Gutierrez</a> finds in his research article <em>The NBA Lottery and Game Theory</em> that there are cases that tanking can be the <strong>“correct strategy”</strong>. For his analysis, Gutierrez first formulates an estimate of draft pick value by running a polynomial regression over the career WS earned by players drafted by teams ordered by win-loss record.<a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a> Then, he formulates an estimate for the likelihood of a team winning the championship by running a separate regression over the historical results of teams ranked by playoff seed, Next, he compares these regressed curves on a graph over a dependent axis with numbers counting from 1 to 30 in order to represent teams ordered by best win-loss record for any arbitrary season. Finally, after accounting for what he calls the <strong>“time value”</strong> of winning a championship (such that the values of his regressed curve for championship likelihood are boosted because chances of winning in the near future are added to the single-year values), Gutierrez outputs a graph that indicates that any team worse than the sixth-best team should purposely try to lose.<a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a></p>
+<p><img src="images/nba-draft-pick-value-research-2/arturo-gutierrez-correct-strategy-graph.png" /></p>
+<p>I think that Gutierrez’s perspective on this matter suffers somewhat from its failure to consider <a href="http://www.gametheory.net/dictionary/MixedStrategy.html"><strong>mixed strategies</strong></a> and their equilibria. He considers only the <a href="https://en.wikipedia.org/wiki/Strategy_(game_theory)#Pure_and_mixed_strategies"><strong>pure strategies</strong></a> of expending all effort to be the best team or to be the worst team.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a> Nevertheless, Gutierrez admits that there are limitations to his approach. He notes that the <strong>“<a href="https://en.wikipedia.org/wiki/Best_response">best response</a>”</strong> for a given team is dependent on its specific situation, including variable such as the team’s win-loss record and its perception of whether or not other teams are tanking. Thus, even though Gutierrez’s analysis offers some validity to tanking, I don’t think his evidence is sufficiently strong to override the case made by the research of Rane and Motomura et. al.</p>
+</div>
+<div id="final-thoughts-1" class="section level2">
+<h2><span class="header-section-number">4.3</span> Final Thoughts</h2>
+<p>In my <a href="https://twitter.com/jkubatko">last post</a> I vowed to take a look at the value of draft picks in terms of basketball production and contractual costs after reviewing the methodologies and conclusions of other researchers. There, I found that the answers were fairly the same across all researchers. Moreover, I reviewed only one person (<a href="https://twitter.com/basketballvalue">Aaron Barzilai</a>) who really evaluated the cost-effectiveness of picks, a topic which I also plan to explore.</p>
+<p>Now, having reviewed what research has to say about the related topics of pick trade value and tanking and having coming to some non-universal answers, I plan to expand my investigation to include these subjects as well.</p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footnotes">
+<hr />
+<ol start="15">
+<li id="fn15"><p>As an aside, one should realize that, even if the values of two lower picks is equal to that of a single higher one, one might reasonably prefer the higher upside presented by the higher draft pick, while someone else might prefer the “diversification” of having two prospects as opposed to one.<a href="more-answers.html#fnref15">↩</a></p></li>
+<li id="fn16"><p>On the other hand, the final expected value of lottery picks between 5 and 14 generally is equal to (or greater than) before the finalized allocation of draft picks to teams.<a href="more-answers.html#fnref16">↩</a></p></li>
+<li id="fn17"><p>On a related note, these trends reaffirm the raw conclusion that we made about the generalized draft pick value question—that basketball production drops off as pick number increases—and give a partial answer to my restated second question from before (<strong>“At which draft slots does the expected basketball production outperform the contractual obligation the most?”</strong>) Using Rane’s illustrations, we can deduce that, in terms of pure basketball production, the value of mid-lottery and low-lottery picks are highly unlikely to generate elite players. Of course, the conclusions of others who have evaluated draft slots in terms of pure basketball production also implies the same principle, but Rane’s illustrations and rhetoric make this notion definitive.<a href="more-answers.html#fnref17">↩</a></p></li>
+<li id="fn18"><p>I am thankful to Lehrer for his review of the study because I do not actually have access to the study.<a href="more-answers.html#fnref18">↩</a></p></li>
+<li id="fn19"><p>Motomura et. al. find that these picks correlate to 6 to 9 more losses three years after the draft year, and that, more generally, all picks in the lottery range (and extending to pick 17) are associated with <strong>negative</strong> (or <strong>negligible</strong> at best) team performance. These numbers clearly suggest that tanking is not exactly the best strategy for teams looking to improve.<a href="more-answers.html#fnref19">↩</a></p></li>
+<li id="fn20"><p>Accounting for how team factors correlate with the value extracted from draft picks would be a very difficult task that would require lots of probabilistic assumptions.<a href="more-answers.html#fnref20">↩</a></p></li>
+<li id="fn21"><p>In contrast to the methods used by the researchers I discussed in my last post, he does not directly relate his choice of basketball production metric (in this case, WS) with draft slot; instead, he factors in the probabilistic relationship of lottery odds with team win loss-record to relate basketball production to teams ranked by record. Also, he uses a polynomial regression rather than a linear-log regression or a LOESS.<a href="more-answers.html#fnref21">↩</a></p></li>
+<li id="fn22"><p>Without accounting for “time value”, then the intersection point manifests at the third-best team. This graph is shown in the figure below.<a href="more-answers.html#fnref22">↩</a></p></li>
+<li id="fn23"><p>This perspective is like a manifestation of the idea that I described at the beginning of this post—evaluate tanking by comparing draft pick value and championship likelihood from a stict binary point of view.<a href="more-answers.html#fnref23">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="more-questions.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

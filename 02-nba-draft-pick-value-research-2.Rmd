@@ -8,9 +8,9 @@ guide to estimating NBA draft pick value.) If you haven't read that post, you
 should definitely check it out because I will reference some of the research
 discussed there in this post.
 
-# More Questions
+## More Questions
 
-## The Third Question
+### The Third Question
 
 Picking up where I left off, I can articulate two other questions (i.e. "third"
 and "fourth" questions) that I sought to answer in my earlier review of existing
@@ -40,7 +40,7 @@ particular, I would say that the monetary interpretation is interesting
 for identifying general managers who have tried to “outsmart” their 
 colleagues.]
 
-## The Fourth (and Final) Question 
+### The Fourth (and Final) Question 
 
 
 <img src="images/nba-draft-pick-value-research-2/philadelphia-76ers-tanking.jpeg" />
@@ -74,9 +74,9 @@ post) the term “value” is fairly ambiguous. Nevertheless, having defined it 
 specific way for each question, I think we can now better contextualize the
 answers provided by existing research.
 
-# More Answers
+## More Answers
 
-## The Third Answer
+### The Third Answer
 
 My third question is answered directly in [one of the articles][2] I have
 already reviewed. [Arturo Galletti][3] translates his regressed "Net Actual
@@ -166,7 +166,7 @@ researchers, I will leave this discussion at this point. All that is to be said
 is that the answer to my third question regarding relative trade value depends
 on your evaluation of the merit of a given advanced metric.
 
-## The Fourth (and Final) Answer
+### The Fourth (and Final) Answer
 
 Finally, as with my third question, an answer to my fourth question can be found
 in one of the articles I have already summarized. Rane leverages his estimates
@@ -304,7 +304,7 @@ are tanking. Thus, even though Gutierrez's analysis offers some validity
 to tanking, I don't think his evidence is sufficiently strong to 
 override the case made by the research of Rane and Motomura et. al. 
 
-## Final Thoughts 
+### Final Thoughts 
 
 In my [last post][1] I vowed to take a look at the value of draft picks 
 in terms of basketball production and contractual costs after reviewing 

@@ -12,8 +12,6 @@ and research papers have already been conducted on this topic or something
 related to it, you may be wondering why I'm interested in covering a 
 subject that many others have already carefully analyzed.
 
-
-
 The answer is multifaceted. First, I've been 
 a huge sports fan ever since I was a little kid, as I mentioned in a previous chapter
 about the origins of this website,. In particular, basketball is my favorite 
@@ -38,8 +36,6 @@ that the NBA draft can be analyzed from a variety of perspectives based upon
 the knowledge I have gathered from the things I have recently studied, the 
 value NBA draft picks turned out to be an easy choice of topic to 
 analyze.
-
-
 
 So why should you even read this if others 
 have already written about in depth? First of all, I make references to <a 
@@ -168,7 +164,7 @@ attempt to account for these nuances.
 ## Calculating Cost
 
 Before discussing my method of dealing with player salaries, I have to give 
-major props to [Nate Silver][1], who makes an attempt to account for the 
+major props to [Nate Silver](https://twitter.com/NateSilver538), who makes an attempt to account for the 
 exceptions that I have described (about the rule-of-thumb template for 
 first-round rookie contracts) in [his take][2] on the value of NBA draft 
 picks. This means that his results might be a bit more accurate than mine. 
@@ -602,7 +598,6 @@ that can be done, including some that can refine what I discussed here.
 Anyways, I plan to use the data sets developed in this post a basis for more 
 analysis.
 
-[1]: https://twitter.com/NateSilver538
 [2]: 
 http://fivethirtyeight.com/features/how-much-is-winning-the-nba-draft-lottery-
 really-worth/

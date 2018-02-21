@@ -1,5 +1,6 @@
 
-# Introduction
+# What Research Says about NBA Draft Pick Value
+
 
 
 The value of NBA draft picks is a common talking matter in the NBA analytics
