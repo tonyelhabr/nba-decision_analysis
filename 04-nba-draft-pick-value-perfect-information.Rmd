@@ -1,27 +1,10 @@
----
-title: The Value of Perfect Information and the NBA Draft
-author: Tony
-date: "2016-06-30"
-categories:
-  - nba
-tags:
-  - certain equivalent
-  - decision analysis
-  - expectimax
-  - game theory
-  - indifference probability
-  - minimax
-  - utility function
-  - value of clairvoyance
-  - value of information
-  - value of perfect information
-  - win shares
-banner: "images/nba-draft-pick-value-perfect-information/value-of-information-illustration.jpg"
----
 
-In this post I will take a look at the [__value of perfect information__](1)
+# The Value of Perfect Information and the NBA Draft
+
+In this chapter I will take a look at the
+[__value of perfect information__](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information)
 (VOPI) in the context of the NBA draft, using some of the data that I derived in
-[my previous chapter](2) in which I estimated the value of NBA draft picks. I begin
+my previous chapter in which I estimated the value of NBA draft picks. I begin
 with an isolated overview of some relevant decision analysis terms before
 discussing how they can be applied to better understand the NBA draft.
 
@@ -37,8 +20,10 @@ cases where imperfect information cannot be defined or is not
 considered, VOPI might be restated as value of information (VOI). 
 Anyways, all of these terms and abbreviations refer to the same concept. 
 A related principle (that must be defined for the purpose of this 
-conversation) in the field of [__decision analysis__](3) (DA) are 
-[__certain equivalent__](4)  (CE) and the [__delta principle__](5).] 
+conversation) in the field of
+[__decision analysis__](http://www.prioritysystem.com/glossary1a.html#decisionanalysis) (DA) are 
+[__certain equivalent__](http://www.prioritysystem.com/glossary1aa.html#ce) (CE) and the 
+[__delta principle__](http://www.prioritysystem.com/glossary1aa.html#d).] 
 
 The CE of an option is the quantity (typically stated as a monetary value) that
 a decision-maker can be guaranteed and feel __indifferent__ between receiving
@@ -48,7 +33,8 @@ quantity that would make the decision-maker indifferent to receiving the
 middling option (i.e the option with a level of preference between that of the
 other two options) for certain or entering a dual-outcome game of chance in
 which there is some well-defined probability between 0 and 1---known as
-[__indifference probability__](6) (IP)--of receiving the more preferable option
+[__indifference probability__](https://en.wikipedia.org/wiki/Principle_of_indifference)
+(IP)--of receiving the more preferable option
 and its payoff, and the remaining probability of the less preferable option and
 the quantity associated with it. 
 ^[I plan to investigate IPs and their application more in a future write-up.]
@@ -112,15 +98,10 @@ VOC for a given draft slot. Thus, I have chosen not to show it for the sake of
 making the visualizations more compact.]
 
 ![](images/nba-draft-pick-value-perfect-information/figure-1-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg)
-<p id="fig_label">
-Figure 1: Average Raw and Regressed First-Round WS and
-Profit VOC
-</p>
+<p id="fig_label">Figure 1: Average Raw and Regressed First-Round WS andProfit VOC</p>
 
 ![](images/nba-draft-pick-value-perfect-information/figure-2-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg)
-<p id="fig_label">
-Figure 2: Average Raw and Regressed First-Round WS and Profit VOC
-</p>
+<p id="fig_label">Figure 2: Average Raw and Regressed First-Round WS and Profit VOC</p>
 
 Just like the regressed curves for empirical and
 theoretical profits, the VOC curves for WS and profit exhibit diminishing
@@ -257,24 +238,20 @@ players are the teams and the payoffs are the profits of each draft pick. What
 kind of strategy should each team employ?
 
 In this context, one can interpret a draft with no
-perfect information (i.e. a traditional draft) as a __sequential__, <a
-href="https://en.wikipedia.org/wiki/Extensive-form_game">__extensive-form__
-</a> game with uncertainty at each move. Put another way, it can be modeled as 
-<a 
-href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.h 
-tml">__decision tree__</a> with a <a 
-href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.h 
-tml">__decision node__</a> for each draft slot (and its corresponding 
-team) and an accompanying <a 
-href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.h 
-tml">__chance node__</a> (or __uncertainty node__) with a 
+perfect information (i.e. a traditional draft) as a [__sequential__],
+__extensive-form__(https://en.wikipedia.org/wiki/Extensive-form_game)
+game with uncertainty at each move. Put another way, it can be modeled as 
+__decision tree__(http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) with a
+__decision node__(http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) 
+for each draft slot (and its corresponding team) and an accompanying 
+__chance node__(href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) 
+(or __uncertainty node__) with a 
 probability specifying the team's’ prior beliefs about the talent 
-level of each prospect available at that slot. In this case, an <a 
-href="https://en.wikipedia.org/wiki/Expectiminimax_tree">__expectimax__ 
-</a> strategy would be ideal. On the other hand, if every team were 
+level of each prospect available at that slot. In this case, an
+__expectimax__(href="https://en.wikipedia.org/wiki/Expectiminimax_tree) 
+strategy would be ideal. On the other hand, if every team were 
 given perfect information about draft prospects, then the chance nodes 
-would be eliminated, and a __<a 
-href="https://en.wikipedia.org/wiki/Minimax">minimax</a>__ strategy 
+would be eliminated, and a __minimax(https://en.wikipedia.org/wiki/Minimax)__ strategy 
 would be more optimal. ((In the context, of decision theory, 
 "expectimax" is just another way of applying the more traditional term 
 "minimax" in a situation where there is uncertainty. The term 
@@ -287,12 +264,5 @@ the purpose of being concise.
 Probably much more can be said on the relationship between concepts in game
 theory and decision analysis than I have discussed here, but I will leave it at
 that for now. In the future I may discuss principles in each discipline in the
-context of the NBA draft as I have done in this post with VOC. Anyways, that’s
+context of the NBA draft as I have done in this chapter with VOC. Anyways, that’s
 it for now.
-
-[1]: https://en.wikipedia.org/wiki/Expected_value_of_perfect_information
-[2]: https://numbernonsense.updog.co/step-by-step-guide-nba-draft-pick-value/
-[3]: http://www.prioritysystem.com/glossary1a.html#decisionanalysis
-[4]: http://www.prioritysystem.com/glossary1aa.html#ce
-[5]: http://www.prioritysystem.com/glossary1a.html#d
-[6]: https://en.wikipedia.org/wiki/Principle_of_indifference

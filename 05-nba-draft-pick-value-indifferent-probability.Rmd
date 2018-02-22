@@ -1,23 +1,5 @@
----
-title: Indifferent Probability and the NBA Draft
-author: Tony
-date: "2016-07-01"
-categories:
-  - nba
-tags:
-  - cost-effective
-  - decision analysis
-  - diminishing returns
-  - economics theory
-  - indifferent probability
-  - market inefficiency
-  - nba draft
-  - pick value
-  - return on investment
-  - utility theory
-  - win shares
-banner: "images/nba-draft-pick-value-indifferent-probability/indifferent-probability-clipart.png"
----
+
+# Indifferent Probability and the NBA Draft
 
 The value of NBA draft picks relative to can be calculated using 
 the concept of __[indifferent probability](1)__ (IP), a term I 
@@ -97,11 +79,11 @@ on general NBA draft pick value.
 
 ![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
 
-<p id="fig_label">Figure 1: Average Regressed Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks </p>
+<p id="fig_label">Figure 1: Average Regressed Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
 ![](images/nba-draft-pick-value-estimate/figure-10-average-regressed-theoretical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
 
-<p id="fig_label">Figure 2: Average Regressed Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks </p>
+<p id="fig_label">Figure 2: Average Regressed Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
 Next, Figure 3 shows the results for IPs calculated with respect 
 to the maximum and minimum data points in four sets of __win 
@@ -160,7 +142,6 @@ ROI found using the raw and regressed theoretical four-year
 profits, as well as the raw theoretical four-year costs. ^[ I have 
 chosen to use these data sets for the same reasons outlined in 
 detail in the following argument regarding which WSV IPs to use.]
-
 
 ![](/img/nba-draft-indifferent-probability/figure-4-average-theoretical-four-year-wsv-to-cost-ratios-roi.jpg)
 
@@ -230,16 +211,13 @@ horizontal axis where the cost curve lies above the WSV curve. Likewise,
 these points of interests are the positive values in Figures 6 and 7.
 
 ![](/img/nba-draft-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg/)
-
-<p id="fig_label">Figure 5: Average __Theoretical__ Four-Year First-Round WSV and Cost __IPs__ </p>
+<p id="fig_label">Figure 5: Average __Theoretical__ Four-Year First-Round WSV and Cost __IPs__</p>
 
 ![](/img/nba-draft-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
-
-<p id="fig_label">Figure 6: Average __Theoretical__ Four-Year First-Round WSV to Cost __IP Differentials__ </p>
+<p id="fig_label">Figure 6: Average __Theoretical__ Four-Year First-Round WSV to Cost __IP Differentials__</p>
 
 ![](/img/nba-draft-indifferent-probability/figure-7-average-empirical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
-
-<p style="text-align: center;"> Figure 7: Average __Emperical__ Four-Year First-Round  WSV to Cost __IP Differentials__ </p>
+<p style="text-align: center;"> Figure 7: Average __Emperical__ Four-Year First-Round  WSV to Cost __IP Differentials__</p>
 
 I think the inconsistency between the two empirical WSV lines in 
 Figure 7 justifies my prior argument that they should be 

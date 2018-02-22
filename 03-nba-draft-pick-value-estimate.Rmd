@@ -3,8 +3,8 @@
 
 In this chapter I present my attempt to estimate the value of NBA 
 draft picks. ^[Microsoft Excel is my software tool 
-that I use here. <a href="https://www.r-project.org/">R</a> and <a 
-href="https://www.python.org/">python</a> are wonderful alternatives with 
+that I use here. [R](https://www.r-project.org/) and
+[python](https://www.python.org) are wonderful alternatives with 
 which I have gained experience recently, but, for now, I am most comfortable 
 with Excel, especially when it comes to plotting and formatting.] 
 Given that countless other articles 
@@ -25,9 +25,9 @@ any team on any given night. Moreover, I'm not a Spurs "fanatic"  in the
 traditional sense of the word. As a wannabe analyst, I try to be as neutral 
 as possible when observing teams.] Second, since near the end of my 
 time in college, I've learned a 
-lot of the basics of topics such as __game theory__ through online <a 
-href="https://www.mooc-list.com/">Massive Online Open Courses</a> (<a 
-href="https://www.mooc-list.com/">MOOCs</a>) and some other less formal 
+lot of the basics of topics such as __game theory__ through online 
+[Massive Online Open Courses](https://www.mooc-list.com/) 
+(MOOCs) and some other less formal 
 mediums. I was hungry to find a topic to which I could apply some of my 
 new-found knowledge in a meaningful way. Third, despite the other research 
 discussing the value of NBA picks, I still feel like this subject matter can 
@@ -52,7 +52,6 @@ example set by others. Also, as you can probably tell from my last two posts,
 my perspective on what__ "value"__ means is somewhat nuanced and 
 different from others' interpretation, so my answers to questions related to 
 draft pick value in the NBA may, consequently, differ. 
-
 
 ## Which Drafts?
 
@@ -81,10 +80,7 @@ __four seasons__, which is the typical length of the contracts
 given to those drafted in the first round.
 
 
-
-
 ## The Rookie Wage Scale
-
 
 A brief overview of how the <a 
 href="http://nbpa.com/cba/">Collective Bargaining Agreement</a> (CBA) 
@@ -182,7 +178,7 @@ rookie contract. As an example, the numbers for the 2012 first-round picks
 can be seen in Figure 1.
 
 ![](images/nba-draft-pick-value-estimate/figure-1-four-year-cost-for-2012-first-round-draft-picks.jpg)
-<p id="fig_label">Figure 1: Four-Year Cost of 2012 First-Round Draft Picks </p> 
+<p id="fig_label">Figure 1: Four-Year Cost of 2012 First-Round Draft Picks</p> 
 
 In the context of <a 
 href="https://en.wikipedia.org/wiki/Economics#Theory">__economic 
@@ -207,7 +203,7 @@ first-round draft picks thus far. This is because the CBA does __NOT__
 determine how teams must pay their second round picks. This makes it 
 difficult to model the value of second-round picks without rigorously 
 scraping the web for details of their contracts, which aren’t always publicly 
-available anyways. For this reason, my analysis in this post focuses only on 
+available anyways. For this reason, my analysis in this chapter focuses only on 
 top 30 picks. (Nevertheless, I plan to make an attempt to model the value of 
 second-round picks in the future in order to investigate the relative 
 __trade value__ of picks.)
@@ -332,7 +328,6 @@ their WS (or some other all-in-one metric). Instead, we must discount the
 value. 
 
 
-
 So how do I translate WS to a currency? My 
 answer here is not as straightforward as my choice of WS is, but it isn’t too 
 difficult either. I can simply (1) sum up team payroll data ^[credit to 
@@ -358,7 +353,7 @@ translating WP to a monetary value, and Silver uses the figure $1.75 million
 for his calculations.] The results are shown in Figure 2.
 
 ![](images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-19 95-2012.jpg)
-<p id="fig_label"> Figure 2: Single-Season WSVs for 1995 --- 2015 </p> 
+<p id="fig_label"> Figure 2: Single-Season WSVs for 1995 --- 2015</p> 
 
 Next, I simply averaged the three seasons’ 
 WSs with a given starting season from the five years for which I am 
@@ -367,8 +362,7 @@ four-year WSV for each season from 1995 to 2012, which can be seen in Figure
 3.
 
 ![](images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for -1995-2012.jpg)
-<p id="fig_label">Figure 3: Average Four-Year WSVs for 1995 --- 2015 </p> 
-
+<p id="fig_label">Figure 3: Average Four-Year WSVs for 1995 --- 2015</p> 
 
 ## Profit: Value - Cost
 
@@ -384,7 +378,6 @@ projected cost numbers outlined by the rookie wage scale and its general
 application, as discussed before.] Similarly, I say __“raw”__ to distinguish 
 between averaged results 
 that are calculated using __“regressed”__ values.
-
 
 
 After coming up with a number for the returns 
@@ -443,8 +436,7 @@ href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pic
 k-and-draft-pedigree-in-the-finals/">2013</a> posts respectively.
 
 ![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg) 
-<p id="fig_label">Figure 7: Average Regressed Empirical Four-Year </p> 
-
+<p id="fig_label">Figure 7: Average Regressed Empirical Four-Year</p> 
 
 The regression readily confirms what is 
 implied by the raw data. That is, it is clear that higher draft picks result 
@@ -560,7 +552,7 @@ questions.)
 
 However, there is still so much more analysis 
 that can be done, including some that can refine what I discussed here. 
-Anyways, I plan to use the data sets developed in this post a basis for more 
+Anyways, I plan to use the data sets developed in this chapter a basis for more 
 analysis.
 
 [2]: 
