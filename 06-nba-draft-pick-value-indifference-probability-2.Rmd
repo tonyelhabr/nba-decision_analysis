@@ -22,21 +22,21 @@ tags:
 banner: "images/nba-draft-pick-value-indifferent-probability-2/coin-flip-clipart.png"
 ---
 
-In this post I will continue where I left off in [my prior discussion][1] of the
-concept of [__indifferent probability__][2] (IP) and its application to the NBA
+In this post I will continue where I left off in [my prior discussion](1) of the
+concept of [__indifferent probability__](2) (IP) and its application to the NBA
 draft. You may recall that we have only evaluated first-round draft slots up to
 this point because the contracts of second-round picks is non-deterministic, as
-I discussed in [my original write-up][3] on the big-picture value of NBA draft
+I discussed in [my original write-up](3) on the big-picture value of NBA draft
 picks. Nevertheless, I was able to answer my (re-stated) "second" big question
 about NBA draft pick value (“At which draft slots does the expected 
 basketball production outperform the contractual obligation the most?”),
-which I brought up in [another one of my posts][4]. I found that, when
+which I brought up in [another one of my posts](4). I found that, when
 considering only first round picks, the picks in the middle of the round are
 most __cost-effective__.
 
 Now, if I attempt to model second-round picks and re-calculate IPs, I can
 provide a more realistic answer to the "third" question (__"What is the
-relative trade value of picks?"__) that I asked [before][5]. Furthermore, with
+relative trade value of picks?"__) that I asked [before](5). Furthermore, with
 these updated IP values I can re-evaluate my conclusion about the
 cost-effectiveness of mid-first-round picks. I attempt to do both of these tasks
 in this post.
@@ -165,7 +165,7 @@ should look at <a href="http://www.82games.com/barzilai1.htm">the analysis</a>
 done at <a href="http://www.82games.com">82games.com</a> by <a
 href="https://twitter.com/basketballvalue">Aaron Barzilai</a>, which I
 summarized in a <a href="https://numbernonsense.updog.co/nba-draft-pick-value-research/">
-previous post</a>. Figure 8 in his research, which I reproduce below, captures the same idea that I present here in my Figure 3
+previous chapter</a>. Figure 8 in his research, which I reproduce below, captures the same idea that I present here in my Figure 3
 (but no so much my Figure 1, which only graphs first-round data). Interestingly, Barzilai
 found that the last pick in the first round is worth about __20% of the first pick__, while I calculated that it was around __16%__.
 It is very reassuring to see that my number closely matches his, despite the relatively large assumptions I have made about the cost of second-round picks.
@@ -330,7 +330,7 @@ If you compare our numbers for the top 10 picks, you can see that we come
 up with similar estimates. In actuality, we would come up with exactly the same
 numbers if we had used precisely the same method. As I noted in a <a
 href="https://numbernonsense.updog.co/questions-answers-nba-draft-pick-value/">
-previous post</a>, Galletti simply calculates the quotient of the values
+previous chapter</a>, Galletti simply calculates the quotient of the values
 for any given two picks to come up with their relative trade value. However,
 in my method, I first scale all the monetary values to a 0-to-1 unit-less
 basis before taking the quotient of any given two numbers. As I note there, I
@@ -346,7 +346,7 @@ over replacement player__ (VORP) numbers</a> of
 <a href="http://nyloncalculus.com/">Nylon Calculus</a>'
 <a href="https://twitter.com/nickrestifo">Nick Restifo</a>.
 (In case you missed it, I mentioned both Galletti's and Restifo's
-results on this topic in a <a href="https://numbernonsense.updog.co/nba-draft-pick-value-research-2/">previous post</a>.)
+results on this topic in a <a href="https://numbernonsense.updog.co/nba-draft-pick-value-research-2/">previous chapter</a>.)
 
 After translating Restifo's peak VORP numbers to IPs, I can put his
 trade value numbers on equal ground with mine and those of Galletti. Figure 8
@@ -359,7 +359,7 @@ Figure 9: Nick Restifo's Top 10 Draft Pick Trade Value
 
 Clearly, his numbers deviate fairly significantly from mine and 
 Galletti's. This trend becomes even more extreme as the pick number 
-increase beyond 10. However, as I discussed in that previous post, it is 
+increase beyond 10. However, as I discussed in that previous chapter, it is 
 not really fair to compare the chart that can be derived from Galletti's 
 regressed "Net Actual Value" numbers (which are equivalent to my profit 
 numbers translated to IPs and generate the exact same chart as the one I 

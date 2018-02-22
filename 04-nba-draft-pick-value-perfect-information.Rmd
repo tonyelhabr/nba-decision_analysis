@@ -19,9 +19,9 @@ tags:
 banner: "images/nba-draft-pick-value-perfect-information/value-of-information-illustration.jpg"
 ---
 
-In this post I will take a look at the [__value of perfect information__][1]
+In this post I will take a look at the [__value of perfect information__](1)
 (VOPI) in the context of the NBA draft, using some of the data that I derived in
-[my previous post][2] in which I estimated the value of NBA draft picks. I begin
+[my previous chapter](2) in which I estimated the value of NBA draft picks. I begin
 with an isolated overview of some relevant decision analysis terms before
 discussing how they can be applied to better understand the NBA draft.
 
@@ -37,8 +37,8 @@ cases where imperfect information cannot be defined or is not
 considered, VOPI might be restated as value of information (VOI). 
 Anyways, all of these terms and abbreviations refer to the same concept. 
 A related principle (that must be defined for the purpose of this 
-conversation) in the field of [__decision analysis__][3] (DA) are 
-[__certain equivalent__][4]  (CE) and the [__delta principle__][5].] 
+conversation) in the field of [__decision analysis__](3) (DA) are 
+[__certain equivalent__](4)  (CE) and the [__delta principle__](5).] 
 
 The CE of an option is the quantity (typically stated as a monetary value) that
 a decision-maker can be guaranteed and feel __indifferent__ between receiving
@@ -48,7 +48,7 @@ quantity that would make the decision-maker indifferent to receiving the
 middling option (i.e the option with a level of preference between that of the
 other two options) for certain or entering a dual-outcome game of chance in
 which there is some well-defined probability between 0 and 1---known as
-[__indifference probability__][6] (IP)--of receiving the more preferable option
+[__indifference probability__](6) (IP)--of receiving the more preferable option
 and its payoff, and the remaining probability of the less preferable option and
 the quantity associated with it. 
 ^[I plan to investigate IPs and their application more in a future write-up.]

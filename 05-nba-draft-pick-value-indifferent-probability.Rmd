@@ -20,10 +20,10 @@ banner: "images/nba-draft-pick-value-indifferent-probability/indifferent-probabi
 ---
 
 The value of NBA draft picks relative to can be calculated using 
-the concept of __[indifferent probability][1]__ (IP), a term I 
-briefly referenced in [a previous post][2] highlighting the value 
+the concept of __[indifferent probability](1)__ (IP), a term I 
+briefly referenced in [a previous chapter](2) highlighting the value 
 of information in the context of the NBA draft. I believe that 
-IPs can be used to extend my analysis in [another post][3] 
+IPs can be used to extend my analysis in [another post](3) 
 covering how to estimate the value of NBA draft picks.
 
 Specifically, we might use them to learn about which picks are most 
@@ -31,10 +31,10 @@ __cost-effective__ and what the trade value of picks is (in terms of other
 picks). In other words, I can find an answer to the second question (__“At 
 which draft slots does the expected basketball production outperform the 
 contractual obligation the most?”__) that I posed in [my review of existing 
-research][4]
+research](4)
 on the topic of NBA draft pick value, as well as answer to the 
 first question (__"What is the relative trade value of 
-picks?"__) that I asked in its [follow-up article][5].
+picks?"__) that I asked in its [follow-up article](5).
 
 However, just as I did in my post discussing the value of perfect information 
 and the NBA draft, let me first provide a quick overview IPs in a 
@@ -43,7 +43,7 @@ theoretical context.
 ## Indifferent Probability, in Theory
 
 For those of you who are not as familiar with __[utility 
-theory][6]__ or __[decision analysis][7]__, IPs are simply 
+theory](6)__ or __[decision analysis](7)__, IPs are simply 
 relative probabilities that define the degree of preference with 
 respect to (usually) two other outcomes---one more---desirable and 
 one less desirable. IPs are relatively straightforward to 
@@ -92,7 +92,7 @@ With this higher-level discussion of IPs out of the way, let's take
 another look at our prior our estimates of the cost, value, and profit of 
 first-round NBA draft picks. For reference, in Figure 1 and 2 I 
 have reproduced the empirical and theoretical raw and regressed data 
-sets shown in figures in [my post][3]
+sets shown in figures in [my post](3)
 on general NBA draft pick value.
 
 ![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
@@ -150,10 +150,10 @@ review some of our data regarding value, cost, and profit in order to better
 contextualize my upcoming look on market inefficiencies.
 
 If I may go back to using economics terminology for a moment, I 
-can formally prove the notion of __[diminishing return][8]__ that 
+can formally prove the notion of __[diminishing return](8)__ that 
 was implied by the profit curves that we saw before.
 
-We can calculate __[return on investment][9]__ (ROI), which is 
+We can calculate __[return on investment](9)__ (ROI), which is 
 just the quotient of the profit and the cost, to verify that 
 higher picks are the most __cost-effective__. Figure 4 depicts the 
 ROI found using the raw and regressed theoretical four-year 
@@ -178,7 +178,7 @@ So maybe the ROI concept seems like nothing new to you. You’re right, it
 really isn't---it's just a different way of contextualizing 
 what we have already seen. Nevertheless, I thought it was important to 
 introduce it in order to better understand how we can relate the term 
-__“[market inefficiency][9]"__ to our discussion.
+__“[market inefficiency](9)"__ to our discussion.
 
 In particular, I am using the term to distinguish a pick from which the 
 profit exceeds the cost correlated with that pick, __relative__ to the rest 
@@ -269,7 +269,7 @@ conclusion that I drew in the preceding section, I have found an
 answer to the (re-stated) second big question that I asked 
 about NBA draft pick value (__“At which draft slots does the 
 expected basketball production outperform the contractual 
-obligation the most?”__) in [a previous post][4].
+obligation the most?”__) in [a previous chapter](4).
 
 As for my third question about pick 
 trade value, I could use my existing IP sets to tackle this topic, but I 

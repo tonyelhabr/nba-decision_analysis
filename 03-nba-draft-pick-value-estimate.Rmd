@@ -166,11 +166,11 @@ attempt to account for these nuances.
 Before discussing my method of dealing with player salaries, I have to give 
 major props to [Nate Silver](https://twitter.com/NateSilver538), who makes an attempt to account for the 
 exceptions that I have described (about the rule-of-thumb template for 
-first-round rookie contracts) in [his take][2] on the value of NBA draft 
+first-round rookie contracts) in [his take](2) on the value of NBA draft 
 picks. This means that his results might be a bit more accurate than mine. 
 (But hey, I’m not quite the number-crunching machine that Silver is, so don’t 
-hold me to his standard!) [Arturo Galletti][3] doesn’t provide much detail 
-about how he deals with this topic in [his research][2] but I think it’s safe 
+hold me to his standard!) [Arturo Galletti](3) doesn’t provide much detail 
+about how he deals with this topic in [his research](2) but I think it’s safe 
 to assume that he does something similar to what I have done here. Anyways, 
 you can read more about the methodologies and results of Silver, Galletti, 
 and others in another chapter I made on existing research concerning this 
@@ -187,11 +187,11 @@ can be seen in Figure 1.
 In the context of <a 
 href="https://en.wikipedia.org/wiki/Economics#Theory">__economic 
 theory__</a>, we can think of these salaries as the costs for 
-draft picks, which can be interpreted as __[assets][5]__. Moreover, in a <a 
+draft picks, which can be interpreted as __[assets](5)__. Moreover, in a <a 
 href="http://www.gametheory.net/dictionary/Game_theory_history.html">_<stron
 g>game theory__</a> context, this cost is like a [__discount 
-factor__][6] applied to a 
-__[payoff][7]__ in a 30-player, 
+factor__](6) applied to a 
+__[payoff](7)__ in a 30-player, 
 __<a 
 href="http://www.gametheory.net/dictionary/IteratedGame.html">iterated</a> 
 non-<a href="http://www.gametheory.net/dictionary/ZeroSum.html">zero sum 
@@ -218,7 +218,7 @@ With the question about how to quantify a
 player’s cost out of the way, now there is the question of how to measure a 
 player’s value in terms of __basketball production__. From an 
 economics perspective, this basketball value can be interpreted as the 
-__[returns][8]__ of an asset. 
+__[returns](8)__ of an asset. 
 However, because the term “value” is more intuitive in this context, I will 
 use it instead of “returns” (although I may still use “returns” every so 
 often).
@@ -232,13 +232,13 @@ This is way too naive.) Perhaps some combination of these kinds of stats?
 be better.) My answer is along that train of thought.
 
 My choice is to use an “all-in-one” metric 
-called __[win shares][9]__ (WS), 
+called __[win shares](9)__ (WS), 
 which  attempts to determine what its name implies---the value of an 
 individual player in terms of team wins. WS has been used for years among 
 analytical circles to measure the value of players, along with other 
-all-in-one metrics such as __[player efficiency rating][10]__ (PER) and 
+all-in-one metrics such as __[player efficiency rating](10)__ (PER) and 
 __[value over replacement 
-player][11]__ (VORP). As proof of validity, 
+player](11)__ (VORP). As proof of validity, 
 several of the researchers that I discussed in a 
 prior chapter use WS in their draft pick value models.
 
@@ -251,7 +251,7 @@ statistics are calculated per minute or per possession rate like most other
 advanced statistics. Instead, it. (I should note that there are methods for 
 converting PER to a seasonal rate, but PER is typically not used in such a 
 manner.) Also, WS can be easily found on many websites such as [Basketball 
-Reference][12], and using it prevents me from having to calculate 
+Reference](12), and using it prevents me from having to calculate 
 my own metric. represented by WS with the cost represented by the player’s 
 contract. In fact, <a 
 href="http://www.basketball-reference.com/">Basketball Reference</a>’s 
@@ -296,11 +296,11 @@ cause me to come to significantly different conclusions.)
 Although I said I wasn’t going to go into 
 detail about why WS might be the best all-in-one metric, I feel obliged to 
 mention the biggest disadvantages of its most legitimate alternatives---PER 
-and VORP. (I’m sorry to those fans of __[plus-minus][13]__, but there are 
+and VORP. (I’m sorry to those fans of __[plus-minus](13)__, but there are 
 just so many version of 
 Plus-Minus---including as [box 
-plus-minus][14] (BPM), [adjusted plus-minus][14] (APM), and [regularized 
-adjusted plus-minus][15] 
+plus-minus](14) (BPM), [adjusted plus-minus](14) (APM), and [regularized 
+adjusted plus-minus](15) 
 (RAPM)--that I don’t even consider it here.) PER can be skewed 
 significantly by small minute sample sizes, and it arguably does not capture 
 the value defensive play very well. Although VORP is arguably the most 
@@ -319,8 +319,8 @@ In relation to <a
 href="http://www.businessdictionary.com/definition/utility-theory.html">_<st
 rong>utility theory__</a>, one could argue that the metric used 
 to represent basketball value---in this case, WS---represents a player’s 
-[utility][16]. (In relation to game theory, which incorporates 
-the principles of utility theory, WS would represent a [payoff][7], 
+[utility](16). (In relation to game theory, which incorporates 
+the principles of utility theory, WS would represent a [payoff](7), 
 as mentioned before.) From a purely basketball perspective, this make sense. 
 However, the reality is that the NBA is a business and players are not only 
 valued by the quality of their play, but also the desirability of their 
@@ -474,7 +474,7 @@ the numbers fool you! I can assure you that when each equation is graphed along 
 its equivalent, the curves practically overlap. ^[I 
 might add those graphs here at a later time as proof, but I have chosen not 
 to do so for now.] In fact, if you use the concept of [__indifference 
-probability__][17] (as I do in [another post][18]) to normalize the regressed 
+probability__](17) (as I do in [another post](18)) to normalize the regressed 
 values on a 0 to 1 unit-less basis, you will find that the calculated values 
 are __exactly equal__!
 
@@ -540,7 +540,7 @@ manner.
 So what does theoretical profit mean in a 
 non-basketball context? From the perspective of the disciplines such as 
 economic or game theory, one can interpret it as the result of every team 
-having __[perfect information][19]__.
+having __[perfect information](19)__.
 Conversely, we might say that empirical profit represents the results 
 of every team not having perfect information available to them.
 
