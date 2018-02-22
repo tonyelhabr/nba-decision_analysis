@@ -54,12 +54,12 @@ looked at top 30 picks __in isolation__ so far. However, if I can model
 second-round picks like I have modeled first-round picks up to this point, I can
 (hopefully) get a more accurate perspective of the first half of the draft.
 
-<img src="images/nba-draft-pick-value-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg)
 <p id="fig_label">
 Figure 1: Average Theoretical Four-Year __First-Round__ WSV and Cost IPs
 </p>
 
-<img src="images/nba-draft-pick-value-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
 <p id="fig_label">
 Figure 2: Average Theoretical Four-Year __First-Round__ WSV to Cost IP
 Differentials
@@ -136,13 +136,13 @@ for the purpose of keeping you engaged, I will ease up on the words here.
 Figures 3 and 4 that follow are analogues to Figures 1 and 2 using the IPs
 calculated for the complete first- and second-round data.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-3-average-theoretical-four-year-first-and-second-round-wsv-and-cost-ips.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-3-average-theoretical-four-year-first-and-second-round-wsv-and-cost-ips.jpg)
 <p id="fig_label">
 Figure 3: Average Theoretical Four-Year __First- and Second-Round__ WSV and
 Cost IPs
 </p>
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-4-average-theoretical-four-year-first-and-second-round-wsv-to-cost-ip-differentials.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-4-average-theoretical-four-year-first-and-second-round-wsv-to-cost-ip-differentials.jpg)
 <p id="fig_label">
 Figure 4: Average Theoretical Four-Year __First- and Second-Round__ WSV to
 Cost IP Differentials
@@ -170,7 +170,7 @@ previous post</a>. Figure 8 in his research, which I reproduce below, captures t
 found that the last pick in the first round is worth about __20% of the first pick__, while I calculated that it was around __16%__.
 It is very reassuring to see that my number closely matches his, despite the relatively large assumptions I have made about the cost of second-round picks.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/aaron-barzilai-draft-pick-estimated-player-value-and-salary-graph.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/aaron-barzilai-draft-pick-estimated-player-value-and-salary-graph.jpg)
 
 Even more interestingly, Barzilai found that the __9th pick__ represents the
 __greatest market inefficiency__, as I have defined it in my discussion.
@@ -242,7 +242,7 @@ incorporates data for both rounds. (This distinction is important to note for
 the regressed data because we have regressed versions using only first-round
 data and a newer version that attempts to model the second round as well.)
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-5-first-round-draft-pick-trade-value.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-5-first-round-draft-pick-trade-value.jpg)
 <p id="fig_label">
 Figure 5: __First-Round__ Draft Pick Trade Value
 </p>
@@ -282,7 +282,7 @@ In fact, this effect __DOES__ _manifest in both the scaled raw empirical and
 theoretical first- and second-round profit IPs. Figure 6 shows the latter of
 these two data sets. (I do not show the former because it is relatively noisy).
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-6-first-and-second-round-draft-pick-trade-value.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-6-first-and-second-round-draft-pick-trade-value.jpg)
 <p id="fig_label">
 Figure 6: __First- and Second-Round__ Draft Pick Trade Value
 </p>
@@ -309,7 +309,7 @@ matrix format.
 and second-round WS IPs about which I said I believed is the most accurate data
 set that I have to portray this concept.]
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-7-top-10-draft-pick-trade-value.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-7-top-10-draft-pick-trade-value.jpg)
 <p id="fig_label">
 Figure 7: Top 10 Draft Pick Trade Value
 </p>
@@ -320,7 +320,7 @@ an article</a> by <a href="http://wagesofwins.com/">Wages of Wins
 </a>' writer <a href="https://twitter.com/ArturoGalletti">Arturo Galletti</a> 
 meant to portray the same idea. I reproduce a cropped version of his figure below.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/arturo-galletti-relative-draft-pick-trade-value-top-10-only.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/arturo-galletti-relative-draft-pick-trade-value-top-10-only.jpg)
 <p id="fig_label">
 Figure 8: Arturo Galletti's Top 10 Draft Pick Trade Value
 </p>
@@ -352,7 +352,7 @@ After translating Restifo's peak VORP numbers to IPs, I can put his
 trade value numbers on equal ground with mine and those of Galletti. Figure 8
 presents the results.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg)
 <p id="fig_label">
 Figure 9: Nick Restifo's Top 10 Draft Pick Trade Value
 </p>
@@ -372,10 +372,8 @@ differ noticeably. Figure 9 shows Galletti's basketball-production-only
 numbers that reflect the same idea as Restifo's normalized values in 
 Figure 8. 
 
-<img 
-src="images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg" /> <p 
-id="fig_label"> Figure 10: Arturo Galletti's Top 10 Draft Pick Trade 
-Value (__Neglecting__ Cost) </p> 
+<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg" />
+<p id="fig_label"> Figure 10: Arturo Galletti's Top 10 Draft Pick Trade Value (__Neglecting__ Cost) </p> 
 
 The answer to the question of whose numbers are more accurate depend on 
 your preference for basketball-production evaluation. Galletti and I use 

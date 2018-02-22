@@ -181,13 +181,8 @@ assumption that all top 30 picks receive the basic four-year, 120%-baseline
 rookie contract. As an example, the numbers for the 2012 first-round picks 
 can be seen in Figure 1.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-1-four-year-cost-for-2012-first-round-draft-picks.jpg">
-<p id="fig_label">
-Figure 1: 
-Four-Year Cost of 2012 First-Round Draft Picks </p> 
-
-
+![](images/nba-draft-pick-value-estimate/figure-1-four-year-cost-for-2012-first-round-draft-picks.jpg)
+<p id="fig_label">Figure 1: Four-Year Cost of 2012 First-Round Draft Picks </p> 
 
 In the context of <a 
 href="https://en.wikipedia.org/wiki/Economics#Theory">__economic 
@@ -362,8 +357,7 @@ noticeably.] I did this for each of the 21 seasons from 1995 to 2015.
 translating WP to a monetary value, and Silver uses the figure $1.75 million 
 for his calculations.] The results are shown in Figure 2.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-19 95-2012.jpg">
+![](images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-19 95-2012.jpg)
 <p id="fig_label"> Figure 2: Single-Season WSVs for 1995 --- 2015 </p> 
 
 Next, I simply averaged the three seasons’ 
@@ -372,10 +366,8 @@ interested (i.e. 1995 to 2012). As a result, I came up with a average
 four-year WSV for each season from 1995 to 2012, which can be seen in Figure 
 3.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for -1995-2012.jpg">
-<p id="fig_label">
-Figure 3: Average Four-Year WSVs for 1995 --- 2015 </p> 
+![](images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for -1995-2012.jpg)
+<p id="fig_label">Figure 3: Average Four-Year WSVs for 1995 --- 2015 </p> 
 
 
 ## Profit: Value - Cost
@@ -413,12 +405,8 @@ just think it is more distinctive than the term “utility”.] Anyways,
 single-season profits for each first-round draft slot in 2012 can be seen in 
 Figure 4.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-4-empirical-four-year-profit
--of-2012-first-round-draft-picks.jpg">
-<p id="fig_label">
-Figure 4: Emperical Four-Year Profit of 2012 First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-4-empirical-four-year-profit-of-2012-first-round-draft-picks.jpg)
+<p id="fig_label">Figure 4: Emperical Four-Year Profit of 2012 First-Round Draft Picks</p>
 
 Figure 5 displays the average results from 
 the five drafts from 1995 to 2012 in tabular form. Figure 6 shows the same 
@@ -426,19 +414,11 @@ data in the form of a chart. Having mentioned them before, I should note
 that Silver and Galletti come up with 
 similar graphs. Also, Galletti has a chart similar to my Figure 5.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-5-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks">
-<p id="fig_label">
-Figure 5: Average Raw Empirical Four-Year Profit of 1995 --- 2012 
-First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-5-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks)
+<p id="fig_label">Figure 5: Average Raw Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-6-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg">
-<p id="fig_label">
-Figure 6: Average Raw Empirical Four-Year Profit of 1995 --- 2012 
-First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-6-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
+<p id="fig_label">Figure 6: Average Raw Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
 Before drawing any conclusions, I must admit 
 that the results of the calculations made so far appear a bit noisy. This is 
@@ -462,12 +442,8 @@ their <a href="http://www.basketball-reference.com/blog/?p=2740">2009</a> and
 href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pic
 k-and-draft-pedigree-in-the-finals/">2013</a> posts respectively.
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg"> 
-<p id="fig_label">
-Figure 7: Average Regressed Empirical Four-Year 
-Profit of 1995 --- 2012 First-Round Draft Picks
-</p> 
+![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg) 
+<p id="fig_label">Figure 7: Average Regressed Empirical Four-Year </p> 
 
 
 The regression readily confirms what is 
@@ -543,25 +519,14 @@ a technical note, in this analysis I looked at all drafted players for a
 given year and simply sorted them by descending WS. I did not consider 
 un-drafted players.]
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-8-theoretical-four-year-profit-of-2012-first-round-draft-picks.jpg"> 
-<p id="fig_label">
-Figure 8: Theoretical Four-Year Profit of 2012 First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-8-theoretical-four-year-profit-of-2012-first-round-draft-picks.jpg) 
+<p id="fig_label">Figure 8: Theoretical Four-Year Profit of 2012 First-Round Draft Picks</p>
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-9-average-raw-four-year-profit-of-1995-2012-first-round-draft-picks.jpg"> 
-<p id="fig_label">
-Figure 9: Average Raw Theoretical Four-Year Profit of 1995 --- 2012 
-First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-9-average-raw-four-year-profit-of-1995-2012-first-round-draft-picks.jpg) 
+<p id="fig_label">Figure 9: Average Raw Theoretical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
-<img 
-src="images/nba-draft-pick-value-estimate/figure-10-average-regressed-theoretical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg"> 
-<p id="fig_label">
-Figure 10: Average Raw Theoretical Four-Year Profit of 1995 --- 2012 
-First-Round Draft Picks
-</p>
+![](images/nba-draft-pick-value-estimate/figure-10-average-regressed-theoretical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg) 
+<p id="fig_label">Figure 10: Average Raw Theoretical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
 Obviously the integrity of the original WS 
 data is somewhat compromised if players are re-ordered by WS. Players would 

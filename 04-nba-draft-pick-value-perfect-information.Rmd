@@ -111,13 +111,13 @@ WSV VOC is simply equivalent to the sum of the theoretical cost and the profit
 VOC for a given draft slot. Thus, I have chosen not to show it for the sake of
 making the visualizations more compact.]
 
-<img src="images/nba-draft-pick-value-perfect-information/figure-1-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg" />
+![](images/nba-draft-pick-value-perfect-information/figure-1-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg)
 <p id="fig_label">
 Figure 1: Average Raw and Regressed First-Round WS and
 Profit VOC
 </p>
 
-<img src="images/nba-draft-pick-value-perfect-information/figure-2-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg" />
+![](images/nba-draft-pick-value-perfect-information/figure-2-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg)
 <p id="fig_label">
 Figure 2: Average Raw and Regressed First-Round WS and Profit VOC
 </p>
@@ -248,7 +248,7 @@ expectations of the slot at which he is picked.
 
 ## Game Theory and VOC
 
-<img src="images/nba-draft-pick-value-perfect-information/decision-tree-with-chance-nodes.jpg">
+![](images/nba-draft-pick-value-perfect-information/decision-tree-with-chance-nodes.jpg)
 
 The VOC concept might also be understood from a
 __game theory__ point of view. We can think of the first round of the NBA draft

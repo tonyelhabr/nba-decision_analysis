@@ -43,7 +43,7 @@ colleagues.]
 ### The Fourth (and Final) Question 
 
 
-<img src="images/nba-draft-pick-value-research-2/philadelphia-76ers-tanking.jpeg" />
+![](images/nba-draft-pick-value-research-2/philadelphia-76ers-tanking.jpeg)
 
 Finally, the last question that I looked to answer (for now) is __"Can 
 tanking be justified?"__ ^[The term "tanking" refers to a team that 
@@ -83,7 +83,7 @@ already reviewed. [Arturo Galletti][3] translates his regressed "Net Actual
 Value" values (which he calls "Modeled Values") to relative ones for the purpose
 of constructing a pick trade value chart. This chart is shown below.
 
-<img src="images/nba-draft-pick-value-research-2/arturo-galletti-relative-draft-value-chart.png" />
+![](images/nba-draft-pick-value-research-2/arturo-galletti-relative-draft-value-chart.png)
 
 After inspecting Galletti's regression formula and his numbers for "Modeled
 Value", I found that he simply calculates the quotient of the values for any
@@ -101,7 +101,7 @@ calculated with respect to the top pick.
 Anyways, the following figure depicts how Galletti's numbers would look for the
 top 10 picks using my proposed alternative method using IPs.
 
-<img src="images/nba-draft-pick-value-research-2/figure-arturo-galletti-top-10-draft-pick-modeled-value-ip.jpg" />
+![](images/nba-draft-pick-value-research-2/figure-arturo-galletti-top-10-draft-pick-modeled-value-ip.jpg)
 
 Aside from Galletti, _[Nylon Calculus][6]_ contributor [Nick Restifo][7] 
 provides a trade value chart posted in [a recent 2016 article][8] at 
@@ -126,7 +126,7 @@ numbers differ relatively dramatically from Galletti's. The following figure
 mirrors the same idea shown in the previous figure for Galletti using the
 calculated relative values for Restifo.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg)
 
 
 So whose numbers should be taken as truth? As it often seems to be in analytical
@@ -151,7 +151,7 @@ shares__][14] (WS), while Restifo's are based on peak VORP. The following figure
 shows Galletti's trade value estimates for the top 10 picks calculated for his
 basketball production metric.
 
-<img src="images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg" />
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg)
 
 So, even after accounting for Galletti's slightly different method of
 calculating relative values, negating the cost factor incorporated into
@@ -180,7 +180,7 @@ __"posterior"__ estimates, we can simulate the perspective of a team that is
 bound to miss the playoffs and might reasonably tank in order to improve its
 lottery odds.
 
-<img src="images/nba-draft-pick-value-research-2/saurabh-rane-draft-lottery-position-value.jpeg" />
+![](images/nba-draft-pick-value-research-2/saurabh-rane-draft-lottery-position-value.jpeg)
 
 In comparing the two types of lines, Rane notes that tanking when one already
 has one of the bottom-three or bottom-four win-loss records is not beneficial,
@@ -287,7 +287,7 @@ value", then the intersection point manifests at the third-best team.
 This graph is shown in the figure below.]
 
 
-<img src="images/nba-draft-pick-value-research-2/arturo-gutierrez-correct-strategy-graph.png" />
+![](images/nba-draft-pick-value-research-2/arturo-gutierrez-correct-strategy-graph.png)
 
 I think that Gutierrez's perspective on this matter suffers somewhat 
 from its failure to consider [__mixed strategies__][20] and their 

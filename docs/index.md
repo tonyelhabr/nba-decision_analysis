@@ -1,7 +1,7 @@
 --- 
 title: "Decision Analysis and NBA Draft Pick Value"
 author: "Tony ElHabr"
-date: "2018-02-20"
+date: "2018-02-21"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

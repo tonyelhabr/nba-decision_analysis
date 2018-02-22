@@ -81,20 +81,22 @@ researchers and their writings in order of  publication date.
 ^[Consequently, answers to the questions that I have posed are not given 
 in an outlined fashion.] 
 
-### 1. [Justin Kubatko][1] 
+### 1. [Justin Kubatko](https://twitter.com/jkubatko) {-}
 
-<img src="images/nba-draft-pick-value-research/justin-kubatko-pic.jpg" />
+![](images/nba-draft-pick-value-research/justin-kubatko-pic.jpg)
 
-In a [2009 article published][2] at his website [Basketball 
-Reference][2] (which is like the mecca for all NBA stats nerds like 
-me)), Justin Kubatko concisely documents his use of __[win shares][3]__ 
+In a [2009 article published][2] at his website [Basketball Reference](http://www.basketball-reference.com/blog/?p=2740)
+(which is like the mecca for all NBA stats nerds like me)), 
+Justin Kubatko concisely documents his use of __[win shares](http://www.basketball-reference.com/about/ws.htm)__ 
 (WS) to measure __“expected value”__ (EV). In specific, he tracks 
 the WS accumulated throughout the __entire careers__ of players drafted 
 from 1977 to 1991 (because all players who had been drafted in that year 
 range had retired by the time of his analysis) and employs linear 
-regression with a logarithmic transformation (i.e. __[linear-log regression][4]__) to come up with a formula for EV---```EV = 76.9 - 18.8 * 
+regression with a logarithmic transformation (i.e. __[linear-log regression](http://www.kenbenoit.net/courses/ME104/logmodels2.pdf)__) 
+to come up with a formula for EV---```EV = 76.9 - 18.8 * 
 log(pick)```. Moreover, he records WS earned in only the first __four years__ of a player’s career (to account for the conventional length 
-of rookie contracts under the NBA’s __[collective bargaining agreement][5]__ (CBA)) for all players drafted from 1977 to 2005 
+of rookie contracts under the NBA’s __[collective bargaining agreement](https://en.wikipedia.org/wiki/NBA_collective_bargaining_agreement)__ (CBA))
+for all players drafted from 1977 to 2005 
 (meaning that all players drafted in the last year of that range had the 
 opportunity to play four years) to come up with another linear-log 
 formula for EV---```EV = 26.5 - 6.3 * log(pick)```. In summary, Kubatko 
@@ -107,13 +109,14 @@ In relation to the questions that I have posed, Kubatko's formulas and
 tables gives an answer that considers only basketball-production to my 
 first question of general NBA draft pick value. 
 
-### 2. [Aaron Barzilai][6]
+### 2. [Aaron Barzilai](https://twitter.com/basketballvalue) {-}
 
-<img src="images/nba-draft-pick-value-research/aaron-barzilai-pic.jpg" />
+![](images/nba-draft-pick-value-research/aaron-barzilai-pic.jpg)
 
-In a [somewhat formal research article][7] posted at [82games.com][8], Aaron
+In a [somewhat formal research article](http://www.82games.com/barzilai1.htm)
+posted at [82games.com](http://www.82games.com), Aaron
 Barzilai builds upon the work of Kubatko using data from 1980 to 2007. He
-analyzes production in terms of four different metrics--[PER-minutes][9], 
+analyzes production in terms of four different metrics--[PER-minutes](http://www.sportingcharts.com/dictionary/nba/per-minute-statistics.aspx), 
 player
 wins, WS, and estimated salary---and he looks at each metric over three
 different time periods---__career, __first four years__, and years with 
@@ -125,27 +128,28 @@ the dependent-variable (i.e. the basketball-production metric) are
 eliminated. After taking an __average of the seven data sets__ not 
 involving time spent with rookie team, he comes up with an explicit 
 formula for __“relative value”__ (which I will abbreviate as 
-RV)--RV: 0.947 \* exp(-0.05331 \* (pick --- 1)). Although Barzilai 
+RV)--RV: ```0.947 exp(-0.05331 ^ (pick - 1))```. Although Barzilai 
 doesn’t directly contextualize his results in terms of money, he finds 
 that the later picks are relatively undervalued when comparing a 
 normalized curve for estimated value with a normalized curve for rookie 
 salary obligations (dictated by the CBA).] 
 
-<img src="images/nba-draft-pick-value-research/aaron-barzilai-draft-pick-relative-value-graph-and-table.jpg" />
+![](images/nba-draft-pick-value-research/aaron-barzilai-draft-pick-relative-value-graph-and-table.jpg)
 
 Like Kubatko, Barzilai presents an answer to my first question of big-picture
 draft pick value in terms of basketball production. Furthermore, as can be
 inferred from the above graph, he also provides an answer to my second question
 regarding the __cost-effectiveness__ of picks.
 
-### 3. [Arturo Galletti][10]
+### 3. [Arturo Galletti](https://twitter.com/ArturoGallett) {-}
 
-<img src="images/nba-draft-pick-value-research/arturo-galletti-pic.png" />
+![](images/nba-draft-pick-value-research/arturo-galletti-pic.png)
 
-In [a 2013 post][11], Arturo Galletti, one of the main contributors at 
-[Wages of Wins][12], provides some interesting visuals in describing his 
+In [a 2013 post](http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/),
+Arturo Galletti, one of the main contributors at 
+[Wages of Wins](http://wagesofwins.com/), provides some interesting visuals in describing his 
 take on the subject. Without specifying exactly which years he drew data 
-from, he uses __[wins produced][13]__ (WP) to measure basketball value, 
+from, he uses __[wins produced](http://wagesofwins.com/wins-produced/)__ (WP) to measure basketball value, 
 translates WP to a monetary value using an estimate of $1.7 million per 
 win, and finds the net monetary value by taking the difference of the 
 monetary WP and the CBA’s rookie salary obligation for each draft 
@@ -161,7 +165,7 @@ __"Value of Wins [$ Million]”:__ ```-13.79 * ln(pick) + 52.785``` and
 __“Net Actual Value [$ Million]”:__ ```-8.991 * ln(pick) + 32.705```. 
 Galletti's regression graph is shown below. 
 
-<img  src="images/nba-draft-pick-value-research/arturo-galletti-draft-value-graph.png" />
+![](images/nba-draft-pick-value-research/arturo-galletti-draft-value-graph.png)
 
 In contextualizing Galletti's findings with respect to my questions, it is
 evident that he answers my first question in both fashions for which I sought an
@@ -169,12 +173,13 @@ answer---his __"Avg Wins Per Pick"__ and "Net Actual Value" data sets give
 answers for value in terms of pure basketball production and basketball
 production discounted by cost.
 
-### 4. [Nate Silver][14]
+### 4. [Nate Silver](https://twitter.com/NateSilver538) {-}
 
-<img src="images/nba-draft-pick-value-research/nate-silver-pic.jpg" />
+![](images/nba-draft-pick-value-research/nate-silver-pic.jpg)
 
-Next, Nate Silver took [a look at the issue][15] ahead of the 2014 draft at his
-website [FiveThirtyEight][16]. Using data from 1985 through 2014 and
+Next, Nate Silver took [a look at the issue](http://fivethirtyeight.com/features/how-much-is-winning-the-nba-draft-lottery-really-worth/)
+ahead of the 2014 draft at his
+website [FiveThirtyEight](http://fivethirtyeight.com/). Using data from 1985 through 2014 and
 extrapolating data for rookies from the 2012 to 2014), Silver makes formulation
 that is similar to that of Galletti. Like Galletti, he finds the
 __"Net Profit"__ (the analogue of Galletti's "Net Actual Value") of first-round draft
@@ -184,33 +189,36 @@ obligations. However, unlike Galletti, Silver uses __WS__ as his choice for
 evaluating basketball production, and he evaluates everything on a __five-year__
 basis. ^[Both of these are relatively minute differences.]
 
-<img src="/img/nba-draft-pick-value-research/nate-silver-net-profit-graph.png "/>
+![](images/nba-draft-pick-value-research/nate-silver-net-profit-graph.png )
 
 With his "Net Value Produced at Free-Agent Market Rate" and "Net Profit" data
 sets, Silver analysis provides answers to my first question in terms of pure
 basketball production and cost-discounted basketball production.
 
-### 5. [Saurabh Rane][17]
+### 5. [Saurabh Rane](https://twitter.com/SaurabhOnTap) {-}
 
-<img src="/img/nba-draft-pick-value-research/saurabh-rane-pic.jpeg "/>
+![](images/nba-draft-pick-value-research/saurabh-rane-pic.jpeg)
 
 More recently,  just ahead of the 2016 draft Saurabh Rane tackled the question
-of NBA draft pick value [in a guest post][18] in [Nylon Calculus][19]. Employing
+of NBA draft pick value [in a guest post](http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/)
+in [Nylon Calculus]( http://nyloncalculus.com/). Employing
 first-round data for the rookie classes from 1985 to 2012, he evaluates players
-with respect to their highest single-season __[value over replacement player][20]__ (VORP) over the course of their __careers__. His approach is
+with respect to their highest single-season 
+__[value over replacement player][(https://en.wikipedia.org/wiki/Value_over_replacement_player)__ (VORP) 
+over the course of their __careers__. His approach is
 arguably more granular than that of others, which makes it relatively distinct.
 He neglects money considerations entirely and classifies players into one of
 four quartiles ---All-NBA First-Teamer (top 2.5%), All-Star (top 10%), rotation
 player, or bust---while looking at seven ranges of picks---first, early lottery
 (picks 2 and 3), early-mid lottery (picks 4 to 6), mid-late lottery ( picks 7 to
-10), late lottery ( picks 11 to 14), mid-late first (picks 15 to 22), and
+10), late lottery (picks 11 to 14), mid-late first (picks 15 to 22), and
 late-first (picks 23 to 30). 
 ^[In classifying rookies into four tiers, his approach somewhat mirrors that of a 2015 
 <a href="http://fivethirtyeight.com/features/projecting-the-top-50-players-in-the-2015-nba-draft-class/">
 FiveThirtyEight piece</a> authored by Neil Pane and Zach Bradshaw in which they 
 forecast that year’s draft prospects using applied statistics.
 
-<img src="/img/nba-draft-pick-value-research/saurabh-rane-draft-pick-vorp-box-plot.jpeg "/>
+![](images/nba-draft-pick-value-research/saurabh-rane-draft-pick-vorp-box-plot.jpeg )
 However, although he doesn't provide explicit values in tabular form or 
 implicit ones in the form of an equation, Rane's charts, on of which can 
 be seen above, clearly answer my first question about the general 
@@ -226,16 +234,16 @@ __elite__ (i.e. All-First Teamer or All-Star) is not linearly related to
 their draft position; rather, top picks have a much greater chance at 
 becoming All-Stars or All-NBA First-Teamers. 
 
-### 6. [Michael Lopez][21] 
+### 6. [Michael Lopez](https://twitter.com/statsbylopez) {-}
 
-<img src="/img/nba-draft-pick-value-research/michael-lopez-pic.jpg "/>
+![](images/nba-draft-pick-value-research/michael-lopez-pic.jpg )
 
-[Writing even more recently][22] than Rane is Michael Lopez, an 
-Assistant Professor of Statistics at [Skidmore College][23]. He provides 
+[Writing even more recently](https://statsbylopez.com/2016/06/22/the-making-and-comparison-of-draft-curves/) than Rane is Michael Lopez, an 
+Assistant Professor of Statistics at [Skidmore College](http://www.skidmore.edu/). He provides 
 some input on the NBA in a broader analysis that compares the importance 
 of draft picks in the four major American team sports. For the NBA draft 
 specifically, he uses __career WS__ and a
-[__locally weighted scatter-plot smoothing__ (LOESS)][24] 
+[__locally weighted scatter-plot smoothing__](https://en.wikipedia.org/wiki/Local_regression) (LOESS)
 regression to model data from 1990 
 to 2005. Like Rane, he cannot provide a formula for the regression, as a 
 consequence of using LOESS.  Nevertheless, he finds that the relative 
@@ -248,7 +256,7 @@ drop-off is more dramatic in the NBA than in the other three major
 American team sports. In other words, he shows that the top NBA picks 
 are more valuable that the early picks in the drafts of other sports.] 
 
-<img src="/img/nba-draft-pick-value-research/michael-lopez-draft-pick-value-comparison.png"/>
+![](images/nba-draft-pick-value-research/michael-lopez-draft-pick-value-comparison.png)
 
 In summary, Lopez's research goes as far as Kubatko's and Rane's in its
 relevance to answering my questions---that is, it provides an answer to the
@@ -316,27 +324,3 @@ including one that I can leverage to either verify or deny Barzilai's
 implication that picks in the teens are more cost-effective than those 
 at the top and bottom of the first round.]
 
-[1]: https://twitter.com/jkubatko
-[2]: http://www.basketball-reference.com/blog/?p=2740
-[3]: http://www.basketball-reference.com/about/ws.html
-[4]: http://www.kenbenoit.net/courses/ME104/logmodels2.pdf
-[5]: https://en.wikipedia.org/wiki/NBA_collective_bargaining_agreement
-[6]: https://twitter.com/basketballvalue
-[7]: http://www.82games.com/barzilai1.htm
-[8]: http://www.82games.com
-[9]: http://www.sportingcharts.com/dictionary/nba/per-minute-statistics.aspx
-[10]: https://twitter.com/ArturoGallett
-[11]: http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/
-[12]: http://wagesofwins.com/
-[13]: http://wagesofwins.com/wins-produced/
-[14]: https://twitter.com/NateSilver538
-[15]: http://fivethirtyeight.com/features/how-much-is-winning-the-nba-draft-lottery-really-worth/
-[16]: http://fivethirtyeight.com/
-[17]: https://twitter.com/SaurabhOnTap
-[18]: http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/
-[19]: http://nyloncalculus.com/
-[20]: https://en.wikipedia.org/wiki/Value_over_replacement_player
-[21]: https://twitter.com/statsbylopez
-[22]: https://statsbylopez.com/2016/06/22/the-making-and-comparison-of-draft-curves/
-[23]: http://www.skidmore.edu/
-[24]: https://en.wikipedia.org/wiki/Local_regression
