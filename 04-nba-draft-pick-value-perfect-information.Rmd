@@ -53,7 +53,7 @@ decision-maker follows the delta principle if his buying and selling prices for
 any given lottery are equivalent. Anyways, no matter the manner one chooses to
 understand these ideas, the primary implication of the delta principle (in
 conjunction with CE and IP) is that a decision-maker's 
-<a href="http://www.prioritysystem.com/glossary2c.html#utility">__utility function__</a> 
+<a href="http://www.prioritysystem.com/glossary2c.html#utility">__utility function__</a>
 can be modeled as a __linear or exponential.__ Without going 
 into detail about utility function, suffice it to say that this result is extremely important 
 for simplifying calculations involving risk and decisions.

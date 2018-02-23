@@ -213,8 +213,8 @@ player, or bust---while looking at seven ranges of picks---first, early lottery
 10), late lottery (picks 11 to 14), mid-late first (picks 15 to 22), and
 late-first (picks 23 to 30). 
 ^[In classifying rookies into four tiers, his approach somewhat mirrors that of a 2015 
-<a href="http://fivethirtyeight.com/features/projecting-the-top-50-players-in-the-2015-nba-draft-class/">
-FiveThirtyEight piece</a> authored by Neil Pane and Zach Bradshaw in which they 
+[FiveThirtyEight piece](http://fivethirtyeight.com/features/projecting-the-top-50-players-in-the-2015-nba-draft-class/)
+authored by Neil Pane and Zach Bradshaw in which they 
 forecast that year’s draft prospects using applied statistics.
 
 ![](images/nba-draft-pick-value-research/saurabh-rane-draft-pick-vorp-box-plot.jpeg )

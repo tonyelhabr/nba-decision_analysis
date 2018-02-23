@@ -83,9 +83,9 @@ minimum or near minimum salary. However, this occurrence is not the most common
 by a definitively wide margin, and many other possibilities have been observed
 historically. For example, opportunities can vary from a contract with no
 guarantees after the first year.
-^[Danny Green</a> has turned out to be a respectable role player
+^[Danny Green</a>has turned out to be a respectable role player
 after <a href="http://stepienrules.com/2012-articles/former-cleveland-cavaliers-guard-danny-green.html">
-being waived</a> after his rookie year with the Cleveland Cavaliers. 
+being waived</a>after his rookie year with the Cleveland Cavaliers. 
 to a more optimistic agreement to a longer-term deal (which often comes with
 some down-side such as team options to release the player after a certain number of years).]
 
@@ -132,7 +132,7 @@ account for the value and cost of second-round picks.
 
 If you still aren't convinced that mid-round picks represent bargains, you
 should look at <a href="http://www.82games.com/barzilai1.htm">the analysis</a>
-done at <a href="http://www.82games.com">82games.com</a> by <a
+done at <a href="http://www.82games.com">82games.com</a>by <a
 href="https://twitter.com/basketballvalue">Aaron Barzilai</a>, which I
 summarized in a <a href="https://numbernonsense.updog.co/nba-draft-pick-value-research/">
 previous chapter</a>. Figure 8 in his research, which I reproduce below, captures the same idea that I present here in my Figure 3
@@ -331,7 +331,7 @@ numbers that reflect the same idea as Restifo's normalized values in
 Figure 8. 
 
 ![](images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg")
-<p id="fig_label"> Figure 10: Arturo Galletti's Top 10 Draft Pick Trade Value (__Neglecting__ Cost)</p> 
+<p id="fig_label">Figure 10: Arturo Galletti's Top 10 Draft Pick Trade Value (__Neglecting__ Cost)</p>
 
 The answer to the question of whose numbers are more accurate depend on 
 your preference for basketball-production evaluation. Galletti and I use 

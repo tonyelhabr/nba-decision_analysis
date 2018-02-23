@@ -2,21 +2,21 @@
 # Indifferent Probability and the NBA Draft
 
 The value of NBA draft picks relative to can be calculated using 
-the concept of __[indifferent probability](1)__ (IP), a term I 
-briefly referenced in [a previous chapter](2) highlighting the value 
+the concept of 
+__[indifferent probability](https://en.wikipedia.org/wiki/Principle_of_indifference)__ (IP), a term I 
+briefly referenced in a previous chapter highlighting the value 
 of information in the context of the NBA draft. I believe that 
-IPs can be used to extend my analysis in [another post](3) 
+IPs can be used to extend my analysis in another chapter
 covering how to estimate the value of NBA draft picks.
 
 Specifically, we might use them to learn about which picks are most 
 __cost-effective__ and what the trade value of picks is (in terms of other 
-picks). In other words, I can find an answer to the second question (__“At 
-which draft slots does the expected basketball production outperform the 
-contractual obligation the most?”__) that I posed in [my review of existing 
-research](4)
-on the topic of NBA draft pick value, as well as answer to the 
-first question (__"What is the relative trade value of 
-picks?"__) that I asked in its [follow-up article](5).
+picks). In other words, I can find an answer to the second question
+__“At which draft slots does the expected basketball production outperform the 
+contractual obligation the most?”__) that I posed in my review of existing 
+research on the topic of NBA draft pick value, as well as answer to the 
+first question (__"What is the relative trade value of picks?"__) 
+that I asked in its[follow-up chapter;
 
 However, just as I did in my post discussing the value of perfect information 
 and the NBA draft, let me first provide a quick overview IPs in a 
@@ -24,8 +24,9 @@ theoretical context.
 
 ## Indifferent Probability, in Theory
 
-For those of you who are not as familiar with __[utility 
-theory](6)__ or __[decision analysis](7)__, IPs are simply 
+For those of you who are not as familiar with
+__[utility theory](http://www.businessdictionary.com/definition/utility-theory.html)__ 
+or __[decision analysis](http://www.prioritysystem.com/glossary1a.html#decisionanalysis)__, IPs are simply 
 relative probabilities that define the degree of preference with 
 respect to (usually) two other outcomes---one more---desirable and 
 one less desirable. IPs are relatively straightforward to 
@@ -132,10 +133,13 @@ review some of our data regarding value, cost, and profit in order to better
 contextualize my upcoming look on market inefficiencies.
 
 If I may go back to using economics terminology for a moment, I 
-can formally prove the notion of __[diminishing return](8)__ that 
+can formally prove the notion of
+__[diminishing returns](https://en.wikipedia.org/wiki/Diminishing_returns)__ that 
 was implied by the profit curves that we saw before.
 
-We can calculate __[return on investment](9)__ (ROI), which is 
+We can calculate
+__[return on investment](http://www.investopedia.com/terms/r/returnoninvestment.asp)__ (ROI), 
+which is 
 just the quotient of the profit and the cost, to verify that 
 higher picks are the most __cost-effective__. Figure 4 depicts the 
 ROI found using the raw and regressed theoretical four-year 
@@ -144,7 +148,6 @@ chosen to use these data sets for the same reasons outlined in
 detail in the following argument regarding which WSV IPs to use.]
 
 ![](/img/nba-draft-indifferent-probability/figure-4-average-theoretical-four-year-wsv-to-cost-ratios-roi.jpg)
-
 <p id="fig_label">Figure 4: Average Theoretical Four-Year WSV to Cost Ratios (ROI)</p>
 
 The decaying behavior of ROI is not all too surprising, given our prior 
@@ -217,7 +220,7 @@ these points of interests are the positive values in Figures 6 and 7.
 <p id="fig_label">Figure 6: Average __Theoretical__ Four-Year First-Round WSV to Cost __IP Differentials__</p>
 
 ![](/img/nba-draft-indifferent-probability/figure-7-average-empirical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
-<p style="text-align: center;"> Figure 7: Average __Emperical__ Four-Year First-Round  WSV to Cost __IP Differentials__</p>
+<p style="fig_label">Figure 7: Average __Emperical__ Four-Year First-Round  WSV to Cost __IP Differentials__</p>
 
 I think the inconsistency between the two empirical WSV lines in 
 Figure 7 justifies my prior argument that they should be 
@@ -257,15 +260,3 @@ the trade values should encompass both first __and__ second round pick.
 Thus, I must attempt to model second-round picks and re-calculate IPs in 
 order to give a worthwhile answer to this question. However, I will leave 
 this task for another time.
-
-[1]: https://en.wikipedia.org/wiki/Principle_of_indifference
-[2]: https://numbernonsense.updog.co/value-perfect-information-nba-draft/
-[3]: https://numbernonsense.updog.co/estimate-value-nba-draft-pick/
-[4]: https://numbernonsense.updog.co/nba-draft-pick-value-research/
-[5]: https://numbernonsense.updog.co/questions-answers-nba-draft-pick-value/
-[6]: http://www.businessdictionary.com/definition/utility-theory.html
-[7]: http://www.prioritysystem.com/glossary1a.html#decisionanalysis
-[8]: https://en.wikipedia.org/wiki/Diminishing_returns
-[9]: http://www.investopedia.com/terms/r/returnoninvestment.asp
-[10]: http://www.businessdictionary.com/definition/market-inefficiency.html
-
