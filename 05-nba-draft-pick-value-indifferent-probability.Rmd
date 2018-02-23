@@ -75,8 +75,7 @@ With this higher-level discussion of IPs out of the way, let's take
 another look at our prior our estimates of the cost, value, and profit of 
 first-round NBA draft picks. For reference, in Figure 1 and 2 I 
 have reproduced the empirical and theoretical raw and regressed data 
-sets shown in figures in [my post](3)
-on general NBA draft pick value.
+sets shown in figures in my chapter on general NBA draft pick value.
 
 ![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
 
@@ -107,7 +106,7 @@ I have four data sets for first-round picks: (1) WS, (2) WSV, (3) cost, and
 (4) profit. Also, we can permute each data set over two options of two 
 variations: (1) empirical or theoretical data; (2) raw or regressed data. 
 Basically, it comes down to four times two squared. Put even less formally, 
-16 IP sets: 4 data sets * (2 variations) ^ (2 options)). ^[ As a 
+```16 IP sets: 4 data sets * (2 variations) ^ (2 options))```. ^[ As a 
 technical note, I have chosen to shown the IP values for WSVs instead of 
 those for __win shares__ (WS), cost, or profit because they will be used 
 in the upcoming analysis on market inefficiencies.]
@@ -162,7 +161,7 @@ So maybe the ROI concept seems like nothing new to you. You’re right, it
 really isn't---it's just a different way of contextualizing 
 what we have already seen. Nevertheless, I thought it was important to 
 introduce it in order to better understand how we can relate the term 
-__“[market inefficiency](9)"__ to our discussion.
+__“market inefficiency"__ to our discussion.
 
 In particular, I am using the term to distinguish a pick from which the 
 profit exceeds the cost correlated with that pick, __relative__ to the rest 
@@ -250,7 +249,7 @@ conclusion that I drew in the preceding section, I have found an
 answer to the (re-stated) second big question that I asked 
 about NBA draft pick value (__“At which draft slots does the 
 expected basketball production outperform the contractual 
-obligation the most?”__) in [a previous chapter](4).
+obligation the most?”__) in a previous chapter.
 
 As for my third question about pick 
 trade value, I could use my existing IP sets to tackle this topic, but I 

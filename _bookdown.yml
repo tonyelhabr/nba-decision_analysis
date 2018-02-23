@@ -2,6 +2,6 @@ book_filename: "nba-decision_analysis"
 chapter_name: ""
 repo: https://github.com/tonyelhabr/nba-decision_analysis.git
 output_dir: docs
-rmd_files: ["index.Rmd", "01-nba-draft-pick-value-research.Rmd", "02-nba-draft-pick-value-research-2.Rmd"]
+# rmd_files: ["index.Rmd", "01-nba-draft-pick-value-research.Rmd", "02-nba-draft-pick-value-research-2.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes

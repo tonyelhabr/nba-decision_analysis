@@ -1,9 +1,9 @@
 
 # Indifferent Probability and NBA Draft Pick Value, Cont.
 
-In this chapter I will continue where I left off in [my prior discussion](1) of the
+In this chapter I will continue where I left off in my prior discussion of the
 concept of
-[__indifferent probability__](https://en.wikipedia.org/wiki/Principle_of_indifferent) (IP) 
+__[indifferent probability](https://en.wikipedia.org/wiki/Principle_of_indifferent)__ (IP) 
 and its application to the NBA
 draft. You may recall that we have only evaluated first-round draft slots up to
 this point because the contracts of second-round picks is non-deterministic, as
@@ -16,8 +16,9 @@ considering only first round picks, the picks in the middle of the round are
 most __cost-effective__.
 
 Now, if I attempt to model second-round picks and re-calculate IPs, I can
-provide a more realistic answer to the "third" question (__"What is the
-relative trade value of picks?"__) that I asked in a previous chapter. Furthermore, with
+provide a more realistic answer to the "third" question
+(__"What is the relative trade value of picks?"__)
+that I asked in a previous chapter. Furthermore, with
 these updated IP values I can re-evaluate my conclusion about the
 cost-effectiveness of mid-first-round picks. I attempt to do both of these tasks
 in this chapter.
@@ -131,14 +132,16 @@ picks were bargain was not completely accurate. Thus, I felt obliged to try to
 account for the value and cost of second-round picks.
 
 If you still aren't convinced that mid-round picks represent bargains, you
-should look at <a href="http://www.82games.com/barzilai1.htm">the analysis</a>
-done at <a href="http://www.82games.com">82games.com</a>by <a
-href="https://twitter.com/basketballvalue">Aaron Barzilai</a>, which I
-summarized in a <a href="https://numbernonsense.updog.co/nba-draft-pick-value-research/">
-previous chapter</a>. Figure 8 in his research, which I reproduce below, captures the same idea that I present here in my Figure 3
+should look at the [analysis](http://www.82games.com/barzilai1.htm)
+done at [82games.com](http://www.82games.com) by
+[Aaron Barzilai](https://twitter.com/basketballvalue), which I
+summarized in a previous chapter. Figure 8 in his research, which I reproduce below, 
+captures the same idea that I present here in my Figure 3
 (but no so much my Figure 1, which only graphs first-round data). Interestingly, Barzilai
-found that the last pick in the first round is worth about __20% of the first pick__, while I calculated that it was around __16%__.
-It is very reassuring to see that my number closely matches his, despite the relatively large assumptions I have made about the cost of second-round picks.
+found that the last pick in the first round is worth about __20% of the first pick__, 
+while I calculated that it was around __16%__.
+It is very reassuring to see that my number closely matches his, 
+despite the relatively large assumptions I have made about the cost of second-round picks.
 
 ![](images/nba-draft-pick-value-indifferent-probability-2/aaron-barzilai-draft-pick-estimated-player-value-and-salary-graph.jpg)
 
@@ -277,10 +280,10 @@ set that I have to portray this concept.]
 ![](images/nba-draft-pick-value-indifferent-probability-2/figure-7-top-10-draft-pick-trade-value.jpg)
 <p id="fig_label">Figure 7: Top 10 Draft Pick Trade Value</p>
 
-I must say that my Figure 7 is inspired by a chart shown in <a
-href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/">
-an article</a> by <a href="http://wagesofwins.com/">Wages of Wins
-</a>' writer <a href="https://twitter.com/ArturoGalletti">Arturo Galletti</a> 
+I must say that my Figure 7 is inspired by a chart shown in
+an [article](http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/)
+by [Wages of Wins](http://wagesofwins.com/)
+writer [Arturo Galletti](https://twitter.com/ArturoGalletti)
 meant to portray the same idea. I reproduce a cropped version of his figure below.
 
 ![](images/nba-draft-pick-value-indifferent-probability-2/arturo-galletti-relative-draft-pick-trade-value-top-10-only.jpg)
@@ -288,9 +291,8 @@ meant to portray the same idea. I reproduce a cropped version of his figure belo
 
 If you compare our numbers for the top 10 picks, you can see that we come
 up with similar estimates. In actuality, we would come up with exactly the same
-numbers if we had used precisely the same method. As I noted in a <a
-href="https://numbernonsense.updog.co/questions-answers-nba-draft-pick-value/">
-previous chapter</a>, Galletti simply calculates the quotient of the values
+numbers if we had used precisely the same method. As I noted in a 
+previous chapter, Galletti simply calculates the quotient of the values
 for any given two picks to come up with their relative trade value. However,
 in my method, I first scale all the monetary values to a 0-to-1 unit-less
 basis before taking the quotient of any given two numbers. As I note there, I
@@ -300,11 +302,10 @@ have any meaning on a relative scale of magnitude.
 
 The fact that Galletti and I are on the same page is not too surprising
 considering that we have very similar methodologies. However, our results are
-fairly different from the unit-less values that can be derived from the <a
-href="https://fansided.com/2016/06/16/nba-draft-trade-value-chart/">peak __value
-over replacement player__ (VORP) numbers</a> of
-<a href="http://nyloncalculus.com/">Nylon Calculus</a>'
-<a href="https://twitter.com/nickrestifo">Nick Restifo</a>.
+fairly different from the unit-less values that can be derived from the
+[peak __VORP__ numbers](https://fansided.com/2016/06/16/nba-draft-trade-value-chart/) of
+[Nylon Calculus](http://nyloncalculus.com/)'S
+[Nick Restifo](https://twitter.com/nickrestifo).
 (In case you missed it, I mentioned both Galletti's and Restifo's
 results on this topic in a previous chapter.
 
@@ -330,15 +331,17 @@ differ noticeably. Figure 9 shows Galletti's basketball-production-only
 numbers that reflect the same idea as Restifo's normalized values in 
 Figure 8. 
 
-![](images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg")
+![](images/nba-draft-pick-value-indifferent-probability-2/figure-arturo-galleti-top-10-draft-pick-trade-value-avg-wins-ip.jpg)
 <p id="fig_label">Figure 10: Arturo Galletti's Top 10 Draft Pick Trade Value (__Neglecting__ Cost)</p>
 
 The answer to the question of whose numbers are more accurate depend on 
 your preference for basketball-production evaluation. Galletti and I use 
-average empirical four-year [__wins produced__](http://wagesofwins.com/wins-produced/) (WP) 
-and [__win shares__](http://www.basketball-reference.com/about/ws.html") (WS) 
+average empirical four-year __[wins produced](http://wagesofwins.com/wins-produced/)__ (WP) 
+and __[win shares](http://www.basketball-reference.com/about/ws.html")__ (WS) 
 respectively for our on-court value measurements, 
 while Restifo employs best two-year VORP. 
+
+## Final Thoughts
 
 So, how much should teams be willing to trade for draft picks (in terms 
 of other draft picks)? Unfortunately, my best answer is "it depends". 
@@ -356,7 +359,3 @@ draft, as well as all of their second-round picks in the next two
 years, in return for DeMarcus Cousins?" Of course, even if I were to try 
 to answer a question like this, whatever conclusion I come up with would 
 be difficult to generalize. 
-
-Nevertheless, I plan to look at a case study of a
-draft-day trade in an attempt to make my draft pick value estimates more
-tangible.

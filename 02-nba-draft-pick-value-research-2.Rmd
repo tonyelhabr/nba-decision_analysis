@@ -2,7 +2,7 @@
 # What Research Says about NBA Draft Pick Value, Part 2
 
 Having asked and answered the biggest question(s) about the value of NBA draft
-picks in [my last chapter](1), there are a couple more questions that I sought to
+picks in my last chapter, there are a couple more questions that I sought to
 have answered (and will attempt to answer myself in my upcoming step-by-step
 guide to estimating NBA draft pick value.) If you haven't read that post, you
 should definitely check it out because I will reference some of the research
@@ -76,8 +76,7 @@ answers provided by existing research.
 
 My third question is answered directly in
 [one of the articles](http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/)
-I have
-already reviewed. [Arturo Galletti](https://twitter.com/ArturoGalletti) translates his regressed "Net Actual
+I have already reviewed. [Arturo Galletti](https://twitter.com/ArturoGalletti) translates his regressed "Net Actual
 Value" values (which he calls "Modeled Values") to relative ones for the purpose
 of constructing a pick trade value chart. This chart is shown below.
 
@@ -87,7 +86,7 @@ After inspecting Galletti's regression formula and his numbers for "Modeled
 Value", I found that he simply calculates the quotient of the values for any
 given two picks to come up with their relative trade value. However, I think it
 is better to use an alternative method that leverages the concept of
-[__indifference probability__](https://en.wikipedia.org/wiki/Principle_of_indifference) (IP)
+__[indifference probability](https://en.wikipedia.org/wiki/Principle_of_indifference)__(IP)
  to calculate relative trade values (as I
 do in another write-up) where I first scale all the monetary values to a
 0-to-1 unit-less basis before taking the quotient of any two values. I believe
@@ -218,9 +217,9 @@ conclusions of others who have evaluated draft slots in terms of pure
 basketball production also implies the same principle, but Rane's 
 illustrations and rhetoric make this notion definitive.]
 
- Rane's conclusions are backed up by a
- [_Journal of Sports Economics_ study](http://jse.sagepub.com/content/early/2016/03/30/1527002516641169.abstract) 
- published earlier this year. (This study is concisely 
+Rane's conclusions are backed up by a
+[_Journal of Sports Economics_ study](http://jse.sagepub.com/content/early/2016/03/30/1527002516641169.abstract) 
+published earlier this year. (This study is concisely 
 summarized by renown American writer
 [Jonah Lehrer](https://twitter.com/jonahlehrer) on
 [his blog](http://www.jonahlehrer.com/blog/2016/4/25/is-tanking-an-effective-strategy-in-the-nba).) 

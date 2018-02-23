@@ -2,7 +2,7 @@
 # The Value of Perfect Information and the NBA Draft
 
 In this chapter I will take a look at the
-[__value of perfect information__](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information)
+__[value of perfect information](https://en.wikipedia.org/wiki/Expected_value_of_perfect_information)__
 (VOPI) in the context of the NBA draft, using some of the data that I derived in
 my previous chapter in which I estimated the value of NBA draft picks. I begin
 with an isolated overview of some relevant decision analysis terms before
@@ -21,9 +21,9 @@ considered, VOPI might be restated as value of information (VOI).
 Anyways, all of these terms and abbreviations refer to the same concept. 
 A related principle (that must be defined for the purpose of this 
 conversation) in the field of
-[__decision analysis__](http://www.prioritysystem.com/glossary1a.html#decisionanalysis) (DA) are 
-[__certain equivalent__](http://www.prioritysystem.com/glossary1aa.html#ce) (CE) and the 
-[__delta principle__](http://www.prioritysystem.com/glossary1aa.html#d).] 
+__[decision analysis](http://www.prioritysystem.com/glossary1a.html#decisionanalysis)__ (DA) are 
+__[certain equivalent](http://www.prioritysystem.com/glossary1aa.html#ce)__ (CE) and the 
+__[delta principle](http://www.prioritysystem.com/glossary1aa.html#d)__.] 
 
 The CE of an option is the quantity (typically stated as a monetary value) that
 a decision-maker can be guaranteed and feel __indifferent__ between receiving
@@ -33,7 +33,7 @@ quantity that would make the decision-maker indifferent to receiving the
 middling option (i.e the option with a level of preference between that of the
 other two options) for certain or entering a dual-outcome game of chance in
 which there is some well-defined probability between 0 and 1---known as
-[__indifference probability__](https://en.wikipedia.org/wiki/Principle_of_indifference)
+__[indifference probability](https://en.wikipedia.org/wiki/Principle_of_indifference)__
 (IP)--of receiving the more preferable option
 and its payoff, and the remaining probability of the less preferable option and
 the quantity associated with it. 
@@ -53,7 +53,7 @@ decision-maker follows the delta principle if his buying and selling prices for
 any given lottery are equivalent. Anyways, no matter the manner one chooses to
 understand these ideas, the primary implication of the delta principle (in
 conjunction with CE and IP) is that a decision-maker's 
-<a href="http://www.prioritysystem.com/glossary2c.html#utility">__utility function__</a>
+__[utility function](http://www.prioritysystem.com/glossary2c.html#utility)__
 can be modeled as a __linear or exponential.__ Without going 
 into detail about utility function, suffice it to say that this result is extremely important 
 for simplifying calculations involving risk and decisions.
@@ -134,8 +134,7 @@ interpret the negative VOC from a more abstract, non-NBA perspective.
 
 ## Criteria for Value-Adding Information
 
-There are four criteria necessary for information to add
-value.
+There are four criteria necessary for information to add value.
 
 * It must be observable and comprehensible.
 * It must be related to prior beliefs in a probabilistic
@@ -238,20 +237,20 @@ players are the teams and the payoffs are the profits of each draft pick. What
 kind of strategy should each team employ?
 
 In this context, one can interpret a draft with no
-perfect information (i.e. a traditional draft) as a [__sequential__],
-__extensive-form__(https://en.wikipedia.org/wiki/Extensive-form_game)
-game with uncertainty at each move. Put another way, it can be modeled as 
-__decision tree__(http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) with a
-__decision node__(http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) 
+perfect information (i.e. a traditional draft) as a __sequential__,
+__[extensive-form game](https://en.wikipedia.org/wiki/Extensive-form_game)__
+with uncertainty at each move. Put another way, it can be modeled as 
+__[decision tree](http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html)__ with a
+__[decision node](http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html)__
 for each draft slot (and its corresponding team) and an accompanying 
-__chance node__(href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) 
+__[chance node](href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html) __
 (or __uncertainty node__) with a 
 probability specifying the team's’ prior beliefs about the talent 
 level of each prospect available at that slot. In this case, an
-__expectimax__(href="https://en.wikipedia.org/wiki/Expectiminimax_tree) 
+__[expectimax](href="https://en.wikipedia.org/wiki/Expectiminimax_tree)__ 
 strategy would be ideal. On the other hand, if every team were 
 given perfect information about draft prospects, then the chance nodes 
-would be eliminated, and a __minimax(https://en.wikipedia.org/wiki/Minimax)__ strategy 
+would be eliminated, and a __[minimax](https://en.wikipedia.org/wiki/Minimax)__ strategy 
 would be more optimal. ((In the context, of decision theory, 
 "expectimax" is just another way of applying the more traditional term 
 "minimax" in a situation where there is uncertainty. The term 

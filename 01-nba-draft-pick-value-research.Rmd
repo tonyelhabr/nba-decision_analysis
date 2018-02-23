@@ -83,7 +83,7 @@ in an outlined fashion.]
 
 ![](images/nba-draft-pick-value-research/justin-kubatko-pic.jpg)
 
-In a [2009 article published](2) at his website [Basketball Reference](http://www.basketball-reference.com/blog/?p=2740)
+In a [2009 article published at his website Basketball Reference](http://www.basketball-reference.com/blog/?p=2740)
 (which is like the mecca for all NBA stats nerds like me)), 
 Justin Kubatko concisely documents his use of __[win shares](http://www.basketball-reference.com/about/ws.htm)__ 
 (WS) to measure __“expected value”__ (EV). In specific, he tracks 

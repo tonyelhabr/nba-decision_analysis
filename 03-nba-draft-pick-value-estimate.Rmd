@@ -38,14 +38,14 @@ value NBA draft picks turned out to be an easy choice of topic to
 analyze.
 
 So why should you even read this if others 
-have already written about in depth? First of all, I make references to <a 
-href="https://en.wikipedia.org/wiki/Economics#Theory">__economic 
-theory__</a>and disciplines related to __decision 
-analysis__ when explaining terms. Secondly, and more importantly, I try to be 
+have already written about in depth? First of all, I make references to
+__[economic theory](https://en.wikipedia.org/wiki/Economics#Theory)__ 
+and disciplines related to __decision analysis__ when explaining terms.
+Secondly, and more importantly, I try to be 
 as explicit as possible so that anyone can follow my methodology and adapt it 
 to their liking if they want to investigate the matter themselves. I should 
 note that, because it would have been foolish to have completely ignored all 
-of the wonderful other research</a>out there, some of my design choices may seem very 
+of the wonderful other research out there, some of my design choices may seem very 
 similar to that of others. However, I assure you that I do my best to make my 
 methodology unique where I think it is reasonable to differentiate from the 
 example set by others. Also, as you can probably tell from my last two posts, 
@@ -59,9 +59,8 @@ To begin, I need to choose which and how many
 drafts from which to draw data. I will settle on using data from the 18 
 drafts between 1995 and 2012. I reasoned that this data set defines a 
 historical sample size that is significant enough for me to draw reasonable 
-conclusions. ^[All 
-draft data was extracted from <a 
-href="http://www.basketball-reference.com/">Basketball Reference</a>]Although I certainly could have used 
+conclusions. ^[All draft data was extracted from [Basketball Reference](http://www.basketball-reference.com).]
+Although I certainly could have used 
 more data to improve the empirical accuracy of my calculations, I did not 
 want to spend a large amount of time in doing so because I believe there is 
 significantly more to be gained in learning how analysis techniques might be 
@@ -82,17 +81,16 @@ given to those drafted in the first round.
 
 ## The Rookie Wage Scale
 
-A brief overview of how the <a 
-href="http://nbpa.com/cba/">Collective Bargaining Agreement</a>(CBA) 
+A brief overview of how the [Collective Bargaining Agreement](http://nbpa.com/cba/) CBA) 
 structures the rookie contracts of first-round picks should be made. 
 According to the CBA, NBA teams have full rights to their first-round pick 
 for five years. ^[An 
-overview of the 2011 CBA provided by salary cap guru <a 
-href="https://twitter.com/LarryCoon">Larry Coon</a>can be found <a 
-href="http://www.cbafaq.com/salarycap.htm">here</a>]  The CBA specifies the salary number that teams pay 
+overview of the 2011 CBA provided by salary cap guru [Larry Coon](https://twitter.com/LarryCoon)
+can be found [here](http://www.cbafaq.com/salarycap.htm).]
+The CBA specifies the salary number that teams pay 
 a player drafted at a given slot in the first round. For 
-example, the rookie scale for the 2012 draft class can be seen <a 
-href="http://basketball.realgm.com/nba/info/rookie_scale/2012">here</a>. 
+example, the rookie scale for the 2012 draft class can be seen 
+[here](http://basketball.realgm.com/nba/info/rookie_scale/2012). 
  Although teams can sign their 
 players to any number within an 80% to 120% range of the slot’s specific 
 compensation obligations, the two sides almost always agree to the 
@@ -126,26 +124,20 @@ they will have only had one season to evaluate the prospect at the time that
 they must make this decision. Presumptively, a first-draft pick demonstrates 
 a sufficient amount of potential to persuade their team from deciding after 
 only one year that they no longer want to keep the player on their roster. 
-^[<a 
-href="https://en.wikipedia.org/wiki/Joe_Alexander_(basketball)">Joe Alexander</a>
- sounds more like an accountant’s name than a high-flying potential 
+^[[Joe Alexander](https://en.wikipedia.org/wiki/Joe_Alexander_(basketball))
+sounds more like an accountant’s name than a high-flying potential 
 lottery pick, am I right?] For similar reasons, it is uncommon for 
 teams to neglect to pick up the player’s fourth-year option, although this 
 scenario has a slightly greater chance of occurring because teams will have 
 had two seasons to evaluate their prospects at the time of the decision.^[In 
-retrospect, picking <a 
-href="https://en.wikipedia.org/wiki/Jonny_Flynn"><span style="font-weight: 
-400;">Jonny Flynn</a>over Stephen 
+retrospect, picking [Jonny Flynn](https://en.wikipedia.org/wiki/Jonny_Flynn) over Stephen 
 Curry may not have been the most astute of decisions.] More rarely, 
 there have been some first-round picks that take the fifth year qualifying 
 option in order to become an unrestricted free agent in the following 
 offseason and have the ability to sign with any team that they choose, 
 perhaps because they have not enjoyed their time with their original team. 
-^[Unfortunately for him, <a 
-href="https://en.wikipedia.org/wiki/Greg_Monroe"><span style="font-weight: 
-400;">Greg Monroe</a>’s decision to 
-sign with the Milwaukee Bucks doesn’t look like it has turned out so 
-great.]
+^[Unfortunately for him, [Greg Monroe](https://en.wikipedia.org/wiki/Greg_Monroe)’s 
+decision to sign with the Milwaukee Bucks doesn’t look like it has turned out so great.]
 
 As a technical note, I should let you know 
 that there were only 29 NBA teams from 1995 to 2006 before a 30th franchise 
@@ -167,7 +159,7 @@ first-round rookie contracts) in
 picks. This means that his results might be a bit more accurate than mine. 
 (But hey, I’m not quite the number-crunching machine that Silver is, so don’t 
 hold me to his standard!) [Arturo Galletti](https://twitter.com/ArturoGallett) doesn’t provide much detail 
-about how he deals with this topic in [his research](2) but I think it’s safe 
+about how he deals with this topic in his research but I think it’s safe 
 to assume that he does something similar to what I have done here. Anyways, 
 you can read more about the methodologies and results of Silver, Galletti, 
 and others in another chapter I made on existing research concerning this 
@@ -181,18 +173,16 @@ can be seen in Figure 1.
 ![](images/nba-draft-pick-value-estimate/figure-1-four-year-cost-for-2012-first-round-draft-picks.jpg)
 <p id="fig_label">Figure 1: Four-Year Cost of 2012 First-Round Draft Picks</p>
 
-In the context of <a 
-href="https://en.wikipedia.org/wiki/Economics#Theory">__economic 
-theory__</a>, we can think of these salaries as the costs for 
+In the context of __[economic theory](https://en.wikipedia.org/wiki/Economics#Theory)__, 
+we can think of these salaries as the costs for 
 draft picks, which can be interpreted as
 __[assets](http://www.investopedia.com/terms/a/asset.asp)__. Moreover, in a
-[__game theory__](http://www.gametheory.net/dictionary/Game_theory_history.html)
+__[game theory](http://www.gametheory.net/dictionary/Game_theory_history.html)__
 context, this cost is like a [__discount factor__](https://www.youtube.com/watch?v=-Lhafc-feQc) applied to a 
-__[payoff](7)__ in a 30-player, 
-__<a 
-href="http://www.gametheory.net/dictionary/IteratedGame.html">iterated</a>
-non-<a href="http://www.gametheory.net/dictionary/ZeroSum.html">zero sum 
-game</a>__. The game is the draft, where the players are the 
+__[payoff](http://www.gametheory.net/dictionary/Payoff.html)__ in a 30-player, 
+__[iterated](http://www.gametheory.net/dictionary/IteratedGame.html)__
+__[non-zero sum game](http://www.gametheory.net/dictionary/ZeroSum.html)__.
+The game is the draft, where the players are the 
 teams, and the payoffs are the value earned from draft picks. (I will discuss 
 this notion of “value” in detail in the next section.) In this case, I am 
 applying a discount factor unique to each to draft slot instead of scaling 
@@ -215,7 +205,7 @@ With the question about how to quantify a
 player’s cost out of the way, now there is the question of how to measure a 
 player’s value in terms of __basketball production__. From an 
 economics perspective, this basketball value can be interpreted as the 
-__[returns](8)__ of an asset. 
+__[returns](http://www.investopedia.com/terms/r/return.asp?o=40186&l=dir&qsrc=999&qo=investopediaSiteSearch)__ of an asset. 
 However, because the term “value” is more intuitive in this context, I will 
 use it instead of “returns” (although I may still use “returns” every so 
 often).
@@ -229,13 +219,13 @@ This is way too naive.) Perhaps some combination of these kinds of stats?
 be better.) My answer is along that train of thought.
 
 My choice is to use an “all-in-one” metric 
-called __[win shares](9)__ (WS), 
+called __[win shares](http://www.basketball-reference.com/about/ws.html)__ (WS), 
 which  attempts to determine what its name implies---the value of an 
 individual player in terms of team wins. WS has been used for years among 
 analytical circles to measure the value of players, along with other 
-all-in-one metrics such as __[player efficiency rating](10)__ (PER) and 
-__[value over replacement 
-player](11)__ (VORP). As proof of validity, 
+all-in-one metrics such as __[player efficiency rating](https://en.wikipedia.org/wiki/Player_efficiency_rating)__ (PER) and 
+__[value over replacement player](https://en.wikipedia.org/wiki/Value_over_replacement_player)__ (VORP). 
+As proof of validity, 
 several of the researchers that I discussed in a 
 prior chapter use WS in their draft pick value models.
 
@@ -247,18 +237,16 @@ which lends itself to my analysis. On the other hand, most other advanced
 statistics are calculated per minute or per possession rate like most other 
 advanced statistics. Instead, it. (I should note that there are methods for 
 converting PER to a seasonal rate, but PER is typically not used in such a 
-manner.) Also, WS can be easily found on many websites such as [Basketball 
-Reference](12), and using it prevents me from having to calculate 
+manner.) Also, WS can be easily found on many websites such as 
+[Basketball Reference](http://www.basketball-reference.com/), and using it prevents me from having to calculate 
 my own metric. represented by WS with the cost represented by the player’s 
-contract. In fact, <a 
-href="http://www.basketball-reference.com/">Basketball Reference</a>’s 
+contract. In fact, [Basketball Reference](http://www.basketball-reference.com/)’s 
 querying tool makes it relatively simple for me to find the four-year WS sums 
 of players drafted in a given year. ^[If 
 you’re wondering why I use four-year sums instead of the WS for individual 
 seasons, it is because it requires much more work to do so. Using 
-<a 
-href="http://www.basketball-reference.com/">Basketball Reference</a>
-as a resource,  I would have to extract 
+[Basketball Reference](http://www.basketball-reference.com/)
+as a resource, I would have to extract 
 annual WS values for each player from each of their individual career stats 
 pages. I’m not sure if there is a better or easier way of doing this other 
 than writing a script to scrape all the data. In retrospect, I certainly 
@@ -293,11 +281,12 @@ cause me to come to significantly different conclusions.)
 Although I said I wasn’t going to go into 
 detail about why WS might be the best all-in-one metric, I feel obliged to 
 mention the biggest disadvantages of its most legitimate alternatives---PER 
-and VORP. (I’m sorry to those fans of __[plus-minus](13)__, but there are 
-just so many version of 
-Plus-Minus---including as [box 
-plus-minus](14) (BPM), [adjusted plus-minus](14) (APM), and [regularized 
-adjusted plus-minus](15) 
+and VORP. (I’m sorry to those fans of
+__[plus-minus](http://nyloncalculus.com/2014/09/25/glossary-plus-minus-adjusted-plus-minus/)__, but there are 
+just so many version of Plus-Minus---including as
+[box plus-minus](http://www.basketball-reference.com/about/bpm.html) (BPM), 
+[adjusted plus-minus](http://www.basketball-reference.com/about/bpm.html) (APM), and 
+[regularized adjusted plus-minus](http://www.nbastuffer.com/component/option,com_glossary/Itemid,0/catid,42/func,view/term,Regularized%20Adjusted%20Plus%20Minus%20(RAPM)/) 
 (RAPM)--that I don’t even consider it here.) PER can be skewed 
 significantly by small minute sample sizes, and it arguably does not capture 
 the value defensive play very well. Although VORP is arguably the most 
@@ -312,12 +301,11 @@ this bias causes the results to be regularized because the potentially
 grandiose and miniscule effects of higher and lower picks respectively may be 
 offset by the talent of their teams.]
 
-In relation to <a 
-href="http://www.businessdictionary.com/definition/utility-theory.html">_<st
-rong>utility theory__</a>, one could argue that the metric used 
+In relation to __[utility theory](http://www.businessdictionary.com/definition/utility-theory.html)__,
+one could argue that the metric used 
 to represent basketball value---in this case, WS---represents a player’s 
-[utility](16). (In relation to game theory, which incorporates 
-the principles of utility theory, WS would represent a [payoff](7), 
+[utility](http://www.gametheory.net/dictionary/Utility.html). (In relation to game theory, which incorporates 
+the principles of utility theory, WS would represent a payoff, 
 as mentioned before.) From a purely basketball perspective, this make sense. 
 However, the reality is that the NBA is a business and players are not only 
 valued by the quality of their play, but also the desirability of their 
@@ -328,15 +316,13 @@ contract. Thus, I do not think that we can simply judge a player’s utility by
 their WS (or some other all-in-one metric). Instead, we must discount the 
 value. 
 
-
 So how do I translate WS to a currency? My 
 answer here is not as straightforward as my choice of WS is, but it isn’t too 
 difficult either. I can simply (1) sum up team payroll data ^[credit to 
 Patricia Bender for 
-collecting the data at <a href="https://www.eskimo.com/~pbender/">her 
-website</a>] for a given year ^[for 
-example, the team payrolls for 2012 can be seen <a 
-href="https://www.eskimo.com/~pbender/misc/salaries13.txt">here</a>] and (2) 
+collecting the data at [her website](https://www.eskimo.com/~pbender/)]
+for a given year ^[for 
+example, the team payrolls for 2012 can be seen [here](https://www.eskimo.com/~pbender/misc/salaries13.txt and (2) 
 divide this 
 number by the number of games played in the regular season ^[1230 for a 
 typical 82-game season 
@@ -353,7 +339,7 @@ noticeably.] I did this for each of the 21 seasons from 1995 to 2015.
 translating WP to a monetary value, and Silver uses the figure $1.75 million 
 for his calculations.] The results are shown in Figure 2.
 
-![](images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-19 95-2012.jpg)
+![](images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-1995-2012.jpg)
 <p id="fig_label">Figure 2: Single-Season WSVs for 1995 --- 2015</p>
 
 Next, I simply averaged the three seasons’ 
@@ -362,7 +348,7 @@ interested (i.e. 1995 to 2012). As a result, I came up with a average
 four-year WSV for each season from 1995 to 2012, which can be seen in Figure 
 3.
 
-![](images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for -1995-2012.jpg)
+![](images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for-1995-2012.jpg)
 <p id="fig_label">Figure 3: Average Four-Year WSVs for 1995 --- 2015</p>
 
 ## Profit: Value - Cost
@@ -379,7 +365,6 @@ projected cost numbers outlined by the rookie wage scale and its general
 application, as discussed before.] Similarly, I say __“raw”__ to distinguish 
 between averaged results 
 that are calculated using __“regressed”__ values.
-
 
 After coming up with a number for the returns 
 (i.e. the basketball production in terms of WS) of the asset (i.e. the draft 
@@ -408,7 +393,7 @@ data in the form of a chart. Having mentioned them before, I should note
 that Silver and Galletti come up with 
 similar graphs. Also, Galletti has a chart similar to my Figure 5.
 
-![](images/nba-draft-pick-value-estimate/figure-5-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks)
+![](images/nba-draft-pick-value-estimate/figure-5-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
 <p id="fig_label">Figure 5: Average Raw Empirical Four-Year Profit of 1995 --- 2012 First-Round Draft Picks</p>
 
 ![](images/nba-draft-pick-value-estimate/figure-6-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg)
@@ -416,25 +401,18 @@ similar graphs. Also, Galletti has a chart similar to my Figure 5.
 
 Before drawing any conclusions, I must admit 
 that the results of the calculations made so far appear a bit noisy. This is 
-due to the relatively small sample size. That’s no problem! <a 
-href="https://en.wikipedia.org/wiki/Regression_analysis">__Regression
-__</a>is a real savior in situations like this. Figure 7 shows 
-the results of a __<a 
-href="http://www.kenbenoit.net/courses/ME104/logmodels2.pdf">linear-log 
-regression</a>__ run on the average raw data. ^[Here, the “Rd-1” descriptor 
-is to 
+due to the relatively small sample size. That’s no problem! __Regression__ is 
+a real savior in situations like this. Figure 7 shows the results of a 
+__[linear-log regression](http://www.kenbenoit.net/courses/ME104/logmodels2.pdf)__ 
+run on the average raw data. ^[Here, the “Rd-1” descriptor is to 
 added note that the regression is run only on first-round data.(As I hinted 
 to before, I hope to analyze second-round data by making specific assumptions 
 when modeling second-round rookie contracts in the future.] If you read 
 a prior chapter discussing existing research on the topic of NBA draft pick value, 
-you should remember that <a href="https://twitter.com/jkubatko">Justin 
-Kubatko</a> of <a 
-href="http://www.basketball-reference.com/blog/?p=2740">Basketball 
-Reference</a> and that Galletti used the same exact type of regression in 
-their <a href="http://www.basketball-reference.com/blog/?p=2740">2009</a>and 
-<a 
-href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pic
-k-and-draft-pedigree-in-the-finals/">2013</a>posts respectively.
+you should remember that
+Kubatko and that Galletti used the same exact type of regression in their
+[2009](http://www.basketball-reference.com/blog/?p=2740) and
+[2013](http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/)posts respectively.
 
 ![](images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg) 
 <p id="fig_label">Figure 7: Average Regressed Empirical Four-Year</p>
@@ -466,8 +444,8 @@ noticable difference between mine and Galletti's. Nevertheless, do not let
 the numbers fool you! I can assure you that when each equation is graphed along with 
 its equivalent, the curves practically overlap. ^[I 
 might add those graphs here at a later time as proof, but I have chosen not 
-to do so for now.] In fact, if you use the concept of [__indifference 
-probability__](17) (as I do in [another post](18)) to normalize the regressed 
+to do so for now.] In fact, if you use the concept of 
+__[indifference probability](https://en.wikipedia.org/wiki/Principle_of_indifference)__ (as I do in another chapter) to normalize the regressed 
 values on a 0 to 1 unit-less basis, you will find that the calculated values 
 are __exactly equal__!
 
@@ -533,7 +511,7 @@ manner.
 So what does theoretical profit mean in a 
 non-basketball context? From the perspective of the disciplines such as 
 economic or game theory, one can interpret it as the result of every team 
-having __[perfect information](19)__.
+having __[perfect information](https://en.wikipedia.org/wiki/Perfect_information)__.
 Conversely, we might say that empirical profit represents the results 
 of every team not having perfect information available to them.
 
@@ -556,23 +534,3 @@ that can be done, including some that can refine what I discussed here.
 Anyways, I plan to use the data sets developed in this chapter a basis for more 
 analysis.
 
-[3]: 
-[5]: 
-[6]: 
-[7]: http://www.gametheory.net/dictionary/Payoff.html
-[8]: 
-http://www.investopedia.com/terms/r/return.asp?o=40186&l=dir&qsrc=999&qo=inves
-topediaSiteSearch
-[9]: http://www.basketball-reference.com/about/ws.html
-[10]: https://en.wikipedia.org/wiki/Player_efficiency_rating
-[11]: https://en.wikipedia.org/wiki/Value_over_replacement_player
-[12]: http://www.basketball-reference.com/
-[13]: 
-http://nyloncalculus.com/2014/09/25/glossary-plus-minus-adjusted-plus-minus/
-[14]: http://www.basketball-reference.com/about/bpm.html
-[15]: 
-http://www.nbastuffer.com/component/option,com_glossary/Itemid,0/catid,42/func
-,view/term,Regularized%20Adjusted%20Plus%20Minus%20(RAPM)/
-[16]: http://www.gametheory.net/dictionary/Utility.html
-[17]: https://en.wikipedia.org/wiki/Principle_of_indifference
-[19]: https://en.wikipedia.org/wiki/Perfect_information
