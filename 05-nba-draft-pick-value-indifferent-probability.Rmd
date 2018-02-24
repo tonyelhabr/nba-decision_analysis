@@ -88,7 +88,7 @@ to the maximum and minimum data points in four sets of __win
 shares values__ (WSVs): (1) raw empirical, (2) raw theoretical, 
 (3) regressed empirical, and (4) regressed theoretical.
 
-![](/images/nba-draft-indifferent-probability/figure-3-average-four-year-first-round-wsv-ips.jpg)
+![](images/nba-draft-pick-value-indifferent-probability/figure-3-average-four-year-first-round-wsv-ips.jpg)
 <p id="fig_label">Figure 3: Average Four-Year First-Round WSV IPs</p>
 
 If we use the highest and lowest values in a given 
@@ -144,7 +144,7 @@ profits, as well as the raw theoretical four-year costs. ^[ I have
 chosen to use these data sets for the same reasons outlined in 
 detail in the following argument regarding which WSV IPs to use.]
 
-![](/images/nba-draft-indifferent-probability/figure-4-average-theoretical-four-year-wsv-to-cost-ratios-roi.jpg)
+![](images/nba-draft-pick-value-indifferent-probability/figure-4-average-theoretical-four-year-wsv-to-cost-ratios-roi.jpg)
 <p id="fig_label">Figure 4: Average Theoretical Four-Year WSV to Cost Ratios (ROI)</p>
 
 The decaying behavior of ROI is not all too surprising, given our prior 
@@ -210,13 +210,13 @@ The market inefficiencies can be defined in Figure 5 as the areas along
 horizontal axis where the cost curve lies above the WSV curve. Likewise, 
 these points of interests are the positive values in Figures 6 and 7.
 
-![](/images/nba-draft-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg/)
+![](images/nba-draft-pick-value-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg)
 <p id="fig_label">Figure 5: Average __Theoretical__ Four-Year First-Round WSV and Cost __IPs__</p>
 
-![](/images/nba-draft-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
+![](images/nba-draft-pick-value-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
 <p id="fig_label">Figure 6: Average __Theoretical__ Four-Year First-Round WSV to Cost __IP Differentials__</p>
 
-![](/images/nba-draft-indifferent-probability/figure-7-average-empirical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
+![](images/nba-draft-pick-value-indifferent-probability/figure-7-average-empirical-four-year-first-round-wsv-to-cost-ip-differentials.jpg)
 <p style="fig_label">Figure 7: Average __Emperical__ Four-Year First-Round  WSV to Cost __IP Differentials__</p>
 
 I think the inconsistency between the two empirical WSV lines in 
