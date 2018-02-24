@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Decision Analysis and NBA Draft Pick Value</title>
+  <meta name="description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)">
+  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Decision Analysis and NBA Draft Pick Value" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs" />
+  
+  <meta property="og:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  <meta name="github-repo" content="tonyelhabr/nba-decision_analysis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Decision Analysis and NBA Draft Pick Value" />
+  
+  <meta name="twitter:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  
+
+<meta name="author" content="Tony ElHabr">
+
+
+<meta name="date" content="2018-02-23">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="the-value-of-perfect-information-and-the-nba-draft.html">
+<link rel="next" href="indifferent-probability-and-nba-draft-pick-value-cont-.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Decision Analysis and NBA Draft Pick Value</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html"><i class="fa fa-check"></i><b>1</b> What Research Says about NBA Draft Pick Value</a><ul>
+<li class="chapter" data-level="1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-questions"><i class="fa fa-check"></i><b>1.1</b> The Question(s)</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-basic-question"><i class="fa fa-check"></i><b>1.1.1</b> The Basic Question</a></li>
+<li class="chapter" data-level="1.1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#a-related-and-better-question"><i class="fa fa-check"></i><b>1.1.2</b> A Related (and Better) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-answers"><i class="fa fa-check"></i><b>1.2</b> The Answer(s)</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#justin-kubatko"><i class="fa fa-check"></i><b>1.2.1</b> <a href="https://twitter.com/jkubatko">Justin Kubatko</a></a></li>
+<li class="chapter" data-level="1.2.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#aaron-barzilai"><i class="fa fa-check"></i><b>1.2.2</b> <a href="https://twitter.com/basketballvalue">Aaron Barzilai</a></a></li>
+<li class="chapter" data-level="1.2.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#arturo-galletti"><i class="fa fa-check"></i><b>1.2.3</b> <a href="https://twitter.com/ArturoGallett">Arturo Galletti</a></a></li>
+<li class="chapter" data-level="1.2.4" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#nate-silver"><i class="fa fa-check"></i><b>1.2.4</b> <a href="https://twitter.com/NateSilver538">Nate Silver</a></a></li>
+<li class="chapter" data-level="1.2.5" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#saurabh-rane"><i class="fa fa-check"></i><b>1.2.5</b> <a href="https://twitter.com/SaurabhOnTap">Saurabh Rane</a></a></li>
+<li class="chapter" data-level="1.2.6" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#michael-lopez"><i class="fa fa-check"></i><b>1.2.6</b> <a href="https://twitter.com/statsbylopez">Michael Lopez</a></a></li>
+<li class="chapter" data-level="1.2.7" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-aggregate-answers"><i class="fa fa-check"></i><b>1.2.7</b> The Aggregate Answer(s)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#final-thoughts"><i class="fa fa-check"></i><b>1.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html"><i class="fa fa-check"></i><b>2</b> What Research Says about NBA Draft Pick Value, Part 2</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-questions"><i class="fa fa-check"></i><b>2.1</b> More Questions</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-question"><i class="fa fa-check"></i><b>2.1.1</b> The Third Question</a></li>
+<li class="chapter" data-level="2.1.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-question"><i class="fa fa-check"></i><b>2.1.2</b> The Fourth (and Final) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-answers"><i class="fa fa-check"></i><b>2.2</b> More Answers</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-answer"><i class="fa fa-check"></i><b>2.2.1</b> The Third Answer</a></li>
+<li class="chapter" data-level="2.2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-answer"><i class="fa fa-check"></i><b>2.2.2</b> The Fourth (and Final) Answer</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#final-thoughts-1"><i class="fa fa-check"></i><b>2.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html"><i class="fa fa-check"></i><b>3</b> Estimating the Value of NBA Draft Picks</a><ul>
+<li class="chapter" data-level="3.1" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#which-drafts"><i class="fa fa-check"></i><b>3.1</b> Which Drafts?</a></li>
+<li class="chapter" data-level="3.2" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-rookie-wage-scale"><i class="fa fa-check"></i><b>3.2</b> The Rookie Wage Scale</a></li>
+<li class="chapter" data-level="3.3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#calculating-cost"><i class="fa fa-check"></i><b>3.3</b> Calculating Cost</a></li>
+<li class="chapter" data-level="3.4" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#defining-value"><i class="fa fa-check"></i><b>3.4</b> Defining Value</a></li>
+<li class="chapter" data-level="3.5" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#profit-value---cost"><i class="fa fa-check"></i><b>3.5</b> Profit: Value - Cost</a></li>
+<li class="chapter" data-level="3.6" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#a-different-kind-of-profit"><i class="fa fa-check"></i><b>3.6</b> A Different Kind of Profit</a></li>
+<li class="chapter" data-level="3.7" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-end-for-now"><i class="fa fa-check"></i><b>3.7</b> The End (for Now)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html"><i class="fa fa-check"></i><b>4</b> The Value of Perfect Information and the NBA Draft</a><ul>
+<li class="chapter" data-level="4.1" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#some-theory"><i class="fa fa-check"></i><b>4.1</b> Some Theory</a></li>
+<li class="chapter" data-level="4.2" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#contextualizing-voc"><i class="fa fa-check"></i><b>4.2</b> Contextualizing VOC</a></li>
+<li class="chapter" data-level="4.3" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#interpreting-voc"><i class="fa fa-check"></i><b>4.3</b> Interpreting VOC</a></li>
+<li class="chapter" data-level="4.4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#criteria-for-value-adding-information"><i class="fa fa-check"></i><b>4.4</b> Criteria for Value-Adding Information</a></li>
+<li class="chapter" data-level="4.5" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#reinterpretingvoc"><i class="fa fa-check"></i><b>4.5</b> (Re)Interpreting VOC</a></li>
+<li class="chapter" data-level="4.6" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#game-theory-and-voc"><i class="fa fa-check"></i><b>4.6</b> Game Theory and VOC</a></li>
+<li class="chapter" data-level="4.7" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#conclusion"><i class="fa fa-check"></i><b>4.7</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html"><i class="fa fa-check"></i><b>5</b> Indifferent Probability and the NBA Draft</a><ul>
+<li class="chapter" data-level="5.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probability-intheory"><i class="fa fa-check"></i><b>5.1</b> Indifferent Probability, in Theory</a></li>
+<li class="chapter" data-level="5.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probabilityforfirst-round-nba-draft-picks"><i class="fa fa-check"></i><b>5.2</b> Indifferent Probability for (First-Round) NBA Draft Picks</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#return-on-investment-roi"><i class="fa fa-check"></i><b>5.2.1</b> Return on Investment (ROI)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#market-inefficiency"><i class="fa fa-check"></i><b>5.2.2</b> Market Inefficiency</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#to-be-continued"><i class="fa fa-check"></i><b>5.3</b> To Be Continued</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html"><i class="fa fa-check"></i><b>6</b> Indifferent Probability and NBA Draft Pick Value, Cont.</a><ul>
+<li class="chapter" data-level="6.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#a-second-look-at-the-second-round"><i class="fa fa-check"></i><b>6.1</b> A Second Look at the Second Round</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#revised-market-inefficiency"><i class="fa fa-check"></i><b>6.1.1</b> (Revised) Market Inefficiency</a></li>
+<li class="chapter" data-level="6.1.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#nba-draft-pick-trade-value"><i class="fa fa-check"></i><b>6.1.2</b> NBA Draft Pick Trade Value</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#final-thoughts-2"><i class="fa fa-check"></i><b>6.2</b> Final Thoughts</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Decision Analysis and NBA Draft Pick Value</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="indifferent-probability-and-the-nba-draft" class="section level1">
+<h1><span class="header-section-number">5</span> Indifferent Probability and the NBA Draft</h1>
+<p>The value of NBA draft picks relative to can be calculated using the concept of <strong><a href="https://en.wikipedia.org/wiki/Principle_of_indifference">indifferent probability</a></strong> (IP), a term I briefly referenced in a previous chapter highlighting the value of information in the context of the NBA draft. I believe that IPs can be used to extend my analysis in another chapter covering how to estimate the value of NBA draft picks.</p>
+<p>Specifically, we might use them to learn about which picks are most <strong>cost-effective</strong> and what the trade value of picks is (in terms of other picks). In other words, I can find an answer to the second question <strong>“At which draft slots does the expected basketball production outperform the contractual obligation the most?”</strong>) that I posed in my review of existing research on the topic of NBA draft pick value, as well as answer to the first question (<strong>“What is the relative trade value of picks?”</strong>) that I asked in its[follow-up chapter;</p>
+<p>However, just as I did in my post discussing the value of perfect information and the NBA draft, let me first provide a quick overview IPs in a theoretical context.</p>
+<div id="indifferent-probability-intheory" class="section level2">
+<h2><span class="header-section-number">5.1</span> Indifferent Probability, in Theory</h2>
+<p>For those of you who are not as familiar with <strong><a href="http://www.businessdictionary.com/definition/utility-theory.html">utility theory</a></strong> or <strong><a href="http://www.prioritysystem.com/glossary1a.html#decisionanalysis">decision analysis</a></strong>, IPs are simply relative probabilities that define the degree of preference with respect to (usually) two other outcomes—one more—desirable and one less desirable. IPs are relatively straightforward to calculate. An IP is just the <strong>ratio</strong> of the <strong>difference</strong> between a <strong>given value</strong> and a pre-defined <strong>minimum value</strong> with the difference of a pre-defined <strong>maximum value</strong> with the same <strong>minimum value</strong>. Less formally, it can be written <code>(given value  - min value) / (max value - min value)</code>. In reality, we can calculate IPs with respect to any two points in a data set as long as the value of interest is not be greater than the maximum value or less than the minimum value.</p>
+<p>A better understanding of IPs is perhaps best acquired through an example. To stay within the realm of the sports before considering the application of IPs to NBA draft pick value, let us imagine a typical sports fan who has the autograph of his favorite player on his favorite team. Now, let’s say he has the option to play a dual-outcome game of chance in exchange for giving up his autographed item. If he wins, then he is granted the opportunity to spend an entire day with his favorite player; if he loses, then he receives nothing. Clearly, the first outcome is preferable to the second. Furthermore, the existing state of possessing the autographed item is less preferable to the first and more preferable to the second.</p>
+<p>The IP is the likelihood of winning the game (states as a probability) that would make the sports fan feel comfortable with (or, more precisely, indifferent to) giving up his autographed item and playing the game. If we imagine that the fan perceives the first outcome—the opportunity to spend a day with his favorite player—to be only slightly more preferable to the existing state—possessing the autograph—then his IP would be relatively high (e.g. ~0.75 to 1 probability, or ~75% to 100% percent chance). Similarly, the IP would be relatively high if the fan perceives the second outcome—receiving nothing—is significantly less preferable to the existing state.</p>
+<p>Intuitively, this should make sense: assuming that the prior two statements are true, then the fan would have to know that there is a high probability of winning the game of chance because he would strongly despise the outcome if he were to lose and only receive a relatively slight bit of enjoyment if he were to win. (Note that a high IP only necessitates that only one of the prior two statements is true, although its numerical value increases even more if both statements are valid.)</p>
+</div>
+<div id="indifferent-probabilityforfirst-round-nba-draft-picks" class="section level2">
+<h2><span class="header-section-number">5.2</span> Indifferent Probability for (First-Round) NBA Draft Picks</h2>
+<p>With this higher-level discussion of IPs out of the way, let’s take another look at our prior our estimates of the cost, value, and profit of first-round NBA draft picks. For reference, in Figure 1 and 2 I have reproduced the empirical and theoretical raw and regressed data sets shown in figures in my chapter on general NBA draft pick value.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 1: Average Regressed Empirical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<img src="images/nba-draft-pick-value-estimate/figure-10-average-regressed-theoretical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 2: Average Regressed Empirical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<p>Next, Figure 3 shows the results for IPs calculated with respect to the maximum and minimum data points in four sets of <strong>win shares values</strong> (WSVs): (1) raw empirical, (2) raw theoretical, (3) regressed empirical, and (4) regressed theoretical.</p>
+<img src="/images/nba-draft-indifferent-probability/figure-3-average-four-year-first-round-wsv-ips.jpg" />
+<p id="fig_label">
+Figure 3: Average Four-Year First-Round WSV IPs
+</p>
+<p>If we use the highest and lowest values in a given range of points as our maximum and minimum points, we can actually calculate 16 different sets of 30 IPs (with one point for each of the 30 first-round picks in each data set).<a href="#fn51" class="footnoteRef" id="fnref51"><sup>51</sup></a> Where does the number 16 come from?</p>
+<p>I have four data sets for first-round picks: (1) WS, (2) WSV, (3) cost, and (4) profit. Also, we can permute each data set over two options of two variations: (1) empirical or theoretical data; (2) raw or regressed data. Basically, it comes down to four times two squared. Put even less formally, <code>16 IP sets: 4 data sets * (2 variations) ^ (2 options))</code>.<a href="#fn52" class="footnoteRef" id="fnref52"><sup>52</sup></a></p>
+<p>In you work out the math for all 16 IPs, you will find that the IPs for WS and WSV are nearly identical to one another for both the raw empirical and theoretical data. (Intuitively, this makes sense because WSV is just a scaled version of WS, and IPs are simply relative probabilities.) Furthermore, the four regressed forms of empirical and theoretical variations of data are completely coherent (i.e. exactly identical to one another). Thus, there are really only 10 unique sets of IPs. Four of these are shown in Figure 1 (i.e. the raw and regressed empirical and theoretical WS IPs). Not shown are the six other unique sets of IPs: two sets for raw empirical and theoretical WSVs, two sets for raw empirical and theoretical WSVs, and two sets for raw empirical and theoretical profit. (Recall that the regressed forms of these six sets are exactly equivalent to the two sets regressed WSV IPs shown in Figure 3.) So what if I lied when I said there were 16 different IP sets.</p>
+<div id="return-on-investment-roi" class="section level3">
+<h3><span class="header-section-number">5.2.1</span> Return on Investment (ROI)</h3>
+<p>Before doing some interesting analysis with our calculated IPs, I want to review some of our data regarding value, cost, and profit in order to better contextualize my upcoming look on market inefficiencies.</p>
+<p>If I may go back to using economics terminology for a moment, I can formally prove the notion of <strong><a href="https://en.wikipedia.org/wiki/Diminishing_returns">diminishing returns</a></strong> that was implied by the profit curves that we saw before.</p>
+<p>We can calculate <strong><a href="http://www.investopedia.com/terms/r/returnoninvestment.asp">return on investment</a></strong> (ROI), which is just the quotient of the profit and the cost, to verify that higher picks are the most <strong>cost-effective</strong>. Figure 4 depicts the ROI found using the raw and regressed theoretical four-year profits, as well as the raw theoretical four-year costs.<a href="#fn53" class="footnoteRef" id="fnref53"><sup>53</sup></a></p>
+<img src="/images/nba-draft-indifferent-probability/figure-4-average-theoretical-four-year-wsv-to-cost-ratios-roi.jpg" />
+<p id="fig_label">
+Figure 4: Average Theoretical Four-Year WSV to Cost Ratios (ROI)
+</p>
+<p>The decaying behavior of ROI is not all too surprising, given our prior conclusion that top picks are coveted because top-level talent, which is most commonly acquired through high first-round draft picks, is extremely significant in the NBA, perhaps more so than in any other team sport league. My point is to show that top-picks are the most cost-effective.</p>
+</div>
+<div id="market-inefficiency" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> Market Inefficiency</h3>
+<p>So maybe the ROI concept seems like nothing new to you. You’re right, it really isn’t—it’s just a different way of contextualizing what we have already seen. Nevertheless, I thought it was important to introduce it in order to better understand how we can relate the term <strong>“market inefficiency”</strong> to our discussion.</p>
+<p>In particular, I am using the term to distinguish a pick from which the profit exceeds the cost correlated with that pick, <strong>relative</strong> to the rest of the picks. The key word to recognize here is “relative”. Although ROI proves that the top picks are the most cost-effective, it does so in an <strong>absolute</strong> sense. That is, it doesn’t really distinguish whether or not the profit produced at a particular draft slot is greater than what is expected by the rookie wage scale.</p>
+<p>This is where IPs come back into play—they can be used to identify market inefficiencies. In specific, if I take the difference of the IPs for WSV and the theoretical four-year cost, then I can pinpoint draft slots where player production outperforms that which is dictated by cost. But which of the four sets of <strong>WSV IPs</strong> should I use?</p>
+<p>For the sake of argument, let’s neglect the empirical WSVs for right now. I can argue that the set of <strong>raw empirical</strong> WSVs  (the data set with the largest standard deviation for each point) are somewhat arbitrary and are biased by the drafting team and chosen player. Consequently, the <strong>regressed empirical</strong> WSVs are smoothed out too strongly by my linear-log regression to make this data set significant judgement in this nuanced analysis.</p>
+<p>That leaves us with the <strong>raw</strong> and <strong>regressed theoretical</strong> WSV IPs with which to compare to the theoretical cost IPs. I think that it is difficult to make a convincing judgement call between these two. On one hand, the significance of the raw theoretical WSVs is hindered somewhat by its derivation from empirical values. They are simply a re-ordering onfthe non-linear, non-Guassian distribution of empirical WSV, so they are also somewhat random. On the other hand, the regressed theoretical WSV set may eliminate the effect of reality to too great of an extent.<a href="#fn54" class="footnoteRef" id="fnref54"><sup>54</sup></a></p>
+<p>Why not leave our judgement until we see how each stacks up in tabular and graphical form? Figure 5 shows __both theoretica__l WSV data sets, along with the cost IPs. Because it is somewhat difficult to see where the curves differ the most on their descents, I have also graphed the <strong>differentials</strong> of the IPs in Figure 6. Also, in case in you were wondering how the empirical WSV points look, Figure 7 is the analogue of Figure 6 with the <strong>empirical</strong> WSV sets (that I said should be neglected) instead of their theoretical counterparts.</p>
+<p>The market inefficiencies can be defined in Figure 5 as the areas along horizontal axis where the cost curve lies above the WSV curve. Likewise, these points of interests are the positive values in Figures 6 and 7.</p>
+<img src="/images/nba-draft-indifferent-probability/figure-5-average-theoretical-four-year-first-round-wsv-and-cost-ips.jpg/" />
+<p id="fig_label">
+Figure 5: Average <strong>Theoretical</strong> Four-Year First-Round WSV and Cost <strong>IPs</strong>
+</p>
+<img src="/images/nba-draft-indifferent-probability/figure-6-average-theoretical-four-year-first-round-wsv-to-cost-ip-differentials.jpg" />
+<p id="fig_label">
+Figure 6: Average <strong>Theoretical</strong> Four-Year First-Round WSV to Cost <strong>IP Differentials</strong>
+</p>
+<img src="/images/nba-draft-indifferent-probability/figure-7-average-empirical-four-year-first-round-wsv-to-cost-ip-differentials.jpg" />
+<p style="fig_label">
+Figure 7: Average <strong>Emperical</strong> Four-Year First-Round WSV to Cost <strong>IP Differentials</strong>
+</p>
+<p>I think the inconsistency between the two empirical WSV lines in Figure 7 justifies my prior argument that they should be disregarded for this analysis. On the other hand, it is clear that the raw and regressed curves in Figure 6 behave in the same manner. However, despite their similar behavior, the vertical difference between the lines in Figure 6 can lead to somewhat different conclusions. If the raw values are accepted, then one might deduce that nearly half of the first-round picks (specifically, picks 8 through 21) symbolize market inefficiencies. On the other hand, if the regressed values are taken as a baseline, then one would find that only two first-round picks represent true bargains (specifically, the ninth and tenth picks).</p>
+<p>Thus, it is clear how one can deduce different results dependent on which data set is taken as truth. Nevertheless, taking both curves in Figure 6 into account, we can infer that mid-first-round picks are cost-effective relative to early- and late-first-round slots.</p>
+</div>
+</div>
+<div id="to-be-continued" class="section level2">
+<h2><span class="header-section-number">5.3</span> To Be Continued</h2>
+<p>I believe that this is about as far as I can come in analyzing the value of first-round picks in the NBA draft. With the conclusion that I drew in the preceding section, I have found an answer to the (re-stated) second big question that I asked about NBA draft pick value (<strong>“At which draft slots does the expected basketball production outperform the contractual obligation the most?”</strong>) in a previous chapter.</p>
+<p>As for my third question about pick trade value, I could use my existing IP sets to tackle this topic, but I don’t think I would provide meaningful insight because, in my opinion, the trade values should encompass both first <strong>and</strong> second round pick.</p>
+<p>Thus, I must attempt to model second-round picks and re-calculate IPs in order to give a worthwhile answer to this question. However, I will leave this task for another time.</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="51">
+<li id="fn51"><p>As a note to the reader, the next couple of paragraphs discuss nuanced details about the IPs that I can calculate with my existing data sets. So, if you couldn’t care less about these kinds of details, go ahead and skip to the next section.<a href="indifferent-probability-and-the-nba-draft.html#fnref51">↩</a></p></li>
+<li id="fn52"><p>As a technical note, I have chosen to shown the IP values for WSVs instead of those for <strong>win shares</strong> (WS), cost, or profit because they will be used in the upcoming analysis on market inefficiencies.<a href="indifferent-probability-and-the-nba-draft.html#fnref52">↩</a></p></li>
+<li id="fn53"><p>I have chosen to use these data sets for the same reasons outlined in detail in the following argument regarding which WSV IPs to use.<a href="indifferent-probability-and-the-nba-draft.html#fnref53">↩</a></p></li>
+<li id="fn54"><p>In case you were wondering, I have simply chosen the raw theoretical four-year cost IPs instead of its regressed counterparts because the raw values mirror the actual rookie wage scale.<a href="indifferent-probability-and-the-nba-draft.html#fnref54">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="the-value-of-perfect-information-and-the-nba-draft.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="indifferent-probability-and-nba-draft-pick-value-cont-.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

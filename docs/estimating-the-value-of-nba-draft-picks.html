@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Decision Analysis and NBA Draft Pick Value</title>
+  <meta name="description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)">
+  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Decision Analysis and NBA Draft Pick Value" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs" />
+  
+  <meta property="og:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  <meta name="github-repo" content="tonyelhabr/nba-decision_analysis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Decision Analysis and NBA Draft Pick Value" />
+  
+  <meta name="twitter:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  
+
+<meta name="author" content="Tony ElHabr">
+
+
+<meta name="date" content="2018-02-23">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="what-research-says-about-nba-draft-pick-value-part-2.html">
+<link rel="next" href="the-value-of-perfect-information-and-the-nba-draft.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Decision Analysis and NBA Draft Pick Value</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html"><i class="fa fa-check"></i><b>1</b> What Research Says about NBA Draft Pick Value</a><ul>
+<li class="chapter" data-level="1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-questions"><i class="fa fa-check"></i><b>1.1</b> The Question(s)</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-basic-question"><i class="fa fa-check"></i><b>1.1.1</b> The Basic Question</a></li>
+<li class="chapter" data-level="1.1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#a-related-and-better-question"><i class="fa fa-check"></i><b>1.1.2</b> A Related (and Better) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-answers"><i class="fa fa-check"></i><b>1.2</b> The Answer(s)</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#justin-kubatko"><i class="fa fa-check"></i><b>1.2.1</b> <a href="https://twitter.com/jkubatko">Justin Kubatko</a></a></li>
+<li class="chapter" data-level="1.2.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#aaron-barzilai"><i class="fa fa-check"></i><b>1.2.2</b> <a href="https://twitter.com/basketballvalue">Aaron Barzilai</a></a></li>
+<li class="chapter" data-level="1.2.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#arturo-galletti"><i class="fa fa-check"></i><b>1.2.3</b> <a href="https://twitter.com/ArturoGallett">Arturo Galletti</a></a></li>
+<li class="chapter" data-level="1.2.4" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#nate-silver"><i class="fa fa-check"></i><b>1.2.4</b> <a href="https://twitter.com/NateSilver538">Nate Silver</a></a></li>
+<li class="chapter" data-level="1.2.5" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#saurabh-rane"><i class="fa fa-check"></i><b>1.2.5</b> <a href="https://twitter.com/SaurabhOnTap">Saurabh Rane</a></a></li>
+<li class="chapter" data-level="1.2.6" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#michael-lopez"><i class="fa fa-check"></i><b>1.2.6</b> <a href="https://twitter.com/statsbylopez">Michael Lopez</a></a></li>
+<li class="chapter" data-level="1.2.7" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-aggregate-answers"><i class="fa fa-check"></i><b>1.2.7</b> The Aggregate Answer(s)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#final-thoughts"><i class="fa fa-check"></i><b>1.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html"><i class="fa fa-check"></i><b>2</b> What Research Says about NBA Draft Pick Value, Part 2</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-questions"><i class="fa fa-check"></i><b>2.1</b> More Questions</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-question"><i class="fa fa-check"></i><b>2.1.1</b> The Third Question</a></li>
+<li class="chapter" data-level="2.1.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-question"><i class="fa fa-check"></i><b>2.1.2</b> The Fourth (and Final) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-answers"><i class="fa fa-check"></i><b>2.2</b> More Answers</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-answer"><i class="fa fa-check"></i><b>2.2.1</b> The Third Answer</a></li>
+<li class="chapter" data-level="2.2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-answer"><i class="fa fa-check"></i><b>2.2.2</b> The Fourth (and Final) Answer</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#final-thoughts-1"><i class="fa fa-check"></i><b>2.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html"><i class="fa fa-check"></i><b>3</b> Estimating the Value of NBA Draft Picks</a><ul>
+<li class="chapter" data-level="3.1" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#which-drafts"><i class="fa fa-check"></i><b>3.1</b> Which Drafts?</a></li>
+<li class="chapter" data-level="3.2" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-rookie-wage-scale"><i class="fa fa-check"></i><b>3.2</b> The Rookie Wage Scale</a></li>
+<li class="chapter" data-level="3.3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#calculating-cost"><i class="fa fa-check"></i><b>3.3</b> Calculating Cost</a></li>
+<li class="chapter" data-level="3.4" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#defining-value"><i class="fa fa-check"></i><b>3.4</b> Defining Value</a></li>
+<li class="chapter" data-level="3.5" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#profit-value---cost"><i class="fa fa-check"></i><b>3.5</b> Profit: Value - Cost</a></li>
+<li class="chapter" data-level="3.6" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#a-different-kind-of-profit"><i class="fa fa-check"></i><b>3.6</b> A Different Kind of Profit</a></li>
+<li class="chapter" data-level="3.7" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-end-for-now"><i class="fa fa-check"></i><b>3.7</b> The End (for Now)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html"><i class="fa fa-check"></i><b>4</b> The Value of Perfect Information and the NBA Draft</a><ul>
+<li class="chapter" data-level="4.1" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#some-theory"><i class="fa fa-check"></i><b>4.1</b> Some Theory</a></li>
+<li class="chapter" data-level="4.2" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#contextualizing-voc"><i class="fa fa-check"></i><b>4.2</b> Contextualizing VOC</a></li>
+<li class="chapter" data-level="4.3" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#interpreting-voc"><i class="fa fa-check"></i><b>4.3</b> Interpreting VOC</a></li>
+<li class="chapter" data-level="4.4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#criteria-for-value-adding-information"><i class="fa fa-check"></i><b>4.4</b> Criteria for Value-Adding Information</a></li>
+<li class="chapter" data-level="4.5" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#reinterpretingvoc"><i class="fa fa-check"></i><b>4.5</b> (Re)Interpreting VOC</a></li>
+<li class="chapter" data-level="4.6" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#game-theory-and-voc"><i class="fa fa-check"></i><b>4.6</b> Game Theory and VOC</a></li>
+<li class="chapter" data-level="4.7" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#conclusion"><i class="fa fa-check"></i><b>4.7</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html"><i class="fa fa-check"></i><b>5</b> Indifferent Probability and the NBA Draft</a><ul>
+<li class="chapter" data-level="5.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probability-intheory"><i class="fa fa-check"></i><b>5.1</b> Indifferent Probability, in Theory</a></li>
+<li class="chapter" data-level="5.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probabilityforfirst-round-nba-draft-picks"><i class="fa fa-check"></i><b>5.2</b> Indifferent Probability for (First-Round) NBA Draft Picks</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#return-on-investment-roi"><i class="fa fa-check"></i><b>5.2.1</b> Return on Investment (ROI)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#market-inefficiency"><i class="fa fa-check"></i><b>5.2.2</b> Market Inefficiency</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#to-be-continued"><i class="fa fa-check"></i><b>5.3</b> To Be Continued</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html"><i class="fa fa-check"></i><b>6</b> Indifferent Probability and NBA Draft Pick Value, Cont.</a><ul>
+<li class="chapter" data-level="6.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#a-second-look-at-the-second-round"><i class="fa fa-check"></i><b>6.1</b> A Second Look at the Second Round</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#revised-market-inefficiency"><i class="fa fa-check"></i><b>6.1.1</b> (Revised) Market Inefficiency</a></li>
+<li class="chapter" data-level="6.1.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#nba-draft-pick-trade-value"><i class="fa fa-check"></i><b>6.1.2</b> NBA Draft Pick Trade Value</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#final-thoughts-2"><i class="fa fa-check"></i><b>6.2</b> Final Thoughts</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Decision Analysis and NBA Draft Pick Value</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="estimating-the-value-of-nba-draft-picks" class="section level1">
+<h1><span class="header-section-number">3</span> Estimating the Value of NBA Draft Picks</h1>
+<p>In this chapter I present my attempt to estimate the value of NBA draft picks.<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a> Given that countless other articles and research papers have already been conducted on this topic or something related to it, you may be wondering why I’m interested in covering a subject that many others have already carefully analyzed.</p>
+<p>The answer is multifaceted. First, I’ve been a huge sports fan ever since I was a little kid, as I mentioned in a previous chapter about the origins of this website,. In particular, basketball is my favorite sport to play casually, and the NBA is probably my favorite professional league to follow.<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a> Second, since near the end of my time in college, I’ve learned a lot of the basics of topics such as <strong>game theory</strong> through online <a href="https://www.mooc-list.com/">Massive Online Open Courses</a> (MOOCs) and some other less formal mediums. I was hungry to find a topic to which I could apply some of my new-found knowledge in a meaningful way. Third, despite the other research discussing the value of NBA picks, I still feel like this subject matter can be explored in more ways. Thus, being a huge fan of the NBA and realizing that the NBA draft can be analyzed from a variety of perspectives based upon the knowledge I have gathered from the things I have recently studied, the value NBA draft picks turned out to be an easy choice of topic to analyze.</p>
+<p>So why should you even read this if others have already written about in depth? First of all, I make references to <strong><a href="https://en.wikipedia.org/wiki/Economics#Theory">economic theory</a></strong> and disciplines related to <strong>decision analysis</strong> when explaining terms. Secondly, and more importantly, I try to be as explicit as possible so that anyone can follow my methodology and adapt it to their liking if they want to investigate the matter themselves. I should note that, because it would have been foolish to have completely ignored all of the wonderful other research out there, some of my design choices may seem very similar to that of others. However, I assure you that I do my best to make my methodology unique where I think it is reasonable to differentiate from the example set by others. Also, as you can probably tell from my last two posts, my perspective on what__ “value”__ means is somewhat nuanced and different from others’ interpretation, so my answers to questions related to draft pick value in the NBA may, consequently, differ.</p>
+<div id="which-drafts" class="section level2">
+<h2><span class="header-section-number">3.1</span> Which Drafts?</h2>
+<p>To begin, I need to choose which and how many drafts from which to draw data. I will settle on using data from the 18 drafts between 1995 and 2012. I reasoned that this data set defines a historical sample size that is significant enough for me to draw reasonable conclusions.<a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a> Although I certainly could have used more data to improve the empirical accuracy of my calculations, I did not want to spend a large amount of time in doing so because I believe there is significantly more to be gained in learning how analysis techniques might be applied in this context. Also, I do not necessarily enjoy data mining and munging, and I didn’t want to take any extra time to write some scripts to retrieve and format the extra data, although I am certainly capable of doing so. In reality, I simply downloaded comma separated value (csv) files and formatted the data to my liking in Excel. In particular, I chose the 1995 draft as the first one my sample because 1995 was the first year that a <strong>rookie wage scale</strong> for first-round draft picks was instituted, which makes it possible to model the expected rookie contracts for those drafted in the top 30 (without having to look up the actual contracts handed out for each player individually). I chose the 2012 draft as the last one in my sample because rookies from the 2012 draft have had the opportunity to play <strong>four seasons</strong>, which is the typical length of the contracts given to those drafted in the first round.</p>
+</div>
+<div id="the-rookie-wage-scale" class="section level2">
+<h2><span class="header-section-number">3.2</span> The Rookie Wage Scale</h2>
+<p>A brief overview of how the <a href="http://nbpa.com/cba/">Collective Bargaining Agreement</a> CBA) structures the rookie contracts of first-round picks should be made. According to the CBA, NBA teams have full rights to their first-round pick for five years.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a> The CBA specifies the salary number that teams pay a player drafted at a given slot in the first round. For example, the rookie scale for the 2012 draft class can be seen <a href="http://basketball.realgm.com/nba/info/rookie_scale/2012">here</a>. Although teams can sign their players to any number within an 80% to 120% range of the slot’s specific compensation obligations, the two sides almost always agree to the <strong>maximum</strong> allowable salary number (i.e. 120% of the nominal value) in practice. Teams are obligated to pay their first-round picks for the first two seasons, and then have options to resign them for their third and fourth years,. It should be noted that the teams have to decide whether to pick up these options before the players’ second and third years respectively. Then, after the picks have played four seasons, the team has the option to make a qualifying offer to the player for a fifth year, still abiding by the salary limitations imposed by the CBA. In reality, most first-round draft picks that do well in their <strong>first four seasons</strong> sign a new contract (without the salary restrictions dictated by the CBA) in restricted free agency after their fourth year in the league. (The player’s team has the right to match any contract to the player by another team, which is the reason for the “restricted” descriptor.)<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a></p>
+<p>There are certainly exceptions to the general rule-of-thumb of first-round draft picks playing four seasons under a rookie contract. Top 30 rookies who do not play well may be released and never play more than two or three seasons under their original contract. However, it is very uncommon for teams to neglect the draft pick’s third-year option because they will have only had one season to evaluate the prospect at the time that they must make this decision. Presumptively, a first-draft pick demonstrates a sufficient amount of potential to persuade their team from deciding after only one year that they no longer want to keep the player on their roster.<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a> For similar reasons, it is uncommon for teams to neglect to pick up the player’s fourth-year option, although this scenario has a slightly greater chance of occurring because teams will have had two seasons to evaluate their prospects at the time of the decision.<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> More rarely, there have been some first-round picks that take the fifth year qualifying option in order to become an unrestricted free agent in the following offseason and have the ability to sign with any team that they choose, perhaps because they have not enjoyed their time with their original team.<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a></p>
+<p>As a technical note, I should let you know that there were only 29 NBA teams from 1995 to 2006 before a 30th franchise was added to the league. Consequently, there were only 29 picks in the first round before 2007, and only 58 total picks in the draft. Also, some drafts had one team that had to give up rights to a pick in these years due to violations, so some drafts only had 57 picks. However, the rookie wage scale has always accounted for the top 30 picks, dating back to 1995. Thus, some of the upcoming cost, value, and profit numbers are skewed because I don’t attempt to account for these nuances.</p>
+</div>
+<div id="calculating-cost" class="section level2">
+<h2><span class="header-section-number">3.3</span> Calculating Cost</h2>
+<p>Before discussing my method of dealing with player salaries, I have to give major props to <a href="https://twitter.com/NateSilver538">Nate Silver</a>, who makes an attempt to account for the exceptions that I have described (about the rule-of-thumb template for first-round rookie contracts) in <a href="http://fivethirtyeight.com/features/how-much-is-winning-the-nba-draft-lottery-really-worth/">his take</a> on the value of NBA draft picks. This means that his results might be a bit more accurate than mine. (But hey, I’m not quite the number-crunching machine that Silver is, so don’t hold me to his standard!) <a href="https://twitter.com/ArturoGallett">Arturo Galletti</a> doesn’t provide much detail about how he deals with this topic in his research but I think it’s safe to assume that he does something similar to what I have done here. Anyways, you can read more about the methodologies and results of Silver, Galletti, and others in another chapter I made on existing research concerning this general topic of NBA draft pick value.</p>
+<p>Now, for my analysis, I make the simplifying assumption that all top 30 picks receive the basic four-year, 120%-baseline rookie contract. As an example, the numbers for the 2012 first-round picks can be seen in Figure 1.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-1-four-year-cost-for-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 1: Four-Year Cost of 2012 First-Round Draft Picks
+</p>
+<p>In the context of <strong><a href="https://en.wikipedia.org/wiki/Economics#Theory">economic theory</a></strong>, we can think of these salaries as the costs for draft picks, which can be interpreted as <strong><a href="http://www.investopedia.com/terms/a/asset.asp">assets</a></strong>. Moreover, in a <strong><a href="http://www.gametheory.net/dictionary/Game_theory_history.html">game theory</a></strong> context, this cost is like a <a href="https://www.youtube.com/watch?v=-Lhafc-feQc"><strong>discount factor</strong></a> applied to a <strong><a href="http://www.gametheory.net/dictionary/Payoff.html">payoff</a></strong> in a 30-player, <strong><a href="http://www.gametheory.net/dictionary/IteratedGame.html">iterated</a></strong> <strong><a href="http://www.gametheory.net/dictionary/ZeroSum.html">non-zero sum game</a></strong>. The game is the draft, where the players are the teams, and the payoffs are the value earned from draft picks. (I will discuss this notion of “value” in detail in the next section.) In this case, I am applying a discount factor unique to each to draft slot instead of scaling payoffs on a multiplicative basis, as is done traditionally in games.</p>
+<p>Before moving on, let me take a  quick pit stop and highlight an important caveat. Notice that I have only discussed first-round draft picks thus far. This is because the CBA does <strong>NOT</strong> determine how teams must pay their second round picks. This makes it difficult to model the value of second-round picks without rigorously scraping the web for details of their contracts, which aren’t always publicly available anyways. For this reason, my analysis in this chapter focuses only on top 30 picks. (Nevertheless, I plan to make an attempt to model the value of second-round picks in the future in order to investigate the relative <strong>trade value</strong> of picks.)</p>
+</div>
+<div id="defining-value" class="section level2">
+<h2><span class="header-section-number">3.4</span> Defining Value</h2>
+<p>With the question about how to quantify a player’s cost out of the way, now there is the question of how to measure a player’s value in terms of <strong>basketball production</strong>. From an economics perspective, this basketball value can be interpreted as the <strong><a href="http://www.investopedia.com/terms/r/return.asp?o=40186&amp;l=dir&amp;qsrc=999&amp;qo=investopediaSiteSearch">returns</a></strong> of an asset. However, because the term “value” is more intuitive in this context, I will use it instead of “returns” (although I may still use “returns” every so often).</p>
+<p>While determining cost by contract numbers is probably not very controversial, there is certainly some debate as to how determine the value of an individual player in the context of team sport. Should I use a conventional box score statistic like points? (Definitely not. This is way too naive.) Perhaps some combination of these kinds of stats? (This is a better idea than simply using one statistics, but it could still be better.) My answer is along that train of thought.</p>
+<p>My choice is to use an “all-in-one” metric called <strong><a href="http://www.basketball-reference.com/about/ws.html">win shares</a></strong> (WS), which  attempts to determine what its name implies—the value of an individual player in terms of team wins. WS has been used for years among analytical circles to measure the value of players, along with other all-in-one metrics such as <strong><a href="https://en.wikipedia.org/wiki/Player_efficiency_rating">player efficiency rating</a></strong> (PER) and <strong><a href="https://en.wikipedia.org/wiki/Value_over_replacement_player">value over replacement player</a></strong> (VORP). As proof of validity, several of the researchers that I discussed in a prior chapter use WS in their draft pick value models.</p>
+<p>Why choose WS over other all-in-one metrics? Without going into all the mundane details of how it is calculated or deep theoretical arguments about why it is the best all-in-one metric, the primary reason for this choice is simple—WS is contextualized on a seasonal basis, which lends itself to my analysis. On the other hand, most other advanced statistics are calculated per minute or per possession rate like most other advanced statistics. Instead, it. (I should note that there are methods for converting PER to a seasonal rate, but PER is typically not used in such a manner.) Also, WS can be easily found on many websites such as <a href="http://www.basketball-reference.com/">Basketball Reference</a>, and using it prevents me from having to calculate my own metric. represented by WS with the cost represented by the player’s contract. In fact, <a href="http://www.basketball-reference.com/">Basketball Reference</a>’s querying tool makes it relatively simple for me to find the four-year WS sums of players drafted in a given year.<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a></p>
+<p>Anyways, I don’t think the integrity of the my analysis is compromised significantly, if at all, because I use four-year sums and averages consistently. Also, taking sums and averages is arguably more representative of how general managers set their expectations for rookies. Most general managers are probably not judging rookies on how they can immediately impact their teams in the first year or so after being drafted; instead, they are most likely evaluating prospects on the potential value and profit to be had over the course of a many years, even going beyond the first rookie contract. Alas, perhaps in the future I may take a more discrete look at cost, value, and profit for each of the four years following a draft and compare them to my current analysis, but I do not think it would cause me to come to significantly different conclusions.)</p>
+<p>Although I said I wasn’t going to go into detail about why WS might be the best all-in-one metric, I feel obliged to mention the biggest disadvantages of its most legitimate alternatives—PER and VORP. (I’m sorry to those fans of <strong><a href="http://nyloncalculus.com/2014/09/25/glossary-plus-minus-adjusted-plus-minus/">plus-minus</a></strong>, but there are just so many version of Plus-Minus—including as <a href="http://www.basketball-reference.com/about/bpm.html">box plus-minus</a> (BPM), <a href="http://www.basketball-reference.com/about/bpm.html">adjusted plus-minus</a> (APM), and <a href="http://www.nbastuffer.com/component/option,com_glossary/Itemid,0/catid,42/func,view/term,Regularized%20Adjusted%20Plus%20Minus%20(RAPM)/">regularized adjusted plus-minus</a> (RAPM)–that I don’t even consider it here.) PER can be skewed significantly by small minute sample sizes, and it arguably does not capture the value defensive play very well. Although VORP is arguably the most predictive all-in-one statistic, it also suffers from the difficulty of being translated to a seasonal rate.<a href="#fn34" class="footnoteRef" id="fnref34"><sup>34</sup></a></p>
+<p>In relation to <strong><a href="http://www.businessdictionary.com/definition/utility-theory.html">utility theory</a></strong>, one could argue that the metric used to represent basketball value—in this case, WS—represents a player’s <a href="http://www.gametheory.net/dictionary/Utility.html">utility</a>. (In relation to game theory, which incorporates the principles of utility theory, WS would represent a payoff, as mentioned before.) From a purely basketball perspective, this make sense. However, the reality is that the NBA is a business and players are not only valued by the quality of their play, but also the desirability of their contracts. Put another way, given two players who contribute equally on the court (and are equal in terms of other factors such as risk of injury, personality, etc.), general managers would choose the one with a cheaper contract. Thus, I do not think that we can simply judge a player’s utility by their WS (or some other all-in-one metric). Instead, we must discount the value.</p>
+<p>So how do I translate WS to a currency? My answer here is not as straightforward as my choice of WS is, but it isn’t too difficult either. I can simply (1) sum up team payroll data<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a> for a given year ^[for example, the team payrolls for 2012 can be seen [here](<a href="https://www.eskimo.com/~pbender/misc/salaries13.txt" class="uri">https://www.eskimo.com/~pbender/misc/salaries13.txt</a> and (2) divide this number by the number of games played in the regular season.<a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a> The result is an approximation for what I call <strong>“WS value”</strong> (WSV).<a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a> I did this for each of the 21 seasons from 1995 to 2015.<a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a> The results are shown in Figure 2.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-2-single-seasons-wsvs-for-1995-2012.jpg" />
+<p id="fig_label">
+Figure 2: Single-Season WSVs for 1995 — 2015
+</p>
+<p>Next, I simply averaged the three seasons’ WSs with a given starting season from the five years for which I am interested (i.e. 1995 to 2012). As a result, I came up with a average four-year WSV for each season from 1995 to 2012, which can be seen in Figure 3.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-3-average-four-year-wsvs-for-1995-2012.jpg" />
+<p id="fig_label">
+Figure 3: Average Four-Year WSVs for 1995 — 2015
+</p>
+</div>
+<div id="profit-value---cost" class="section level2">
+<h2><span class="header-section-number">3.5</span> Profit: Value - Cost</h2>
+<p>Using these WSV averaged over four years, I can calculate the WSV for the top 30 picks for each of the 18 drafts by multiplying their number of WS by the appropriate average four-year WSV. As a technical note, I refer to these values as <strong>“empirical”</strong> in order to differentiate them with my upcoming regressed and <strong>“theoretical”</strong> analysis.<a href="#fn39" class="footnoteRef" id="fnref39"><sup>39</sup></a> Similarly, I say <strong>“raw”</strong> to distinguish between averaged results that are calculated using <strong>“regressed”</strong> values.</p>
+<p>After coming up with a number for the returns (i.e. the basketball production in terms of WS) of the asset (i.e. the draft slot), I can determine the empirical “____profit____” of each draft pick by taking the difference of the empirical four-year WSV and the draft slot’s four-year cost. Here, the term “profit” is used just as it would be in an economic context.<a href="#fn40" class="footnoteRef" id="fnref40"><sup>40</sup></a> Anyways, (for those you who couldn’t care less about terminology) the un-averaged, single-season profits for each first-round draft slot in 2012 can be seen in Figure 4.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-4-empirical-four-year-profit-of-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 4: Emperical Four-Year Profit of 2012 First-Round Draft Picks
+</p>
+<p>Figure 5 displays the average results from the five drafts from 1995 to 2012 in tabular form. Figure 6 shows the same data in the form of a chart. Having mentioned them before, I should note that Silver and Galletti come up with similar graphs. Also, Galletti has a chart similar to my Figure 5.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-5-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 5: Average Raw Empirical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<img src="images/nba-draft-pick-value-estimate/figure-6-average-raw-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 6: Average Raw Empirical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<p>Before drawing any conclusions, I must admit that the results of the calculations made so far appear a bit noisy. This is due to the relatively small sample size. That’s no problem! <strong>Regression</strong> is a real savior in situations like this. Figure 7 shows the results of a <strong><a href="http://www.kenbenoit.net/courses/ME104/logmodels2.pdf">linear-log regression</a></strong>  run on the average raw data.<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a> If you read a prior chapter discussing existing research on the topic of NBA draft pick value, you should remember that Kubatko and that Galletti used the same exact type of regression in their <a href="http://www.basketball-reference.com/blog/?p=2740">2009</a> and <a href="http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/">2013</a>posts respectively.</p>
+<img src="images/nba-draft-pick-value-estimate/figure-7-average-regressed-empirical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 7: Average Regressed Empirical Four-Year
+</p>
+<p>The regression readily confirms what is implied by the raw data. That is, it is clear that higher draft picks result in greater value for the team, even after accounting for contracts. Thus, I have provided an answer to the “first” question (<strong>“How valuable are NBA draft picks?”</strong>)__ __that I posed in the already-mentioned prior post chapter.</p>
+<p>You might be wondering exactly how my regressions look. I have stated the empirical WS, WSV, and profit below.</p>
+<ol style="list-style-type: decimal">
+<li>Avg Reg Emp 4-Yr Rd-1 WS [WS] = -5.41 * ln(pick) + 23.78</li>
+<li>Avg Reg Emp 4-Yr Rd-1 WSV [$ million]: -7.729 * ln(pick) + 34.265</li>
+<li>Avg Reg Emp 4-Yr Rd-1 Profit [$ million]: -2.990 * ln(pick) + 14.546</li>
+</ol>
+<p>Although the WS line is not depicted in Figure 7, I show its equation here so that it may be compared to the Kubatko’s regression formula. Moreover, my WSV and profit equations can be compared directly to Galletti’s analogues.</p>
+<ol style="list-style-type: decimal">
+<li>Kubatko’s EV [WS]: -6.3 * log(pick) + 26.5</li>
+<li>Galletti’s Value of Wins [$ million]: -13.79 * ln(pick) + 52.785</li>
+<li>Galletti’s Net Actual Value [$ million]: -8.991 * ln(pick) + 32.705</li>
+</ol>
+<p>Although Kubatko’sequation resembles mine fairly closely, there seems to be a noticable difference between mine and Galletti’s. Nevertheless, do not let the numbers fool you! I can assure you that when each equation is graphed along with its equivalent, the curves practically overlap.<a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a> In fact, if you use the concept of <strong><a href="https://en.wikipedia.org/wiki/Principle_of_indifference">indifference probability</a></strong> (as I do in another chapter) to normalize the regressed values on a 0 to 1 unit-less basis, you will find that the calculated values are <strong>exactly equal</strong>!</p>
+<p>Stepping back from these technicalities, I should note that the non-linear, decaying behavior of the value and profit lines confirm the common knowledge that the best NBA players largely dictate the performance of their teams, regardless of their teammates. This is reason why many fans classify players as either instrumental “super-stars”, satisfactory “starters”, or plain-ol’ “role players”.) More often than not, higher drafts picks turn out to be better players and provide value that is not linearly related to the value of a lesser player.</p>
+<p>At this point, I have estimates for the average empirical four-year cost, value, and profit of players picked in the first round of the five drafts from 1995 to 2012 using the WS metric as my basis. (I also have regressed versions of empirical WS, WSV, cost, and profit, but they are not shown here.) I have shown that all first-round draft picks represent <strong>bargains</strong> in the sense that their basketball production contextualized in terms of currency exceeds their monetary cost, as determined by the salary obligations for the draft slots. Also, I have shown that the top picks are the <strong>most profitable</strong>.</p>
+<p>I know what you’re thinking: “That’s nothing new. Others have done that before.” Alright, you have a point. But here is where I start doing things differently.<a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a></p>
+</div>
+<div id="a-different-kind-of-profit" class="section level2">
+<h2><span class="header-section-number">3.6</span> A Different Kind of Profit</h2>
+<p>What if teams drafted ideally? That is, what if they picked the first team picked the best available rookie (in terms of WS), the next team selected the second-best rookie, etc.? If I re-order draft picks from a given year by WS instead of draft pick and make the same assumptions about contracts, how would that look? Figures 8 to 10 are analogues to Figures 4, 5, and 7 for this new “theoretical” analysis. <a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a></p>
+<img src="images/nba-draft-pick-value-estimate/figure-8-theoretical-four-year-profit-of-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 8: Theoretical Four-Year Profit of 2012 First-Round Draft Picks
+</p>
+<img src="images/nba-draft-pick-value-estimate/figure-9-average-raw-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 9: Average Raw Theoretical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<img src="images/nba-draft-pick-value-estimate/figure-10-average-regressed-theoretical-four-year-profit-of-1995-2012-first-round-draft-picks.jpg" />
+<p id="fig_label">
+Figure 10: Average Raw Theoretical Four-Year Profit of 1995 — 2012 First-Round Draft Picks
+</p>
+<p>Obviously the integrity of the original WS data is somewhat compromised if players are re-ordered by WS. Players would have certainly performed differently if they had been drafted by different teams, meaning that they would have played with different coaches and teammates. However, modeling these changes would be fairly difficult. Anyways, I think the results that that I have found would not be much different from what we would observe if draft picks were made in an ideal manner.</p>
+<p>So what does theoretical profit mean in a non-basketball context? From the perspective of the disciplines such as economic or game theory, one can interpret it as the result of every team having <strong><a href="https://en.wikipedia.org/wiki/Perfect_information">perfect information</a></strong>. Conversely, we might say that empirical profit represents the results of every team not having perfect information available to them.</p>
+</div>
+<div id="the-end-for-now" class="section level2">
+<h2><span class="header-section-number">3.7</span> The End (for Now)</h2>
+<p>For now, I will leave the subject of NBA draft pick value here. I did a lot here—I have calculated estimates for the average raw and regressed empirical and theoretical WS, cost, value, and profit of NBA players drafted from 1995 to 2012. In doing so, I have essentially provided my own answer to my “first” big-picture question about the value of NBA draft picks. (Because I will never tire from linking the reader to my other relevant content, I oblige you to read my post discussing answers to my “first” and “second” questions provided by other researchers, as well as my follow-up post discussing peer answers to my “third” and “fourth” questions.)</p>
+<p>However, there is still so much more analysis that can be done, including some that can refine what I discussed here. Anyways, I plan to use the data sets developed in this chapter a basis for more analysis.</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="25">
+<li id="fn25"><p>Microsoft Excel is my software tool that I use here. <a href="https://www.r-project.org/">R</a> and <a href="https://www.python.org">python</a> are wonderful alternatives with which I have gained experience recently, but, for now, I am most comfortable with Excel, especially when it comes to plotting and formatting.<a href="estimating-the-value-of-nba-draft-picks.html#fnref25">↩</a></p></li>
+<li id="fn26"><p>Of course, you could probably guess that my favorite is the Spurs. Nevertheless, the beauty of the NBA is that it’s play is defined more so by great individual players than by teams themselves, so great players make their teams entertaining to watch. Thus, I think I can say that I enjoy watching any team on any given night. Moreover, I’m not a Spurs “fanatic”  in the traditional sense of the word. As a wannabe analyst, I try to be as neutral as possible when observing teams.<a href="estimating-the-value-of-nba-draft-picks.html#fnref26">↩</a></p></li>
+<li id="fn27"><p>All draft data was extracted from <a href="http://www.basketball-reference.com">Basketball Reference</a>.<a href="estimating-the-value-of-nba-draft-picks.html#fnref27">↩</a></p></li>
+<li id="fn28"><p>An overview of the 2011 CBA provided by salary cap guru <a href="https://twitter.com/LarryCoon">Larry Coon</a> can be found <a href="http://www.cbafaq.com/salarycap.htm">here</a>.<a href="estimating-the-value-of-nba-draft-picks.html#fnref28">↩</a></p></li>
+<li id="fn29"><p>Consequently, the revenue earned by top 30 picks becomes highly variable after the fourth year of their rookie deals. It would be difficult to track post-rookie contract numbers for the purpose of the project. Similarly, it is difficult to verify that the contracts of top 30 picks follow the general contract template having four-year length with 120% of nominal compensation. These two issues could be addressed by some nifty web scraping scripts. However, as I mentioned before, I wasn’t analysis.<a href="estimating-the-value-of-nba-draft-picks.html#fnref29">↩</a></p></li>
+<li id="fn30"><p><a href="https://en.wikipedia.org/wiki/Joe_Alexander_(basketball)">Joe Alexander</a> sounds more like an accountant’s name than a high-flying potential lottery pick, am I right?<a href="estimating-the-value-of-nba-draft-picks.html#fnref30">↩</a></p></li>
+<li id="fn31"><p>In retrospect, picking <a href="https://en.wikipedia.org/wiki/Jonny_Flynn">Jonny Flynn</a> over Stephen Curry may not have been the most astute of decisions.<a href="estimating-the-value-of-nba-draft-picks.html#fnref31">↩</a></p></li>
+<li id="fn32"><p>Unfortunately for him, <a href="https://en.wikipedia.org/wiki/Greg_Monroe">Greg Monroe</a>’s decision to sign with the Milwaukee Bucks doesn’t look like it has turned out so great.<a href="estimating-the-value-of-nba-draft-picks.html#fnref32">↩</a></p></li>
+<li id="fn33"><p>If you’re wondering why I use four-year sums instead of the WS for individual seasons, it is because it requires much more work to do so. Using <a href="http://www.basketball-reference.com/">Basketball Reference</a> as a resource, I would have to extract annual WS values for each player from each of their individual career stats pages. I’m not sure if there is a better or easier way of doing this other than writing a script to scrape all the data. In retrospect, I certainly could have written these kinds of scripts fairly easy, but I did not think of it at the time of starting all of my analysis. This would have also allowed me to get exact data regarding contracts. Nevertheless, having exact contract information regarding first-round rookies is arguably not necessary because general managers probably expect that the typical application of the rookie wage scale, so I don’t think it’s a good idea to try to account for exceptions to the general rule-of-thumb—such as major busts or very early retirement—in our models. On the other hand, the empirical salary data for second-round picks would be extremely helpful for evaluating the cost and value of second-round picks without having to make huge assumptions. It would allow me to expand my look at the draft in a manner such that the relative desirability of first-round picks would be better encapsulated because the last pick in the first round would not have to serve as a “baseline” measurement.<a href="estimating-the-value-of-nba-draft-picks.html#fnref33">↩</a></p></li>
+<li id="fn34"><p>Having lightly criticized PER and VORP, I must admit that one downside of WS is that players on good teams tend to have over-inflated WS because those teams win more often and, figuratively, have more wins to attribute to its players. Nevertheless, because the highest-picked, more talented rookies tend to be picked by worse teams, this WS bias is not too troublesome for this analysis. If anything, this bias causes the results to be regularized because the potentially grandiose and miniscule effects of higher and lower picks respectively may be offset by the talent of their teams.<a href="estimating-the-value-of-nba-draft-picks.html#fnref34">↩</a></p></li>
+<li id="fn35"><p>credit to Patricia Bender for collecting the data at <a href="https://www.eskimo.com/~pbender/">her website</a><a href="estimating-the-value-of-nba-draft-picks.html#fnref35">↩</a></p></li>
+<li id="fn36"><p>1230 for a typical 82-game season with 32 teams, 1189 for seasons before the 2007 expansion when there were only 29 teams, 725 for the lockout-shortened 1999 season, and 990 for the lockout-shortened 2011 season<a href="estimating-the-value-of-nba-draft-picks.html#fnref36">↩</a></p></li>
+<li id="fn37"><p>I could be more granular here by dividing each team’s win total in a given season by its team payroll for that season to get a team-specific WSV for each season. However, I don’t think the results would differ noticeably.<a href="estimating-the-value-of-nba-draft-picks.html#fnref37">↩</a></p></li>
+<li id="fn38"><p>Galletti uses a similar method for translating WP to a monetary value, and Silver uses the figure $1.75 million for his calculations.<a href="estimating-the-value-of-nba-draft-picks.html#fnref38">↩</a></p></li>
+<li id="fn39"><p>I always use the descriptor “theoretical” for cost even with my analysis of empirical WS because I do not use actual contract numbers. Instead, I use the projected cost numbers outlined by the rookie wage scale and its general application, as discussed before.<a href="estimating-the-value-of-nba-draft-picks.html#fnref39">↩</a></p></li>
+<li id="fn40"><p>As a reminder, I am using the everyday term “value” in my writing, or the basketball metric WSV in my analysis, to represent the economic concept “returns”. On the other hand, my use of “cost” aligns with its intuitive and economic meanings. With respect to the term “profit” In the context of utility or game theory, one might say that it can also be interpreted as a “utility”. However, to be consistent with the economic context that I have applied up to this point, I will use primarily use the term “profit”. Also, I just think it is more distinctive than the term “utility”.<a href="estimating-the-value-of-nba-draft-picks.html#fnref40">↩</a></p></li>
+<li id="fn41"><p>Here, the “Rd-1” descriptor is to added note that the regression is run only on first-round data.(As I hinted to before, I hope to analyze second-round data by making specific assumptions when modeling second-round rookie contracts in the future.<a href="estimating-the-value-of-nba-draft-picks.html#fnref41">↩</a></p></li>
+<li id="fn42"><p>I might add those graphs here at a later time as proof, but I have chosen not to do so for now.<a href="estimating-the-value-of-nba-draft-picks.html#fnref42">↩</a></p></li>
+<li id="fn43"><p>As a note to the reader, given how much stuff I have covered so far, this might seem like a natural breaking point at which to end this part of the analysis and continue in a separate part. However, because the “theoretical” analysis so closely follows the empirical analysis done up to this point, I have chosen not to do so.<a href="estimating-the-value-of-nba-draft-picks.html#fnref43">↩</a></p></li>
+<li id="fn44"><p>As a technical note, in this analysis I looked at all drafted players for a given year and simply sorted them by descending WS. I did not consider un-drafted players.<a href="estimating-the-value-of-nba-draft-picks.html#fnref44">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="what-research-says-about-nba-draft-pick-value-part-2.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-value-of-perfect-information-and-the-nba-draft.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

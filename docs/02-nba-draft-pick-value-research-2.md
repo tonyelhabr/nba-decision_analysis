@@ -2,11 +2,11 @@
 # What Research Says about NBA Draft Pick Value, Part 2
 
 Having asked and answered the biggest question(s) about the value of NBA draft
-picks in [my last post][1], there are a couple more questions that I sought to
+picks in my last chapter, there are a couple more questions that I sought to
 have answered (and will attempt to answer myself in my upcoming step-by-step
 guide to estimating NBA draft pick value.) If you haven't read that post, you
 should definitely check it out because I will reference some of the research
-discussed there in this post.
+discussed there in this chapter.
 
 ## More Questions
 
@@ -25,9 +25,9 @@ might be fascinated with the superstar potential of a particular
 prospect and, consequently, would be willing to give up other assets 
 (e.g. experienced players, future picks, etc.) to move up in the draft 
 and pick that talented player. On the other hand, some may be more 
-concerned with cap considerations or trying to __“beat the 
-market”__ by moving into slots that are most __“cost-effective”__. ^[I 
-mentioned the term "cost-effective" in my previous post without 
+concerned with cap considerations or trying to __“beat the market”__ 
+by moving into slots that are most __“cost-effective”__. ^[I 
+mentioned the term "cost-effective" in my previous chapter without 
 formally defining it. In reality, economics terms such as 
 "cost-effective", "beating the market", and "return on investment" 
 should be formally defined in an NBA context by the person conducting 
@@ -42,19 +42,15 @@ colleagues.]
 
 ### The Fourth (and Final) Question 
 
-
 ![](images/nba-draft-pick-value-research-2/philadelphia-76ers-tanking.jpeg)
 
-Finally, the last question that I looked to answer (for now) is __"Can 
-tanking be justified?"__ ^[The term "tanking" refers to a team that 
+Finally, the last question that I looked to answer (for now) is
+__"Can tanking be justified?"__ ^[The term "tanking" refers to a team that 
 intentionally loses to try to improve its odds of winning the NBA lottery. 
 The 14 teams that miss the playoffs are entered into a lottery that 
 determines draft order. The teams with the worst records have the best 
 chances of winning a higher draft slot. More detail about the lottery can be 
-found at the satirical <a href="http://www.tankathon.com/">NBA Tankathon 
-website</a>.] 
-
-
+found at the satirical [NBA Tankathon](http://www.tankathon.com/) website.] 
 
 Even though this fourth question does not explicitly include the word “value”, I
 believe that its answer is still dependent upon the word's interpretation. In
@@ -78,8 +74,9 @@ answers provided by existing research.
 
 ### The Third Answer
 
-My third question is answered directly in [one of the articles][2] I have
-already reviewed. [Arturo Galletti][3] translates his regressed "Net Actual
+My third question is answered directly in
+[one of the articles](http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/)
+I have already reviewed. [Arturo Galletti](https://twitter.com/ArturoGalletti) translates his regressed "Net Actual
 Value" values (which he calls "Modeled Values") to relative ones for the purpose
 of constructing a pick trade value chart. This chart is shown below.
 
@@ -89,8 +86,9 @@ After inspecting Galletti's regression formula and his numbers for "Modeled
 Value", I found that he simply calculates the quotient of the values for any
 given two picks to come up with their relative trade value. However, I think it
 is better to use an alternative method that leverages the concept of
-[__indifference probability__][4] (IP) to calculate relative trade values (as I
-do in [a separate post][5]) where I first scale all the monetary values to a
+__[indifference probability](https://en.wikipedia.org/wiki/Principle_of_indifference)__(IP)
+ to calculate relative trade values (as I
+do in another write-up) where I first scale all the monetary values to a
 0-to-1 unit-less basis before taking the quotient of any two values. I believe
 that my method for calculating relative values using IPs is superior because it
 does not result in __negative__ values for second-round picks. In particular, if
@@ -103,12 +101,19 @@ top 10 picks using my proposed alternative method using IPs.
 
 ![](images/nba-draft-pick-value-research-2/figure-arturo-galletti-top-10-draft-pick-modeled-value-ip.jpg)
 
-Aside from Galletti, _[Nylon Calculus][6]_ contributor [Nick Restifo][7] 
-provides a trade value chart posted in [a recent 2016 article][8] at 
-[Fansided][9]. Similar to [Saurabh Rane][10], Restifo uses peak __[value over 
-replacement player][11]__ (VORP) values (although he averages over the 
+Aside from Galletti, _[Nylon Calculus](http://nyloncalculus.com/)_ contributor
+[Nick Restifo](https://twitter.com/nickrestifo) 
+provides a trade value chart posted in 
+[a recent 2016 article](https://fansided.com/2016/06/16/nba-draft-trade-value-chart/) at 
+[Fansided](https://fansided.com/). Similar to
+[Saurabh Rane](http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/), 
+Restifo uses peak 
+__[value over replacement player](https://en.wikipedia.org/wiki/Value_over_replacement_player)__ (VORP) 
+values (although he averages over the 
 combined best two-year VORP value rather than simply taking the best 
-single-season value), and, like [Michael Lopez][12], he runs a LOESS 
+single-season value), and, like 
+[Michael Lopez](https://statsbylopez.com/2016/06/22/the-making-and-comparison-of-draft-curves/), 
+he runs a LOESS 
 regression (although he keeps the raw value of the top pick). Although 
 Restifo's chart is __not normalized__ like Galletti's, the value of certain 
 picks relative to one another can be interpreted by finding the absolute 
@@ -118,7 +123,6 @@ that of a single higher one, one might reasonably prefer the higher upside
 presented by the higher draft pick, while someone else might prefer the 
 "diversification" of having two prospects as opposed to one.]
 
-
 Interestingly, after Restifo's __absolute__ VORP numbers are normalized to a
 unit-less 0-to-1 basis using the same alternative method that I used to
 re-calculate Galletti's numbers, it turns out that his __relative__ trade value
@@ -127,7 +131,6 @@ mirrors the same idea shown in the previous figure for Galletti using the
 calculated relative values for Restifo.
 
 ![](images/nba-draft-pick-value-indifferent-probability-2/figure-nick-restifo-top-10-draft-pick-trade-value-ip.jpg)
-
 
 So whose numbers should be taken as truth? As it often seems to be in analytical
 discussion like this, the answer is "it depends" . We must realize that the two
@@ -146,8 +149,10 @@ formula that Galletti provides for his "$alue of Wins [$ million]".
 In doing so, I come up with numbers that describe the same idea---basketball
 production. Having back-tracked Galletti's numbers to neglect cost, the only
 difference in the two basketball production estimates is that Galletti's numbers
-are based on [__wins produced__][13] (WP), which is fairly similar to [__win
-shares__][14] (WS), while Restifo's are based on peak VORP. The following figure
+are based on [__wins produced__](http://wagesofwins.com/wins-produced/) (WP), 
+which is fairly similar to 
+[__win shares__](http://www.basketball-reference.com/about/ws.html) (WS), 
+while Restifo's are based on peak VORP. The following figure
 shows Galletti's trade value estimates for the top 10 picks calculated for his
 basketball production metric.
 
@@ -212,12 +217,15 @@ conclusions of others who have evaluated draft slots in terms of pure
 basketball production also implies the same principle, but Rane's 
 illustrations and rhetoric make this notion definitive.]
 
- Rane's conclusions are backed up by a [_Journal of Sports Economics_ 
-study][15] published earlier this year. (This study is concisely 
-summarized by renown American writer [Jonah Lehrer][16] on [his 
-blog][17].) ^[I am thankful to Lehrer for his review of the study 
+Rane's conclusions are backed up by a
+[_Journal of Sports Economics_ study](http://jse.sagepub.com/content/early/2016/03/30/1527002516641169.abstract) 
+published earlier this year. (This study is concisely 
+summarized by renown American writer
+[Jonah Lehrer](https://twitter.com/jonahlehrer) on
+[his blog](http://www.jonahlehrer.com/blog/2016/4/25/is-tanking-an-effective-strategy-in-the-nba).) 
+^[I am thankful to Lehrer for his review of the study 
 because I do not actually have access to the study.] Published under the 
-lead of [Akira Motomura][18], the research paper concludes that a team's 
+lead of [Akira Motomura](http://www.stonehill.edu/directory/akira-motomura/), the research paper concludes that a team's 
 general management and other intangible infrastructural influences (i.e. 
 "team culture") has a stronger influence on the success of a team than 
 do the draft slot it earns and the players that they draft. In specific, 
@@ -230,7 +238,6 @@ that, more generally, all picks in the lottery range (and extending to
 pick 17) are associated with __negative__ (or __negligible__ at best) 
 team performance. These numbers clearly suggest that tanking is not 
 exactly the best strategy for teams looking to improve.] 
-
 
 A number of factors can explain the conclusion that tanking lacks merit. For
 one, it is understandable that even the most talented rookies cannot make a huge
@@ -259,14 +266,14 @@ value model of which I am aware. ^[Accounting for how team factors
 correlate with the value extracted from draft picks would be a very 
 difficult task that would require lots of probabilistic assumptions.] 
 
-
 While the research of Rane and Motomura et. al. suggest that tanking is not
-justified, [Arturo Gutierrez][19] finds in his research article _The NBA Lottery
+justified, [Arturo Gutierrez](https://twitter.com/Art_Gutierrez) 
+finds in his research article _The NBA Lottery
 and Game Theory_ that there are cases that tanking can be the __"correct
 strategy"__. For his analysis, Gutierrez first formulates an estimate of draft
 pick value by running a polynomial regression over the career WS earned by
 players drafted by teams ordered by win-loss record. ^[In contrast to the 
-methods used by the researchers I discussed in my last post, he does not 
+methods used by the researchers I discussed in my last chapter, he does not 
 directly relate his choice of basketball production metric (in this 
 case, WS) with draft slot; instead, he factors in the probabilistic 
 relationship of lottery odds with team win loss-record to relate 
@@ -286,57 +293,35 @@ than the sixth-best team should purposely try to lose. ^[Without accounting for 
 value", then the intersection point manifests at the third-best team. 
 This graph is shown in the figure below.]
 
-
 ![](images/nba-draft-pick-value-research-2/arturo-gutierrez-correct-strategy-graph.png)
 
 I think that Gutierrez's perspective on this matter suffers somewhat 
-from its failure to consider [__mixed strategies__][20] and their 
-equilibria. He considers only the [__pure strategies__][21] 
+from its failure to consider [__mixed strategies__](http://www.gametheory.net/dictionary/MixedStrategy.html) and their 
+equilibria. He considers only the 
+[__pure strategies__](https://en.wikipedia.org/wiki/Strategy_(game_theory)#Pure_and_mixed_strategies) 
 of expending all effort to be the best team or to be the worst team. 
 ^[This perspective is like a manifestation of the idea that I described 
-at the beginning of this post---evaluate tanking by comparing draft pick 
+at the beginning of this chapter---evaluate tanking by comparing draft pick 
 value and championship likelihood from a stict binary point of view.] 
 Nevertheless, Gutierrez admits that there are limitations to his 
-approach. He notes that the __"[best response][22]"__ for a given team 
+approach. He notes that the 
+[__"best response"__](https://en.wikipedia.org/wiki/Best_response) for a given team 
 is dependent on its specific situation, including variable such as the 
 team's win-loss record and its perception of whether or not other teams 
 are tanking. Thus, even though Gutierrez's analysis offers some validity 
 to tanking, I don't think his evidence is sufficiently strong to 
 override the case made by the research of Rane and Motomura et. al. 
 
-### Final Thoughts 
+## Final Thoughts 
 
-In my [last post][1] I vowed to take a look at the value of draft picks 
+In my first write-up I took look at the value of draft picks 
 in terms of basketball production and contractual costs after reviewing 
 the methodologies and conclusions of other researchers. There, I found 
 that the answers were fairly the same across all researchers. Moreover, 
-I reviewed only one person ([Aaron Barzilai][23]) who really evaluated 
+I reviewed only one person ([Aaron Barzilai](https://twitter.com/basketballvalue)) who really evaluated 
 the cost-effectiveness of picks, a topic which I also plan to explore. 
 
 Now, having reviewed what research has to say about the related topics 
 of pick trade value and tanking and having coming to some non-universal 
 answers, I plan to expand my investigation to include these subjects as 
 well. 
-
-
-[2]: http://wagesofwins.com/2013/05/21/from-the-vault-the-value-of-a-draft-pick-and-draft-pedigree-in-the-finals/
-[3]: https://twitter.com/ArturoGalletti
-[4]: https://en.wikipedia.org/wiki/Principle_of_indifference
-[6]: http://nyloncalculus.com/
-[7]: https://twitter.com/nickrestifo
-[8]: https://fansided.com/2016/06/16/nba-draft-trade-value-chart/
-[9]: https://fansided.com/
-[10]: http://nyloncalculus.com/2016/06/17/freelance-friday-expected-value-in-the-nba-draft/
-[11]: https://en.wikipedia.org/wiki/Value_over_replacement_player
-[12]: https://statsbylopez.com/2016/06/22/the-making-and-comparison-of-draft-curves/
-[13]: http://wagesofwins.com/wins-produced/
-[14]: http://www.basketball-reference.com/about/ws.html
-[15]: http://jse.sagepub.com/content/early/2016/03/30/1527002516641169.abstract
-[16]: https://twitter.com/jonahlehrer
-[17]: http://www.jonahlehrer.com/blog/2016/4/25/is-tanking-an-effective-strategy-in-the-nba
-[18]: http://www.stonehill.edu/directory/akira-motomura/
-[19]: https://twitter.com/Art_Gutierrez
-[20]: http://www.gametheory.net/dictionary/MixedStrategy.html
-[21]: https://en.wikipedia.org/wiki/Strategy_(game_theory)#Pure_and_mixed_strategies
-[22]: https://en.wikipedia.org/wiki/Best_response
-[23]: https://twitter.com/basketballvalue

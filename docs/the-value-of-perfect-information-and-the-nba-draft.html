@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Decision Analysis and NBA Draft Pick Value</title>
+  <meta name="description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)">
+  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Decision Analysis and NBA Draft Pick Value" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs" />
+  
+  <meta property="og:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  <meta name="github-repo" content="tonyelhabr/nba-decision_analysis" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Decision Analysis and NBA Draft Pick Value" />
+  
+  <meta name="twitter:description" content="An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)" />
+  
+
+<meta name="author" content="Tony ElHabr">
+
+
+<meta name="date" content="2018-02-23">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="estimating-the-value-of-nba-draft-picks.html">
+<link rel="next" href="indifferent-probability-and-the-nba-draft.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Decision Analysis and NBA Draft Pick Value</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html"><i class="fa fa-check"></i><b>1</b> What Research Says about NBA Draft Pick Value</a><ul>
+<li class="chapter" data-level="1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-questions"><i class="fa fa-check"></i><b>1.1</b> The Question(s)</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-basic-question"><i class="fa fa-check"></i><b>1.1.1</b> The Basic Question</a></li>
+<li class="chapter" data-level="1.1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#a-related-and-better-question"><i class="fa fa-check"></i><b>1.1.2</b> A Related (and Better) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-answers"><i class="fa fa-check"></i><b>1.2</b> The Answer(s)</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#justin-kubatko"><i class="fa fa-check"></i><b>1.2.1</b> <a href="https://twitter.com/jkubatko">Justin Kubatko</a></a></li>
+<li class="chapter" data-level="1.2.2" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#aaron-barzilai"><i class="fa fa-check"></i><b>1.2.2</b> <a href="https://twitter.com/basketballvalue">Aaron Barzilai</a></a></li>
+<li class="chapter" data-level="1.2.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#arturo-galletti"><i class="fa fa-check"></i><b>1.2.3</b> <a href="https://twitter.com/ArturoGallett">Arturo Galletti</a></a></li>
+<li class="chapter" data-level="1.2.4" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#nate-silver"><i class="fa fa-check"></i><b>1.2.4</b> <a href="https://twitter.com/NateSilver538">Nate Silver</a></a></li>
+<li class="chapter" data-level="1.2.5" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#saurabh-rane"><i class="fa fa-check"></i><b>1.2.5</b> <a href="https://twitter.com/SaurabhOnTap">Saurabh Rane</a></a></li>
+<li class="chapter" data-level="1.2.6" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#michael-lopez"><i class="fa fa-check"></i><b>1.2.6</b> <a href="https://twitter.com/statsbylopez">Michael Lopez</a></a></li>
+<li class="chapter" data-level="1.2.7" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#the-aggregate-answers"><i class="fa fa-check"></i><b>1.2.7</b> The Aggregate Answer(s)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="what-research-says-about-nba-draft-pick-value.html"><a href="what-research-says-about-nba-draft-pick-value.html#final-thoughts"><i class="fa fa-check"></i><b>1.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html"><i class="fa fa-check"></i><b>2</b> What Research Says about NBA Draft Pick Value, Part 2</a><ul>
+<li class="chapter" data-level="2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-questions"><i class="fa fa-check"></i><b>2.1</b> More Questions</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-question"><i class="fa fa-check"></i><b>2.1.1</b> The Third Question</a></li>
+<li class="chapter" data-level="2.1.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-question"><i class="fa fa-check"></i><b>2.1.2</b> The Fourth (and Final) Question</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#more-answers"><i class="fa fa-check"></i><b>2.2</b> More Answers</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-third-answer"><i class="fa fa-check"></i><b>2.2.1</b> The Third Answer</a></li>
+<li class="chapter" data-level="2.2.2" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#the-fourth-and-final-answer"><i class="fa fa-check"></i><b>2.2.2</b> The Fourth (and Final) Answer</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="what-research-says-about-nba-draft-pick-value-part-2.html"><a href="what-research-says-about-nba-draft-pick-value-part-2.html#final-thoughts-1"><i class="fa fa-check"></i><b>2.3</b> Final Thoughts</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html"><i class="fa fa-check"></i><b>3</b> Estimating the Value of NBA Draft Picks</a><ul>
+<li class="chapter" data-level="3.1" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#which-drafts"><i class="fa fa-check"></i><b>3.1</b> Which Drafts?</a></li>
+<li class="chapter" data-level="3.2" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-rookie-wage-scale"><i class="fa fa-check"></i><b>3.2</b> The Rookie Wage Scale</a></li>
+<li class="chapter" data-level="3.3" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#calculating-cost"><i class="fa fa-check"></i><b>3.3</b> Calculating Cost</a></li>
+<li class="chapter" data-level="3.4" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#defining-value"><i class="fa fa-check"></i><b>3.4</b> Defining Value</a></li>
+<li class="chapter" data-level="3.5" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#profit-value---cost"><i class="fa fa-check"></i><b>3.5</b> Profit: Value - Cost</a></li>
+<li class="chapter" data-level="3.6" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#a-different-kind-of-profit"><i class="fa fa-check"></i><b>3.6</b> A Different Kind of Profit</a></li>
+<li class="chapter" data-level="3.7" data-path="estimating-the-value-of-nba-draft-picks.html"><a href="estimating-the-value-of-nba-draft-picks.html#the-end-for-now"><i class="fa fa-check"></i><b>3.7</b> The End (for Now)</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html"><i class="fa fa-check"></i><b>4</b> The Value of Perfect Information and the NBA Draft</a><ul>
+<li class="chapter" data-level="4.1" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#some-theory"><i class="fa fa-check"></i><b>4.1</b> Some Theory</a></li>
+<li class="chapter" data-level="4.2" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#contextualizing-voc"><i class="fa fa-check"></i><b>4.2</b> Contextualizing VOC</a></li>
+<li class="chapter" data-level="4.3" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#interpreting-voc"><i class="fa fa-check"></i><b>4.3</b> Interpreting VOC</a></li>
+<li class="chapter" data-level="4.4" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#criteria-for-value-adding-information"><i class="fa fa-check"></i><b>4.4</b> Criteria for Value-Adding Information</a></li>
+<li class="chapter" data-level="4.5" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#reinterpretingvoc"><i class="fa fa-check"></i><b>4.5</b> (Re)Interpreting VOC</a></li>
+<li class="chapter" data-level="4.6" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#game-theory-and-voc"><i class="fa fa-check"></i><b>4.6</b> Game Theory and VOC</a></li>
+<li class="chapter" data-level="4.7" data-path="the-value-of-perfect-information-and-the-nba-draft.html"><a href="the-value-of-perfect-information-and-the-nba-draft.html#conclusion"><i class="fa fa-check"></i><b>4.7</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html"><i class="fa fa-check"></i><b>5</b> Indifferent Probability and the NBA Draft</a><ul>
+<li class="chapter" data-level="5.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probability-intheory"><i class="fa fa-check"></i><b>5.1</b> Indifferent Probability, in Theory</a></li>
+<li class="chapter" data-level="5.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#indifferent-probabilityforfirst-round-nba-draft-picks"><i class="fa fa-check"></i><b>5.2</b> Indifferent Probability for (First-Round) NBA Draft Picks</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#return-on-investment-roi"><i class="fa fa-check"></i><b>5.2.1</b> Return on Investment (ROI)</a></li>
+<li class="chapter" data-level="5.2.2" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#market-inefficiency"><i class="fa fa-check"></i><b>5.2.2</b> Market Inefficiency</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="indifferent-probability-and-the-nba-draft.html"><a href="indifferent-probability-and-the-nba-draft.html#to-be-continued"><i class="fa fa-check"></i><b>5.3</b> To Be Continued</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html"><i class="fa fa-check"></i><b>6</b> Indifferent Probability and NBA Draft Pick Value, Cont.</a><ul>
+<li class="chapter" data-level="6.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#a-second-look-at-the-second-round"><i class="fa fa-check"></i><b>6.1</b> A Second Look at the Second Round</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#revised-market-inefficiency"><i class="fa fa-check"></i><b>6.1.1</b> (Revised) Market Inefficiency</a></li>
+<li class="chapter" data-level="6.1.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#nba-draft-pick-trade-value"><i class="fa fa-check"></i><b>6.1.2</b> NBA Draft Pick Trade Value</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="indifferent-probability-and-nba-draft-pick-value-cont-.html"><a href="indifferent-probability-and-nba-draft-pick-value-cont-.html#final-thoughts-2"><i class="fa fa-check"></i><b>6.2</b> Final Thoughts</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Decision Analysis and NBA Draft Pick Value</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="the-value-of-perfect-information-and-the-nba-draft" class="section level1">
+<h1><span class="header-section-number">4</span> The Value of Perfect Information and the NBA Draft</h1>
+<p>In this chapter I will take a look at the <strong><a href="https://en.wikipedia.org/wiki/Expected_value_of_perfect_information">value of perfect information</a></strong> (VOPI) in the context of the NBA draft, using some of the data that I derived in my previous chapter in which I estimated the value of NBA draft picks. I begin with an isolated overview of some relevant decision analysis terms before discussing how they can be applied to better understand the NBA draft.</p>
+<div id="some-theory" class="section level2">
+<h2><span class="header-section-number">4.1</span> Some Theory</h2>
+<p>VOPI, or <strong>value of clairvoyance</strong> (VOC), is a decision-maker’s indifferent buying price of perfect information.<a href="#fn45" class="footnoteRef" id="fnref45"><sup>45</sup></a></p>
+<p>The CE of an option is the quantity (typically stated as a monetary value) that a decision-maker can be guaranteed and feel <strong>indifferent</strong> between receiving this quantity or choosing its alternative with some uncertainty of receiving its quantifiable return value. Put another way, given three options, a CE is the quantity that would make the decision-maker indifferent to receiving the middling option (i.e the option with a level of preference between that of the other two options) for certain or entering a dual-outcome game of chance in which there is some well-defined probability between 0 and 1—known as <strong><a href="https://en.wikipedia.org/wiki/Principle_of_indifference">indifference probability</a></strong> (IP)–of receiving the more preferable option and its payoff, and the remaining probability of the less preferable option and the quantity associated with it.<a href="#fn46" class="footnoteRef" id="fnref46"><sup>46</sup></a></p>
+<p>Having defined CE, we can now define the delta principle. We say that a decision-maker abides by the delta principle if his CE is independent of his existing wealth. To better understand the delta principle, we should try to contextualize the relationship—CE independent of wealth—that needs to be made for the principle to be true. For example, a very poor person—having very little to lose in the first place—is probably willing to give up a lot for a very small chance at earning a little. Consequently, we can say that the delta principle does not apply to poor people.<a href="#fn47" class="footnoteRef" id="fnref47"><sup>47</sup></a></p>
+<p>Looking at the delta principle in another way, we can say that a decision-maker follows the delta principle if his buying and selling prices for any given lottery are equivalent. Anyways, no matter the manner one chooses to understand these ideas, the primary implication of the delta principle (in conjunction with CE and IP) is that a decision-maker’s <strong><a href="http://www.prioritysystem.com/glossary2c.html#utility">utility function</a></strong> can be modeled as a <strong>linear or exponential.</strong> Without going into detail about utility function, suffice it to say that this result is extremely important for simplifying calculations involving risk and decisions.</p>
+<p>Returning to the discussion of VOC, if we make the assumption that a decision-maker follows the delta principle, then we can also define VOC as the difference <strong>WITH</strong> free perfect information and the value <strong>WITHOUT</strong> free perfect information. In this definition you should be careful to observe that, even though the possession of information is negated when going from the first to second statement, the object of possession—perfect information—is assumed to be free in <strong>BOTH</strong> cases. Thus, we should note that VOC is not just the difference of the values with and without perfect information; instead, it is the value difference with and without <strong>FREE</strong> perfect information.</p>
+</div>
+<div id="contextualizing-voc" class="section level2">
+<h2><span class="header-section-number">4.2</span> Contextualizing VOC</h2>
+<p>If you recall, time I concluded my guide to estimating NBA draft pick value with regressed curves for the average four-year empirical and theoretical profits for first-round picks in the NBA draft using WS and rookie wage scale data from 1995 to 2012. So how can we incorporate the concept of VOC to provide a unique perspective on this information?</p>
+<p>If I take the mathematical difference of the regressed theoretical and empirical profit data sets, I can find the VOC for each top 30 draft pick in terms of win shares (WS), win shares values (WSV), and profit. (Note that the VOC of cost cannot be found without having the “empirical” cost of each player.) One should interpret the theoretical curve as the profit of each draft slot if all teams have perfect information available to them and pick the best possible player. By “best possible player” I mean the remaining player with the highest number of actual WS earned after four years of those players not already selected at a given point in a hypothetical draft where teams drafty ideally.<a href="#fn48" class="footnoteRef" id="fnref48"><sup>48</sup></a></p>
+<p>Figures 1 and 2 show VOC in tabular and graphical form for the WS and profits points calculated after regressing over only the first-round empirical and theoretical data. ((As a technical note, I should make the reader aware that the WSV VOC is simply equivalent to the sum of the theoretical cost and the profit VOC for a given draft slot. Thus, I have chosen not to show it for the sake of making the visualizations more compact.<a href="#fn49" class="footnoteRef" id="fnref49"><sup>49</sup></a></p>
+<img src="images/nba-draft-pick-value-perfect-information/figure-1-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg" />
+<p id="fig_label">
+Figure 1: Average Raw and Regressed First-Round WS andProfit VOC
+</p>
+<img src="images/nba-draft-pick-value-perfect-information/figure-2-average-raw-and-regressed-first-round-ws-and-profit-voc.jpg" />
+<p id="fig_label">
+Figure 2: Average Raw and Regressed First-Round WS and Profit VOC
+</p>
+<p>Just like the regressed curves for empirical and theoretical profits, the VOC curves for WS and profit exhibit diminishing returns. (The same can be shown for WSV VOC.)</p>
+</div>
+<div id="interpreting-voc" class="section level2">
+<h2><span class="header-section-number">4.3</span> Interpreting VOC</h2>
+<p>Let’s consider the profit VOC curve exclusively for now. Interestingly, its values become negative at pick 20. However, decision-making theory dictates that VOC can never be negative. So does that mean that our VOC curves are invalid? (Maybe.) How should we interpret the negative VOC that we have calculated?</p>
+<p>I would say that the point at which the profit VOC curve in Figure 2 begins to take on negative values marks the tipping point at which knowing and picking the best player available no longer represents a team’s best option. Given that all teams are stripped of the opportunity of receiving perfect information if a single team does not receive it, then the team that drafts at the 20th slot and the teams that follow it (assuming that they do not also hold one of the earlier draft slots) are better off if they deny the perfect information. In other words, the teams making their first selection in the bottom third of the first round would prefer to conduct a traditional draft rather than having some kind of providential foresight that provides all teams league-wide with list of the best prospects ordered by WS to be earned in their first four years.</p>
+<p>Perhaps you believe this analysis is incorrect. I shall try to prove otherwise. To do this, let’s step back for a second and try to interpret the negative VOC from a more abstract, non-NBA perspective.</p>
+</div>
+<div id="criteria-for-value-adding-information" class="section level2">
+<h2><span class="header-section-number">4.4</span> Criteria for Value-Adding Information</h2>
+<p>There are four criteria necessary for information to add value.</p>
+<ul>
+<li>It must be observable and comprehensible.</li>
+<li>It must be related to prior beliefs in a probabilistic (i.e. Bayesian) manner such that these prior beliefs must be updated when given new information.</li>
+<li>It must enhance the belief about the utility of some choice to the extent that a different decision is made.</li>
+<li>It must not cost more than the value that it provides.</li>
+</ul>
+<p>Typically, one would only consider these criteria only in cases where <strong>imperfect information</strong> may be provided. Intuitively, perfect information can never provide destructive value (i.e. it can only provide additional or, at worst, no value), so one would never turn down the opportunity to acquire it, assuming that it is free. In comparison, information is not useful if it violates any of the criteria described above. ((Nevertheless, this does not mean that imperfect information is always not useful.<a href="#fn50" class="footnoteRef" id="fnref50"><sup>50</sup></a></p>
+<p>The third criterion for value-adding information is arguably the most difficult to achieve. Even if information strengthens the appeal of one or more choices that were not previously considered optimal, it may not provide sufficient evidence to boost the utility of alternatives and validate a change of decision. The bottom line is that having perfect information is not useful when the VOC is equal to zero.</p>
+</div>
+<div id="reinterpretingvoc" class="section level2">
+<h2><span class="header-section-number">4.5</span> (Re)Interpreting VOC</h2>
+<p>Now let’s revisit our discussion of the validity of the profit VOC curve that I have come up with. Did I do something wrong?</p>
+<p>The truth is this—I’m not really sure. Perhaps if I gathered more draft data, I would find that the regressed empirical profit curve drops off more dramatically (or that the theoretical profit curve diminishes at a slower rate) such that the resultant VOC curve is always positive.</p>
+<p>Moreover, if we look at the criteria for value-adding information from a literal perspective, we still don’t come to a definitive answer. It should be relatively clear that the first two criteria are met. In regards to the third criterion, the only reason that perfect information would not inspire a change of decision would be if the team’s choice of player without perfect information aligns exactly with whom hindsight determines is the best player. Although sometimes the top pick truly does prove to be the best player selected from a particular draft (in terms of WS), the reality is that it is highly unlikely that players selected after the top spot to be chosen in order of descending WS. This is easy to reason in consideration of the difficulty of predicting player talent, the uncertainty of team fit, and a number of other variables related to human interaction. Thus, I would say that it is fairly safe to assume that perfect information revealing which players will turn out to be the best meets the criterion of being sufficiently significant to instigate a decision change.</p>
+<p>Now, what about the fourth criterion for value-adding information? At first glance, it seems to be irrelevant. If I assume that the perfect information is provided free of charge, then how can its cost exceed its value? In response, I would argue that it should be interpreted in a slightly different way. I would say that, in this context, cost should <strong>NOT</strong> be interpreted as a monetary value. Instead, I think it more closely symbolizes an abstract opportunity cost. In reference to Figure 2, this means that the transition from positive to negative VOC values represents the point at which teams drafting beyond that point would rather hold a traditional draft, where no one has perfect information, as opposed to one where every team has perfect information.</p>
+<p>Again, you may wonder how this can be true. My rationale is this—teams with later picks often look to maximize their opportunity by picking a highly variable player who could just as easily become a star as he might prove to be a bust. Even those teams that are picking towards the bottom of the first round—presumably because they made the playoffs and have a significant amount of talent on their rosters already—and are more likely to feel that they only need a small amount of help to make themselves into championship-caliber teams will often pick high-ceiling, low-floor kinds of prospects over rookies whose talent level is more easily judged. This is because even those rookies who are more likely to be trusted (i..e. those projected to have low ceilings but high floors) are likely to be inconsistent and cannot be counted on to make significant contributions immediately.</p>
+<p>Conversely, my interpretation of the positive VOC values before the 20th pick is that teams with earlier picks would prefer to know who the best remaining player is, even if the teams before them also are given the same information. In other words, for those teams drafting in the top two-thirds of the first round, a hypothetical draft in which every team knows the true basketball production that each prospect will eventually provide and picks in accordance with this knowledge is better than the alternative—a non-hypothetical draft where teams can only estimate value with pre-draft evaluations. Interestingly, we can deduce that such a “theoretical” draft is preferable for those teams making top 20 selection even though it eliminates the potential for these teams to pick a player who may greatly exceed the historical expectations of the slot at which he is picked.</p>
+</div>
+<div id="game-theory-and-voc" class="section level2">
+<h2><span class="header-section-number">4.6</span> Game Theory and VOC</h2>
+<div class="figure">
+<img src="images/nba-draft-pick-value-perfect-information/decision-tree-with-chance-nodes.jpg" />
+
+</div>
+<p>The VOC concept might also be understood from a <strong>game theory</strong> point of view. We can think of the first round of the NBA draft as a game with multiple <strong>players</strong> vying to maximize their <strong>payoffs</strong>. The players are the teams and the payoffs are the profits of each draft pick. What kind of strategy should each team employ?</p>
+<p>In this context, one can interpret a draft with no perfect information (i.e. a traditional draft) as a <strong>sequential</strong>, <strong><a href="https://en.wikipedia.org/wiki/Extensive-form_game">extensive-form game</a></strong> with uncertainty at each move. Put another way, it can be modeled as  <strong><a href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html">decision tree</a></strong> with a <strong><a href="http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html">decision node</a></strong> for each draft slot (and its corresponding team) and an accompanying <strong><a href="href=%22http://www.stylusandslate.com/decision_trees/4_0.../4_0_glossary.html">chance node</a> </strong> (or <strong>uncertainty node</strong>) with a probability specifying the team’s’ prior beliefs about the talent level of each prospect available at that slot. In this case, an <strong><a href="href=%22https://en.wikipedia.org/wiki/Expectiminimax_tree">expectimax</a></strong> strategy would be ideal. On the other hand, if every team were given perfect information about draft prospects, then the chance nodes would be eliminated, and a <strong><a href="https://en.wikipedia.org/wiki/Minimax">minimax</a></strong> strategy would be more optimal. ((In the context, of decision theory, “expectimax” is just another way of applying the more traditional term “minimax” in a situation where there is uncertainty. The term “expectimax” is used more commonly in relation to <strong>artificial intelligence</strong> (AI) search algorithms, but I choose to use it here for the purpose of being concise.</p>
+</div>
+<div id="conclusion" class="section level2">
+<h2><span class="header-section-number">4.7</span> Conclusion</h2>
+<p>Probably much more can be said on the relationship between concepts in game theory and decision analysis than I have discussed here, but I will leave it at that for now. In the future I may discuss principles in each discipline in the context of the NBA draft as I have done in this chapter with VOC. Anyways, that’s it for now.</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="45">
+<li id="fn45"><p>A word about notation—even though VOPI is more commonly used, I like the word “clairvoyance”, so I tend to use VOC in place of VOPI. Moreover, you might find that VOPI is sometimes abbreviated as VPI or referred to as <strong>expected</strong> value of perfect information (EVPI) instead. Also, in cases where imperfect information cannot be defined or is not considered, VOPI might be restated as value of information (VOI). Anyways, all of these terms and abbreviations refer to the same concept. A related principle (that must be defined for the purpose of this conversation) in the field of <strong><a href="http://www.prioritysystem.com/glossary1a.html#decisionanalysis">decision analysis</a></strong> (DA) are <strong><a href="http://www.prioritysystem.com/glossary1aa.html#ce">certain equivalent</a></strong> (CE) and the <strong><a href="http://www.prioritysystem.com/glossary1aa.html#d">delta principle</a></strong>.<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref45">↩</a></p></li>
+<li id="fn46"><p>I plan to investigate IPs and their application more in a future write-up.<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref46">↩</a></p></li>
+<li id="fn47"><p>A similar argument can be made for very rich people.<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref47">↩</a></p></li>
+<li id="fn48"><p>This is just a different way of describing my “theoretical” values.<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref48">↩</a></p></li>
+<li id="fn49"><p>As a technical note, I should make the reader aware that the WSV VOC is simply equivalent to the sum of the theoretical cost and the profit VOC for a given draft slot. Thus, I have chosen not to show it for the sake of making the visualizations more compact.<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref49">↩</a></p></li>
+<li id="fn50"><p>Nevertheless, this does not mean that imperfect information is always not useful. (Here, I use “useful” to indicate whether or not the information adds value.)<a href="the-value-of-perfect-information-and-the-nba-draft.html#fnref50">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="estimating-the-value-of-nba-draft-picks.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="indifferent-probability-and-the-nba-draft.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

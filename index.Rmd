@@ -13,6 +13,8 @@ url: 'https\://github.com/tonyelhabr/nba-decision_analysis/tree/master/docs'
 description: "An extended analysis of NBA draft pick value in the context of Decision Analysis (DA)"
 ---
 
+![](images/nba-draft-pick-value-estimate/nba-draft-lottery-balls.jpg)
+
 # Preface {-}
 
 This book is a compilation of a series of posts that I wrote my first attempt at a website.

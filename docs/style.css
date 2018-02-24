@@ -14,6 +14,14 @@ pre code {
 }
 
 /* Tony added this.*/
-p fig_label {
-  font-family: italic
+/*
+#fig_label {
+  font-family: italic;
+}
+*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

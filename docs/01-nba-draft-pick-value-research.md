@@ -1,8 +1,6 @@
 
 # What Research Says about NBA Draft Pick Value
 
-
-
 The value of NBA draft picks is a common talking matter in the NBA analytics
 community. In this introductory write-up I summarize conclusions made by other
 researchers about the biggest questions that I (and probably many others) have
@@ -81,11 +79,11 @@ researchers and their writings in order of  publication date.
 ^[Consequently, answers to the questions that I have posed are not given 
 in an outlined fashion.] 
 
-### 1. [Justin Kubatko](https://twitter.com/jkubatko) {-}
+### [Justin Kubatko](https://twitter.com/jkubatko)
 
 ![](images/nba-draft-pick-value-research/justin-kubatko-pic.jpg)
 
-In a [2009 article published][2] at his website [Basketball Reference](http://www.basketball-reference.com/blog/?p=2740)
+In a [2009 article published at his website Basketball Reference](http://www.basketball-reference.com/blog/?p=2740)
 (which is like the mecca for all NBA stats nerds like me)), 
 Justin Kubatko concisely documents his use of __[win shares](http://www.basketball-reference.com/about/ws.htm)__ 
 (WS) to measure __“expected value”__ (EV). In specific, he tracks 
@@ -93,9 +91,10 @@ the WS accumulated throughout the __entire careers__ of players drafted
 from 1977 to 1991 (because all players who had been drafted in that year 
 range had retired by the time of his analysis) and employs linear 
 regression with a logarithmic transformation (i.e. __[linear-log regression](http://www.kenbenoit.net/courses/ME104/logmodels2.pdf)__) 
-to come up with a formula for EV---```EV = 76.9 - 18.8 * 
-log(pick)```. Moreover, he records WS earned in only the first __four years__ of a player’s career (to account for the conventional length 
-of rookie contracts under the NBA’s __[collective bargaining agreement](https://en.wikipedia.org/wiki/NBA_collective_bargaining_agreement)__ (CBA))
+to come up with a formula for EV---```EV = 76.9 - 18.8 * log(pick)```. 
+Moreover, he records WS earned in only the first __four years__ of a player’s career (to account for the conventional length 
+of rookie contracts under the NBA’s
+__[collective bargaining agreement](https://en.wikipedia.org/wiki/NBA_collective_bargaining_agreement)__ (CBA))
 for all players drafted from 1977 to 2005 
 (meaning that all players drafted in the last year of that range had the 
 opportunity to play four years) to come up with another linear-log 
@@ -109,7 +108,7 @@ In relation to the questions that I have posed, Kubatko's formulas and
 tables gives an answer that considers only basketball-production to my 
 first question of general NBA draft pick value. 
 
-### 2. [Aaron Barzilai](https://twitter.com/basketballvalue) {-}
+### [Aaron Barzilai](https://twitter.com/basketballvalue)
 
 ![](images/nba-draft-pick-value-research/aaron-barzilai-pic.jpg)
 
@@ -141,7 +140,7 @@ draft pick value in terms of basketball production. Furthermore, as can be
 inferred from the above graph, he also provides an answer to my second question
 regarding the __cost-effectiveness__ of picks.
 
-### 3. [Arturo Galletti](https://twitter.com/ArturoGallett) {-}
+### [Arturo Galletti](https://twitter.com/ArturoGallett)
 
 ![](images/nba-draft-pick-value-research/arturo-galletti-pic.png)
 
@@ -173,7 +172,7 @@ answer---his __"Avg Wins Per Pick"__ and "Net Actual Value" data sets give
 answers for value in terms of pure basketball production and basketball
 production discounted by cost.
 
-### 4. [Nate Silver](https://twitter.com/NateSilver538) {-}
+### [Nate Silver](https://twitter.com/NateSilver538)
 
 ![](images/nba-draft-pick-value-research/nate-silver-pic.jpg)
 
@@ -195,7 +194,7 @@ With his "Net Value Produced at Free-Agent Market Rate" and "Net Profit" data
 sets, Silver analysis provides answers to my first question in terms of pure
 basketball production and cost-discounted basketball production.
 
-### 5. [Saurabh Rane](https://twitter.com/SaurabhOnTap) {-}
+### [Saurabh Rane](https://twitter.com/SaurabhOnTap)
 
 ![](images/nba-draft-pick-value-research/saurabh-rane-pic.jpeg)
 
@@ -214,8 +213,8 @@ player, or bust---while looking at seven ranges of picks---first, early lottery
 10), late lottery (picks 11 to 14), mid-late first (picks 15 to 22), and
 late-first (picks 23 to 30). 
 ^[In classifying rookies into four tiers, his approach somewhat mirrors that of a 2015 
-<a href="http://fivethirtyeight.com/features/projecting-the-top-50-players-in-the-2015-nba-draft-class/">
-FiveThirtyEight piece</a> authored by Neil Pane and Zach Bradshaw in which they 
+[FiveThirtyEight piece](http://fivethirtyeight.com/features/projecting-the-top-50-players-in-the-2015-nba-draft-class/)
+authored by Neil Pane and Zach Bradshaw in which they 
 forecast that year’s draft prospects using applied statistics.
 
 ![](images/nba-draft-pick-value-research/saurabh-rane-draft-pick-vorp-box-plot.jpeg )
@@ -234,7 +233,7 @@ __elite__ (i.e. All-First Teamer or All-Star) is not linearly related to
 their draft position; rather, top picks have a much greater chance at 
 becoming All-Stars or All-NBA First-Teamers. 
 
-### 6. [Michael Lopez](https://twitter.com/statsbylopez) {-}
+### [Michael Lopez](https://twitter.com/statsbylopez)
 
 ![](images/nba-draft-pick-value-research/michael-lopez-pic.jpg )
 
